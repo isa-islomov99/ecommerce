@@ -1,0 +1,13 @@
+@import '../../styles/base';
+
+
+.header__logo_box {
+    @include flexBox();
+    img {
+        width: 70px;
+        object-fit: cover;
+    }
+    h2 {
+        @include fontBold()
+    }
+}

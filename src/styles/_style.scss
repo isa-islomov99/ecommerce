@@ -1,0 +1,32 @@
+$globalColor: green;
+$textColor: #555;
+
+
+@mixin flexBox {
+    display: flex;
+    align-items: center;
+}
+
+@mixin fontBold {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin fontBold {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin fontSemiBold {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin fontMedium {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
