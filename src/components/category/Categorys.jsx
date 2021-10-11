@@ -8,7 +8,7 @@ const Categorys = () => {
       <div className="container">
         <div className="category__links">
           {/* <Link> */}
-            <h3 className="category__links_text">Telefonlar</h3>
+            <h3 className="category__links_text">Smartfonlar</h3>
           {/* </Link> */}
           {/* <Link> */}
             <h3 className="category__links_text">Kompyuter va Noutbuklar</h3>
