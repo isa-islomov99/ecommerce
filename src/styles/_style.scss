@@ -1,16 +1,14 @@
-$globalColor: green;
-$textColor: #555;
-
+$globalColor: #a5c926;
+$textColor: rgb(119, 119, 119);
 
 @mixin flexBox {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
-@mixin fontBold {
-  font-family: "Gilroy", sans-serif;
-  font-weight: bold;
-  font-style: normal;
+@mixin flexContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @mixin fontBold {
