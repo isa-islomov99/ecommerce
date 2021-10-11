@@ -20,9 +20,6 @@ const MainSwiperCarousel = ({ children }) => {
     <>
       <div className="main_swiper_carousel">
         <div className="arrow_circle_icons">
-          {/* <div ref={navigationPrevRef} className="button_arrow">
-            <LeftOutlined style={{ fontSize: '15px', color: '#a5c926' }} />
-          </div> */}
           <div ref={navigationNextRef} className="button_arrow">
             <RightOutlined style={{ fontSize: '15px', color: '#a5c926' }} />
           </div>
