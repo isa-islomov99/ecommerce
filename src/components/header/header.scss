@@ -1,12 +1,10 @@
 @import "../../styles/base";
 
 .header {
-  // background-color: $globalColor;
   background-color: #fff;
   padding: 0.7rem 0;
   border-bottom: 1px solid rgb(237, 237, 237);
   .header__container {
-    // @include flexContent();
     align-items: center;
   }
   .header__logo_box {
@@ -29,8 +27,7 @@
       padding: 1rem 1.2rem;
       border-radius: 40px;
       @include fontMedium();
-      // width: 600px;
-      width: 130%;
+      width: 100%;
       &:hover {
         border-color: $globalColor;
       }
@@ -50,12 +47,27 @@
     .ant-select:not(.ant-select-customize-input) .ant-select-selector {
       border: none;
     }
-    .ant-select, .ant-select-arrow  {
+    .ant-select,
+    .ant-select-arrow {
       color: $textColor;
       @include fontMedium();
     }
     .ant-select-single.ant-select-open .ant-select-selection-item {
       color: $textColor;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    .header__logo_box {
+      display: none;
+    }
+    .header__serach_bar {
+      .header__input {
+        padding: 0.6rem 1.2rem;
+        border-radius: 20px;
+      }
     }
   }
 }

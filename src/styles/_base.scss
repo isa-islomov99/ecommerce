@@ -1,4 +1,4 @@
-@import './style';
+@import "./style";
 
 * {
   padding: 0;
@@ -38,7 +38,8 @@
   font-family: "Gilroy";
   src: url("../assets/fonts/Gilroy-SemiBold.eot");
   src: local("../assets/fonts/Gilroy-SemiBold"), local("Gilroy-SemiBold"),
-    url("../assets/fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/Gilroy-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
     url("../assets/fonts/Gilroy-SemiBold.woff") format("woff"),
     url("../assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
   font-weight: 600;
@@ -55,3 +56,9 @@
   font-weight: 500;
   font-style: normal;
 }
+
+// @media (max-width: 560px) {
+//   .container {
+//     max-width: 93%;
+//   }
+// }

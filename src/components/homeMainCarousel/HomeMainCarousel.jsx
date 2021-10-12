@@ -13,9 +13,9 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
-import SwiperCore, { Pagination, Navigation } from "swiper/core";
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
 
-SwiperCore.use([Pagination, Navigation]);
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const HomeMainCarousel = ({ slidesData, slidesCount = 1 }) => {
   const navigationPrevRef = React.useRef(null);
@@ -49,6 +49,10 @@ const HomeMainCarousel = ({ slidesData, slidesCount = 1 }) => {
           slidesPerView={1}
           loop={true}
           loopFillGroupWithBlank={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}

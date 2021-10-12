@@ -1,37 +1,38 @@
 @import "../../styles/base";
 
 .categorys {
-    padding: 1.2rem 0;
-    box-shadow: rgb(0 0 0 / 15%) 0px 17px 28px;
-    .category__links {
-        @include flexBox();
-        justify-content: center;
-        .category__links_text {
-            margin: 0 2rem;
-            cursor: pointer;
-            color: $textColor;
-            @include fontSemiBold();
-            position: relative;
-            transition: 0.25s ease-out;
-            &:hover {
-                color: $globalColor;
-            }
-            &::before {
-                content: "";
-                position: absolute;
-                right: 0;
-                bottom: 0;
-                width: 0;
-                height: 2px;
-                background-color: $globalColor;
-                transition: width 0.25s ease-out;
-            }
-            &:hover::before {
-                width: 100%;
-                left: 0;
-                right: auto;
-            }
+  padding: 1.2rem 0;
+  box-shadow: rgb(0 0 0 / 15%) 0px 17px 28px;
+  .category__links {
+    text-align: center;
+    .categorys__box {
+      .category__links_text {
+        margin: 0 2rem;
+        cursor: pointer;
+        font-size: 1.1rem;
+        color: $textColor;
+        @include fontSemiBold();
+        position: relative;
+        transition: 0.25s ease-out;
+        &:hover {
+          color: $globalColor;
         }
+        &::before {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 0;
+          height: 2px;
+          background-color: $globalColor;
+          transition: width 0.25s ease-out;
+        }
+        &:hover::before {
+          width: 100%;
+          left: 0;
+          right: auto;
+        }
+      }
     }
+  }
 }
-

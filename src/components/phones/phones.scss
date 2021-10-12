@@ -42,3 +42,13 @@
   //     }
   //   }
 }
+
+@media (max-width: 560px) {
+  .phones {
+    .phones__title_see_all {
+      .phones__section_title_text {
+        font-size: 2.1rem;
+      }
+    }
+  }
+}
