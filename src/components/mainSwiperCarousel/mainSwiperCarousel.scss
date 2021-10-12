@@ -1,3 +1,5 @@
+@import "../../styles/base";
+
 .main_swiper_carousel {
   padding: 0 0.5rem;
   position: relative;
@@ -11,7 +13,7 @@
       border: 2px solid #a5c926;
       border-radius: 30px;
       background-color: #fff;
-      padding: 6px;
+      padding: 8px;
       z-index: 10;
       cursor: pointer;
       display: flex;
@@ -25,21 +27,97 @@
   }
   .swiper_slide_card {
     cursor: pointer;
-    padding-top: 1rem;
+    padding-top: 2rem;
     transition: all 0.3s;
+    position: relative;
     &:hover {
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
     }
+    .main_swiper_carousel__product_card_heart {
+      position: absolute;
+      top: 3%;
+      right: 5%;
+    }
     .product_carousel_card_img {
       text-align: center;
       .swiper_slide_card_img {
-        width: 160px;
+        width: 150px;
       }
     }
     .product_carousel_card_info {
-      padding: 0.3rem 0.8rem 1.8rem 0.8rem;
+      padding: 0.3rem 0.8rem 1.8rem 0.9rem;
+      .main_swiper_carousel__product_sale_text {
+        @include fontMedium();
+        background-color: $globalColor;
+        color: #fff;
+        padding: 3px 5px;
+        font-size: 1rem;
+        border-radius: 15px;
+      }
+      .main_swiper_carousel__product_category {
+        @include fontMedium();
+        font-size: 1rem;
+        padding: 0.8rem 0 0 0;
+        color: $textColor;
+        &:hover {
+          color: $globalColor;
+        }
+      }
+      .main_swiper_carousel__product_price {
+        .main_swiper_carousel__product_price_text {
+          @include fontSemiBold();
+          font-size: 1rem;
+          margin: -0.4rem 0 0 0;
+          color: $globalColor;
+          text-decoration: line-through;
+        }
+        .main_swiper_carousel__product_sale_price_text {
+          @include fontSemiBold();
+          font-size: 1.1rem;
+          margin: -0.4rem 0 0 0;
+          color: $textColor;
+        }
+        .main_swiper_carousel__product_price_sale {
+          @include fontSemiBold();
+          font-size: 1.1rem;
+          color: $textColor;
+        }
+      }
+      .main_swiper_carousel__product_title {
+        @include fontMedium();
+        font-size: 1rem;
+        padding: 1rem 0 0 0;
+        color: $textColor;
+      }
+      .main_swiper_carousel__product_btn {
+        @include btn($textColor, $textColor, #fff);
+        @include fontMedium();
+        padding: 0.3rem 2.3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .main_swiper_carousel {
+    .arrow_circle_icons {
+      // top: 42%;
+      .button_arrow {
+        padding: 8px;
+        margin-right: 1.2rem;
+      }
+    }
+    .swiper_slide_card {
+      .product_carousel_card_info {
+        .main_swiper_carousel__product_price {
+          @include flexContent();
+          .main_swiper_carousel__product_price_text {
+            margin: 0rem 0 0 0;
+          }
+        }
+      }
     }
   }
 }

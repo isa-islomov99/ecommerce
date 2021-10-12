@@ -3,17 +3,18 @@
 .phones {
   margin-top: 3rem;
   .phones__title_see_all {
+    @include flexContent();
     .phones__section_title_text {
       font-size: 2.5rem;
       cursor: pointer;
       @include fontBold();
       color: $textColor;
     }
-    @include flexContent();
     .phones__see_all_box {
       display: flex;
       align-items: baseline;
       cursor: pointer;
+      justify-content: flex-end;
       .phones__see_all_text {
         @include fontMedium();
         font-size: 1rem;

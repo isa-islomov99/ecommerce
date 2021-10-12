@@ -28,3 +28,14 @@ $textColor: rgb(119, 119, 119);
   font-weight: 500;
   font-style: normal;
 }
+
+@mixin btn($color, $borderColor, $bgColor) {
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  font-size: 16px;
+  cursor: pointer;
+  color: $color;
+  border: 1px solid $borderColor;
+  background-color: $bgColor;
+}
