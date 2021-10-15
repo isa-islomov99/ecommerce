@@ -2,7 +2,7 @@ const Data = [
   {
     title: "Samsung Galaxy A32 4/64GB",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77143/8u687c.jpeg",
     id: "1",
     price: {
@@ -31,8 +31,9 @@ const Data = [
   },
   {
     title: "Samsung Galaxy A12 3/32GB Red",
+    brand: "Samsung",
     img: "https://py.abad.uz/media/images/77151/fwv8hp.jpeg",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     id: "2",
     price: {
       discount: false,
@@ -61,7 +62,7 @@ const Data = [
   {
     title: "Xiaomi Redmi Note 9 2021 3GB/64GB",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76696/qirewc.jpeg",
     id: "3",
     price: {
@@ -91,7 +92,7 @@ const Data = [
   {
     title: "Xiaomi Redmi 9T 4GB/128GB NFC",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77771/s3f6rr.jpeg",
     id: "4",
     price: {
@@ -121,7 +122,7 @@ const Data = [
   {
     title: "Samsung Galaxy A02 2GB/32GB",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76956/nk3dwn.jpeg",
     id: "5",
     price: {
@@ -151,7 +152,7 @@ const Data = [
   {
     title: "Samsung Galaxy A72 6/128GB Gray",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77147/6fmf0o.jpeg",
     id: "6",
     price: {
@@ -181,7 +182,7 @@ const Data = [
   {
     title: "Apple iPhone 13 Pro Max 1TB Gold",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78237/btyd1q.jpeg",
     id: "7",
     price: {
@@ -211,7 +212,7 @@ const Data = [
   {
     title: "Samsung Galaxy A12 3/32GB A125 Blue",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77150/2os7ls.jpeg",
     id: "8",
     price: {
@@ -241,7 +242,7 @@ const Data = [
   {
     title: "Samsung Galaxy A72 4/64GB Blue",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77009/eio2l8.jpeg",
     id: "9",
     price: {
@@ -271,7 +272,7 @@ const Data = [
   {
     title: "Apple Iphone 13 mini 512gb",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78266/yrjtim.jpeg",
     id: "10",
     price: {
@@ -301,7 +302,7 @@ const Data = [
   {
     title: "Samsung Galaxy S21 Ultra 5G 12/256GB",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76589/ejozs6.jpeg",
     id: "11",
     price: {
@@ -331,7 +332,7 @@ const Data = [
   {
     title: "Samsung Galaxy A52 SM-A525F/DS",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77009/eio2l8.jpeg",
     id: "12",
     price: {
@@ -361,7 +362,7 @@ const Data = [
   {
     title: "Samsung Galaxy S10 Lite SM-G770F/DS",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76677/rrjurz.jpeg",
     id: "13",
     price: {
@@ -391,7 +392,7 @@ const Data = [
   {
     title: "Samsung Galaxy S20 Ultra 5G SM-G988B/DS",
     brand: "Samsung",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/69911/qtrzah.jpeg",
     id: "14",
     price: {
@@ -422,7 +423,7 @@ const Data = [
   {
     title: "Apple Iphone 13 128GB",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78242/2jr725.jpeg",
     id: "15",
     price: {
@@ -452,7 +453,7 @@ const Data = [
   {
     title: "Apple iPhone 13 Pro Max 256GB",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78225/ormtgr.jpeg",
     id: "16",
     price: {
@@ -482,7 +483,7 @@ const Data = [
   {
     title: "Apple iPhone 12 Pro Max 256GB Gold",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/74122/ktf6pn.jpeg",
     id: "17",
     price: {
@@ -512,7 +513,7 @@ const Data = [
   {
     title: "Apple iPhone SE 128GB White",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/71776/q65b1u.jpeg",
     id: "18",
     price: {
@@ -542,7 +543,7 @@ const Data = [
   {
     title: "Apple iPhone 11 64GB White",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/65485/mulhfa.jpeg",
     id: "19",
     price: {
@@ -572,7 +573,7 @@ const Data = [
   {
     title: "Apple iPhone XS 64GB Gold",
     brand: "Apple",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/47623/06d2a5dff4bf1f4b4d6c43a73a10b48e.jpeg",
     id: "20",
     price: {
@@ -602,7 +603,7 @@ const Data = [
   {
     title: "Xiaomi Redmi Note 8 2021 4GB/64GB",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78204/vfcl01.jpeg",
     id: "21",
     price: {
@@ -632,7 +633,7 @@ const Data = [
   {
     title: "Xiaomi Mi 10T Lite 6GB/128GB",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77778/zgj9lm.jpeg",
     id: "22",
     price: {
@@ -663,7 +664,7 @@ const Data = [
   {
     title: "Xiaomi Redmi Note 8 2021 4GB/64GB Blue",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78086/vup48k.jpeg",
     id: "23",
     price: {
@@ -693,7 +694,7 @@ const Data = [
   {
     title: "Xiaomi Redmi 9T 4GB/128GB Ocean",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76698/juh5fp.jpeg",
     id: "24",
     price: {
@@ -723,7 +724,7 @@ const Data = [
   {
     title: "Xiaomi Redmi 9T 2021 4GB/128GB Blue",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76574/wi50yq.jpeg",
     id: "25",
     price: {
@@ -753,7 +754,7 @@ const Data = [
   {
     title: "Xiaomi Redmi Note 9T 4GB/128GB Purple",
     brand: "Xiaomi",
-    catigory: "Smartfonlar",
+    category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78205/li2zxi.jpeg",
     id: "26",
     price: {
@@ -781,28 +782,30 @@ const Data = [
     },
   },
   {
-    title: "Artel 32AH90G HD",
-    img: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-    catigory: "TV",
-    brand: "Artel",
+    title: "Acer Swift 3 SF314-54-54YH NX.GZXER.003",
+    img: "https://py.abad.uz/media/images/73246/2tmi5a.jpeg",
+    category: "Noutbuklar",
+    brand: "ACER",
     id: "27",
     price: {
       discount: false,
       discount_price: "0",
       previous_price: "2200",
-      cost: "2200",
+      cost: "7 123 455",
     },
     properties: {
       guarantee: "36 month",
-      color: "black",
-      made_in: "uzbakistan",
+      color: "Red",
+      procceccor: "Intel Core i5-8250U",
       total_weight: "6.8 kg",
+      store: "128GB",
+      RAM: "8GB",
       ulchami: "1366x768 HD",
       power: "45,0 Vt",
     },
 
     description:
-      "Siz Artel 32AH90G HDni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+      "Acer Swift 3 SF314-54-54YH NX.GZXER.003 Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: {
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
@@ -813,26 +816,28 @@ const Data = [
   {
     title: "ACER i5/512/16 GB P10",
     img: "https://techno.uz/image/cache/catalog/333-700x500.jpg",
-    catigory: "notebook",
+    category: "Noutbuklar",
     brand: "ACER",
     id: "28",
     price: {
-      discount: false,
-      discount_price: "0",
-      previous_price: "2200",
-      cost: "2200",
+      discount: true,
+      discount_price: "6 233 000",
+      previous_price: "7 123 455",
+      cost: "8 423 455",
     },
     properties: {
       guarantee: "36 month",
-      color: "black",
-      made_in: "uzbakistan",
-      total_weight: "6.8 kg",
+      color: "Black",
+      procceccor: "Intel Core i5-8250U",
+      total_weight: "6kg",
+      store: "512GB",
+      RAM: "16GB",
       ulchami: "1366x768 HD",
       power: "45,0 Vt",
     },
 
     description:
-      "Siz Artel 32AH90G HDni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+      "ACER i5/512/16 GB P10 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: {
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
@@ -841,28 +846,595 @@ const Data = [
     },
   },
   {
-    title: "ACER i5/512/16 GB P10",
-    img: "https://techno.uz/image/cache/catalog/333-700x500.jpg",
-    catigory: "notebook",
-    brand: "ACER",
+    title: "Lenovo ThinkPad X280 /Intel i5-8250U",
+    img: "https://shopme.uz/upload/iblock/1d5/1d515ac0dba6c107699faaa7e278e34a.jpg",
+    category: "Noutbuklar",
+    brand: "Lenovo",
     id: "29",
     price: {
       discount: false,
       discount_price: "0",
       previous_price: "2200",
-      cost: "2200",
+      cost: "8 923 000",
     },
     properties: {
       guarantee: "36 month",
       color: "black",
-      made_in: "uzbakistan",
+      made_in: "Russia",
+      procceccor: "Intel Core i5-8250U",
+      store: "512GB",
+      RAM: "12GB",
       total_weight: "6.8 kg",
       ulchami: "1366x768 HD",
       power: "45,0 Vt",
     },
 
     description:
-      "Siz Artel 32AH90G HDni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+      "Lenovo ThinkPad X280 /Intel i5-8250U ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP EliteBook 1040 G4 (705) /Intel i5-7200U/ DDR4",
+    img: "https://shopme.uz/upload/iblock/b85/b8545f3ffb4e971e55dc21bba51fe1ab.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "30",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "10 105 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Gray",
+      made_in: "USA",
+      procceccor: "Intel Core i5-8250U",
+      store: "256GB",
+      RAM: "8GB",
+      total_weight: "6.2 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP EliteBook 1040 G4 (705) /Intel i5-7200U ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP Spectre x360 13-ap0031ur(909)",
+    img: "https://shopme.uz/upload/iblock/8e7/8e7d51be51f17497909c1eeec5d94c89.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "31",
+    price: {
+      discount: true,
+      discount_price: "0",
+      previous_price: "8 456 000",
+      cost: "10 235 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Gray",
+      made_in: "USA",
+      store: "256GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "12GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP Spectre x360 13-ap0031ur(909) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "ASUS UX433FAC ( Intel® Core™ i5 10210U/ DDR4",
+    img: "https://shopme.uz/upload/iblock/30d/30d73ca12fa1bc2a072fd84777736e60.jpg",
+    category: "Noutbuklar",
+    brand: "ASUS",
+    id: "32",
+    price: {
+      discount: true,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "9 272 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Gray",
+      made_in: "USA",
+      store: "512GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "12GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "ASUS UX433FAC ( Intel® Core™ i5 10210U/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: " HP Probook 640 G3 (198)/Intel i5-7200U/DDR4 ",
+    img: "https://shopme.uz/upload/iblock/509/5090e8992794fab2fe91bf25063061d7.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "33",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "7 272 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Gray",
+      made_in: "USA",
+      store: "500GB",
+      procceccor: "Intel Core i3-8250U",
+      RAM: "14GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      " HP Probook 640 G3 (198)/Intel i5-7200U/DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP Pavilion 15-cs2050ur (150)",
+    img: "https://shopme.uz/upload/iblock/0cf/0cfb62e4682342e27ce425b2abcc1c9e.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "34",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "8 063 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Gray",
+      made_in: "USA",
+      store: "500GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "12GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP Pavilion 15-cs2050ur (150) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: " HP Envy 15 x360 15-ds0002ur (R6M) Intel i5-8265U",
+    img: "https://shopme.uz/upload/iblock/239/239efe0f575a5701231a9568d3750af8.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "35",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "10 753 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "500GB",
+      procceccor: "Intel Core i8-8250U",
+      RAM: "12GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      " HP Envy 15 x360 15-ds0002ur (R6M) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP Elite Dragonfly (505) (Intel i5-8265U/ DDR4 512GB",
+    img: "https://shopme.uz/upload/iblock/8c5/8c565c90de53102bda5f2566009ed139.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "36",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "17 200 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "512GB",
+      procceccor: "Intel Core i8-8250U",
+      RAM: "16GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      " HP Elite Dragonfly (505) (Intel i5-8265U/ DDR4 512GB ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP Envy 13-aq0001ur (SDO) (Intel i5 - 8265U/ DDR4",
+    img: "https://shopme.uz/upload/iblock/0b4/0b4e1b8cd22bdd80763bd8dc7e1488c7.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "37",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "10 428 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "White",
+      made_in: "USA",
+      store: "512GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "16GB",
+      total_weight: "4 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP Envy 13-aq0001ur (SDO) (Intel i5 - 8265U/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP Spectre x360 13-aw0003ur (011) (Intel i5-1035G4/ DDR4 ",
+    img: "https://shopme.uz/upload/iblock/80f/80fd4219ffdce368392d0b14d6caeee3.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "38",
+    price: {
+      discount: false,
+      discount_price: "13 566 000",
+      previous_price: "17 200 000",
+      cost: "17 200 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "512GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "8GB",
+      total_weight: "4 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP Spectre x360 13-aw0003ur (011) (Intel i5-1035G4/ DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP Spectre x360 13-aw0006ur (244) (Intel i7-1065G7/ DDR4 ",
+    img: "https://shopme.uz/upload/iblock/191/1912909a4aba9bdb100bd7880eb3f1fe.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "39",
+    price: {
+      discount: false,
+      discount_price: "13 566 000",
+      previous_price: "17 200 000",
+      cost: "19 200 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "512GB",
+      procceccor: "Intel Core i7-8250U",
+      RAM: "16GB",
+      total_weight: "4 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP Spectre x360 13-aw0006ur (244) (Intel i7-1065G7/ DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: " HP Probook 430 G5 (065)/Intel i5-8250/ DDR4 256GB",
+    img: "https://shopme.uz/upload/iblock/a5a/a5a4a767c30ac9700b501fa1da55673d.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "40",
+    price: {
+      discount: false,
+      discount_price: "13 566 000",
+      previous_price: "17 200 000",
+      cost: "6 500 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "256GB",
+      procceccor: "Intel Core i3-8250U",
+      RAM: "8GB",
+      total_weight: "5.5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      " HP Probook 430 G5 (065)/Intel i5-8250/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "HP ProBook x360 G1 (Q1V) (Intel i5-8250U/ DDR4",
+    img: "https://shopme.uz/upload/iblock/981/981e9cbad4d5f4ae11a9345b92586b99.jpg",
+    category: "Noutbuklar",
+    brand: "HP",
+    id: "41",
+    price: {
+      discount: false,
+      discount_price: "13 566 000",
+      previous_price: "17 200 000",
+      cost: "7 740 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "512GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "4GB",
+      total_weight: "5.5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "HP ProBook x360 G1 (Q1V) (Intel i5-8250U/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: " ASUS VivobookS X530FN (Intel® Core™ i5-8265U/ DDR4 ",
+    img: "https://shopme.uz/upload/iblock/338/3385cbef22480f79b32e67585b9bb81e.jpg",
+    category: "Noutbuklar",
+    brand: "ASUS",
+    id: "42",
+    price: {
+      discount: false,
+      discount_price: "13 566 000",
+      previous_price: "17 200 000",
+      cost: "8 923 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "White",
+      made_in: "USA",
+      store: "1000GB",
+      procceccor: "Intel Core i8-8250U",
+      RAM: "8GB",
+      total_weight: "5.5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      " ASUS VivobookS X530FN (Intel® Core™ i5-8265U/ DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "Lenovo IdeaPad Legion Y540-15IRH (Intel I5-9300H/DDR4  ",
+    img: "https://shopme.uz/upload/iblock/0de/0de4f7e47c044c4112177e627108a27e.jpg",
+    category: "Noutbuklar",
+    brand: "Lenovo",
+    id: "43",
+    price: {
+      discount: false,
+      discount_price: "13 566 000",
+      previous_price: "17 200 000",
+      cost: "8 923 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Black",
+      made_in: "USA",
+      store: "128GB",
+      procceccor: "Intel Core i5-8250U",
+      RAM: "8GB",
+      total_weight: "5.5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      " Lenovo IdeaPad Legion Y540-15IRH (Intel I5-9300H/DDR4   ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "Artel 80К141 White 8kg",
+    img: "https://shopme.uz/upload/iblock/10d/10d43cd3dfce84ab44460c57560b18fe.jpg",
+    category: "MaishiyTexnika",
+    brand: "Artel",
+    id: "45",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "3 763 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "White",
+      made_in: "uzbakistan",
+      total_weight: "70kg",
+      ulchami: "596x850 mm",
+    },
+
+    description:
+      "Artel 80К141 White 8kg ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "Automat Artel 80K142-IP White 8kg",
+    img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
+    category: "MaishiyTexnika",
+    brand: "Artel",
+    id: "46",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "4 789 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "White",
+      made_in: "uzbakistan",
+      total_weight: "60kg",
+      ulchami: "606x850 mm",
+    },
+
+    description:
+      "Automat Artel 80K142-IP White 8kg ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "Automat Samsung WW60J4210JWULD 6kg White",
+    img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
+    category: "MaishiyTexnika",
+    brand: "Samsung",
+    id: "47",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "3 523 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "White",
+      made_in: "Korea",
+      total_weight: "65kg",
+      ulchami: "656x850 mm",
+    },
+
+    description:
+      "Automat Samsung WW60J4210JWULD 6kg White ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: "Automat Samsung WW80K6210RS/LP 8kg Gray",
+    img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
+    category: "MaishiyTexnika",
+    brand: "Samsung",
+    id: "48",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "5 322 000",
+    },
+    properties: {
+      guarantee: "36 month",
+      color: "Gray",
+      made_in: "Korea",
+      total_weight: "65kg",
+      ulchami: "576x820 mm",
+    },
+
+    description:
+      "Automat Samsung WW80K6210RS/LP 8kg Gray ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: {
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
@@ -872,23 +1444,23 @@ const Data = [
   },
   {
     title: "Artel 32AH90G HD",
-    img: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-    catigory: "TV",
+    img: "https://shopme.uz/upload/iblock/eb8/eb8e97f3840497f291037577afb7e69f.jpg",
+    category: "TV",
     brand: "Artel",
-    id: "30",
+    id: "49",
     price: {
       discount: false,
       discount_price: "0",
-      previous_price: "2200",
-      cost: "2200",
+      previous_price: "3 763 000",
+      cost: "7 763 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "18 month",
       color: "black",
       made_in: "uzbakistan",
-      total_weight: "6.8 kg",
-      ulchami: "1366x768 HD",
-      power: "45,0 Vt",
+      total_weight: "5 kg",
+      RAM: "16GB",
+      ulchami: "3840x2160",
     },
 
     description:
@@ -901,28 +1473,88 @@ const Data = [
     },
   },
   {
-    title: "ACER i5/512/16 GB P10",
-    img: "https://techno.uz/image/cache/catalog/333-700x500.jpg",
-    catigory: "notebook",
-    brand: "ACER",
-    id: "31",
+    title: " Artel 50-дюймовый ART-UA50H3301 Full HD TV",
+    img: "https://shopme.uz/upload/iblock/dca/dca6dc3f46bee8ccf2eaf2050582ad38.jpg",
+    category: "TV",
+    brand: "Artel",
+    id: "50",
     price: {
       discount: false,
       discount_price: "0",
-      previous_price: "2200",
-      cost: "2200",
+      previous_price: "4 945 000",
+      cost: "4 055 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "18 month",
       color: "black",
       made_in: "uzbakistan",
-      total_weight: "6.8 kg",
-      ulchami: "1366x768 HD",
-      power: "45,0 Vt",
+      total_weight: "5 kg",
+      RAM: "12GB",
+      ulchami: "3840x2160",
     },
 
     description:
-      "Siz Artel 32AH90G HDni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+      "Artel 50-дюймовый ART-UA50H3301 Full HD TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: " Samsung 65-дюймовый 65TU7500 8K HDR Smart TV",
+    img: "https://shopme.uz/upload/iblock/84e/84efba19701ae344338fb9739026dbc3.jpg",
+    category: "TV",
+    brand: "Samsung",
+    id: "51",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "4 945 000",
+      cost: "11 234 000",
+    },
+    properties: {
+      guarantee: "18 month",
+      color: "black",
+      made_in: "uzbakistan",
+      total_weight: "6 kg",
+      RAM: "12GB",
+      ulchami: "3840x2160",
+    },
+
+    description:
+      "Samsung 65-дюймовый 65TU7500 8K HDR Smart TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: {
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+    },
+  },
+  {
+    title: " Samsung 55-дюймовый 55Q95TAU 4K UHD Smart TV",
+    img: "https://shopme.uz/upload/iblock/287/287eda3086c962ecc261edd9ae596dd5.jpg",
+    category: "TV",
+    brand: "Samsung",
+    id: "52",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "4 945 000",
+      cost: "20 234 000",
+    },
+    properties: {
+      guarantee: "18 month",
+      color: "black",
+      made_in: "uzbakistan",
+      total_weight: "4 kg",
+      RAM: "24GB",
+      ulchami: "4240x2160",
+    },
+
+    description:
+      "Samsung 55-дюймовый 55Q95TAU 4K UHD Smart TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: {
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",

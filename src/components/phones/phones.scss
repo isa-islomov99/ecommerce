@@ -1,3 +1,44 @@
+// @import "../../styles/base";
+
+// .phones {
+//   margin-top: 3rem;
+//   .phones__title_see_all {
+//     @include flexContent();
+//     .phones__section_title_text {
+//       font-size: 2.5rem;
+//       cursor: pointer;
+//       @include fontBold();
+//       color: $textColor;
+//     }
+//     .phones__see_all_box {
+//       display: flex;
+//       align-items: baseline;
+//       cursor: pointer;
+//       justify-content: flex-end;
+//       .phones__see_all_text {
+//         @include fontMedium();
+//         font-size: 1rem;
+//         text-transform: uppercase;
+//         color: $globalColor;
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 560px) {
+//   .phones {
+//     .phones__title_see_all {
+//       .phones__section_title_text {
+//         font-size: 2.1rem;
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
 @import "../../styles/base";
 
 .phones {
@@ -23,24 +64,6 @@
       }
     }
   }
-  //   .swiper_slide_card {
-  //       padding-top: 1rem;
-  //       transition: all .3s;
-  //     &:hover {
-  //       background-color: #fff;
-  //       border-radius: 8px;
-  //       box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
-  //     }
-  //     .product_carousel_card_img {
-  //       text-align: center;
-  //       .swiper_slide_card_img {
-  //         width: 140px;
-  //       }
-  //     }
-  //     .product_carousel_card_info {
-  //       padding: 0.3rem 0.8rem 1.8rem 0.8rem;
-  //     }
-  //   }
 }
 
 @media (max-width: 560px) {

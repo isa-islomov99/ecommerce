@@ -1,0 +1,44 @@
+@import "../../styles/base";
+
+.faq {
+  .faq__section_title_text {
+    @include fontBold();
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: $textColor;
+  }
+  .faq__main_box {
+    .faq__illustrator_img {
+      max-width: 100%;
+    }
+    .faq__collapse_box {
+      padding-top: 3rem;
+      .ant-collapse {
+        background-color: #fff;
+        border: none;
+        .ant-collapse-item {
+          background-color: #fff;
+          margin: 14px 0;
+          border: 1px solid $textColor;
+          border-radius: 8px;
+          .ant-collapse-header {
+            @include fontMedium();
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .faq {
+    .faq__section_title_text {
+      font-size: 2.1rem;
+    }
+    .faq__main_box {
+      .faq__collapse_box {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+}

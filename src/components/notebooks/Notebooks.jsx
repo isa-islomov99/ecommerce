@@ -1,16 +1,13 @@
 // import React from "react";
-// import "./phones.scss";
+// import "./notebooks.scss";
 // import Data from "../../service/api";
 // import MainSwiperCarousel from "../mainSwiperCarousel/MainSwiperCarousel";
 // import { RightOutlined } from "@ant-design/icons";
 // import { Row, Col } from "antd";
 
-// import { SwiperSlide } from "swiper/react";
-
-// const Phones = () => {
-//   console.log(Data);
-//   const filteredData = Data.filter((list) => list.category === "Smartfonlar");
-//   const arrayCut = filteredData.slice(16);
+// const Notebooks = () => {
+//   const filteredData = Data.filter((list) => list.category === "Noutbuklar");
+//   const arrayCut = filteredData.slice(8);
 //   return (
 //     <div className="phones">
 //       <div className="container">
@@ -23,7 +20,7 @@
 //             xl={18}
 //             className="phones__section_title"
 //           >
-//             <h1 className="phones__section_title_text">Smartfonlar</h1>
+//             <h1 className="phones__section_title_text">Noutbuklar</h1>
 //           </Col>
 //           <Col
 //             xs={24}
@@ -44,39 +41,18 @@
 //           </Col>
 //         </Row>
 //         <MainSwiperCarousel arrayCut={arrayCut} />
-//         {/* <MainSwiperCarousel>
-//           {arrayCut &&
-//             arrayCut.map((item, i) => (
-//               <SwiperSlide key={i} className="swiper_slide_card">
-//                 <div className="product_carousel_card_img">
-//                   <img
-//                     className="swiper_slide_card_img"
-//                     src={item?.img}
-//                     alt="card-img"
-//                   />
-//                 </div>
-//                 <div className="product_carousel_card_info">
-//                   <p>{item.catigory}</p>
-//                   <h5>{item.price.cost}$</h5>
-//                   <p>{item.title}</p>
-//                   <button>Xarid qilish</button>
-//                 </div>
-//               </SwiperSlide>
-//             ))}
-//         </MainSwiperCarousel> */}
 //       </div>
 //     </div>
 //   );
 // };
 
-// export default Phones;
+// export default Notebooks;
 
 
 
 
-
-import React, {useState}  from "react";
-import "./phones.scss";
+import React, {useState} from "react";
+import "./notebooks.scss";
 import Data from "../../service/api";
 import MainSwiperCarousel from "../mainSwiperCarousel/MainSwiperCarousel";
 import { RightOutlined, HeartOutlined, HeartFilled } from "@ant-design/icons";
@@ -84,17 +60,15 @@ import { Row, Col } from "antd";
 
 import { SwiperSlide } from "swiper/react";
 
-const Phones = () => {
-  const filteredData = Data.filter((list) => list.category === "Smartfonlar");
-
-  const arrayCut = filteredData.slice(16);
+const Notebooks = () => {
+  const filteredData = Data.filter((list) => list.category === "Noutbuklar");
+  const arrayCut = filteredData.slice(8);
 
   const [toggleHeart, setToggleHeart] = useState(false);
 
   const handleHeart = () => {
     setToggleHeart(!toggleHeart)
   }
-
   return (
     <div className="phones">
       <div className="container">
@@ -107,7 +81,7 @@ const Phones = () => {
             xl={18}
             className="phones__section_title"
           >
-            <h1 className="phones__section_title_text">Smartfonlar</h1>
+            <h1 className="phones__section_title_text">Noutbuklar</h1>
           </Col>
           <Col
             xs={24}
@@ -159,4 +133,4 @@ const Phones = () => {
   );
 };
 
-export default Phones;
+export default Notebooks;

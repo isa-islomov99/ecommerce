@@ -6,7 +6,7 @@ import slideImg2 from "../../assets/img/honor-img.jpeg";
 import slideImg3 from "../../assets/img/parfyum.jpeg";
 import slideImg4 from "../../assets/img/muddatli-tulov.jpeg";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"; 
 
 // Import Swiper styles
 import "swiper/swiper.min.css";
