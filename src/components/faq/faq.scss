@@ -17,12 +17,19 @@
         background-color: #fff;
         border: none;
         .ant-collapse-item {
-          background-color: #fff;
+          // background-color: $textColor;
+          background-color: $globalColor;
           margin: 14px 0;
-          border: 1px solid $textColor;
-          border-radius: 8px;
+          border: 1px solid #fff;
+          padding: 0.2rem 0.2rem;
+          border-radius: 28px;
           .ant-collapse-header {
             @include fontMedium();
+            color: #fff;
+          }
+          .ant-collapse-content {
+            @include fontMedium();
+            color: $textColor;
           }
         }
       }

@@ -7,7 +7,7 @@
   .header__container {
     align-items: center;
   }
-  .header__logo_box {
+  .header__logo_link {
     @include flexBox();
     cursor: pointer;
     .header__logo_img {

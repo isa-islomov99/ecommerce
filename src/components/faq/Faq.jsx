@@ -66,6 +66,9 @@ const Faq = () => {
                     (yakshanbadan tashqari)
                   </p>
                 </Panel>
+                <Panel header="Nega Shop.uz da narxlar qimmat" key="5">
+                  <p>Shop.uz da mahsulotlar narxlari imkon boricha minimallashtirishga alohida urg'u beriladi, va shu bilan birga sifatli mahsulotlarni iste'molchilarga yetkazib beradi</p>
+                </Panel>
               </Collapse>
             </div>
           </Col>

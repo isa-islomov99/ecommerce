@@ -1,7 +1,7 @@
 import React from "react";
 import "./comments.scss";
 import { UserOutlined } from "@ant-design/icons";
-import MainSwiperCarousel from "../mainSwiperCarousel/MainSwiperCarousel";
+import MainCarouselCards from "../mainCarouselCards/MainCarouselCards";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -63,7 +63,7 @@ const Comments = () => {
         <h1 className="comments__products_comment_title">
           Mahsulotlarga sharhlar
         </h1>
-        <MainSwiperCarousel slidesPerView="4">
+        <MainCarouselCards slidesPerView="4">
           {CommentsData &&
             CommentsData.map((item, i) => (
               <SwiperSlide key={i} className="swiper_slide_card">
@@ -81,7 +81,7 @@ const Comments = () => {
                 </div>
               </SwiperSlide>
             ))}
-        </MainSwiperCarousel>
+        </MainCarouselCards>
       </div>
     </div>
   );

@@ -109,7 +109,7 @@
 
 
 import React, {useState} from "react";
-import "./mainSwiperCarousel.scss";
+import "./mainCarouselCards.scss";
 import { RightOutlined, LeftOutlined, HeartOutlined, HeartFilled } from "@ant-design/icons";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -123,7 +123,7 @@ import SwiperCore, { Navigation } from "swiper/core";
 
 SwiperCore.use([Navigation]);
 
-const MainSwiperCarousel = ({ children, slidesPerView = 5 }) => {
+const MainCarouselCards = ({ children, slidesPerView = 5 }) => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
 
@@ -183,4 +183,4 @@ const MainSwiperCarousel = ({ children, slidesPerView = 5 }) => {
   );
 };
 
-export default MainSwiperCarousel;
+export default MainCarouselCards;

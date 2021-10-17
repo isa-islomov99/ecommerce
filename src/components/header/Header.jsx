@@ -2,6 +2,7 @@ import React from "react";
 import "./header.scss";
 import logo from "../../assets/img/logo.svg";
 import { Input, Select, Row, Col } from "antd";
+import { Link } from "react-router-dom";
 
 const { Option } = Select;
 
@@ -14,9 +15,11 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <Row className="header__container">
-          <Col xs={0} sm={10} md={8} lg={8} xl={6} className="header__logo_box">
-            <img className="header__logo_img" src={logo} alt="logo" />
-            <h2 className="header__logo_title">shop.uz</h2>
+          <Col xs={0} sm={10} md={8} lg={8} xl={6}>
+            <Link to="/" className="header__logo_link">
+              <img className="header__logo_img" src={logo} alt="logo" />
+              <h2 className="header__logo_title">shop.uz</h2>
+            </Link>
           </Col>
           <Col
             xs={18}

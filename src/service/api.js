@@ -1329,7 +1329,7 @@ const Data = [
   {
     title: "Artel 80К141 White 8kg",
     img: "https://shopme.uz/upload/iblock/10d/10d43cd3dfce84ab44460c57560b18fe.jpg",
-    category: "MaishiyTexnika",
+    category: "Maishiy texnika",
     brand: "Artel",
     id: "45",
     price: {
@@ -1358,7 +1358,7 @@ const Data = [
   {
     title: "Automat Artel 80K142-IP White 8kg",
     img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
-    category: "MaishiyTexnika",
+    category: "Maishiy texnika",
     brand: "Artel",
     id: "46",
     price: {
@@ -1387,7 +1387,7 @@ const Data = [
   {
     title: "Automat Samsung WW60J4210JWULD 6kg White",
     img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
-    category: "MaishiyTexnika",
+    category: "Maishiy texnika",
     brand: "Samsung",
     id: "47",
     price: {
@@ -1416,7 +1416,7 @@ const Data = [
   {
     title: "Automat Samsung WW80K6210RS/LP 8kg Gray",
     img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
-    category: "MaishiyTexnika",
+    category: "Maishiy texnika",
     brand: "Samsung",
     id: "48",
     price: {
@@ -1443,9 +1443,9 @@ const Data = [
     },
   },
   {
-    title: "Artel 32AH90G HD",
+    title: "Artel 50AU20H 4K UHD Android TV Full HD",
     img: "https://shopme.uz/upload/iblock/eb8/eb8e97f3840497f291037577afb7e69f.jpg",
-    category: "TV",
+    category: "Televizorlar",
     brand: "Artel",
     id: "49",
     price: {
@@ -1464,7 +1464,7 @@ const Data = [
     },
 
     description:
-      "Siz Artel 32AH90G HDni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+      "Siz Artel 50AU20H 4K UHD Android TV Full HD ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: {
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
       imgs: "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
@@ -1475,7 +1475,7 @@ const Data = [
   {
     title: " Artel 50-дюймовый ART-UA50H3301 Full HD TV",
     img: "https://shopme.uz/upload/iblock/dca/dca6dc3f46bee8ccf2eaf2050582ad38.jpg",
-    category: "TV",
+    category: "Televizorlar",
     brand: "Artel",
     id: "50",
     price: {
@@ -1505,7 +1505,7 @@ const Data = [
   {
     title: " Samsung 65-дюймовый 65TU7500 8K HDR Smart TV",
     img: "https://shopme.uz/upload/iblock/84e/84efba19701ae344338fb9739026dbc3.jpg",
-    category: "TV",
+    category: "Televizorlar",
     brand: "Samsung",
     id: "51",
     price: {
@@ -1535,7 +1535,7 @@ const Data = [
   {
     title: " Samsung 55-дюймовый 55Q95TAU 4K UHD Smart TV",
     img: "https://shopme.uz/upload/iblock/287/287eda3086c962ecc261edd9ae596dd5.jpg",
-    category: "TV",
+    category: "Televizorlar",
     brand: "Samsung",
     id: "52",
     price: {
@@ -1565,3 +1565,8 @@ const Data = [
 ];
 
 export default Data;
+
+
+export const filteredDate = (title) => {
+  return Data.filter(date =>  date.category === title)
+}
