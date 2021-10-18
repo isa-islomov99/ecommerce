@@ -785,7 +785,7 @@ const Data = [
     title: "Acer Swift 3 SF314-54-54YH NX.GZXER.003",
     img: "https://py.abad.uz/media/images/73246/2tmi5a.jpeg",
     category: "Noutbuklar",
-    brand: "ACER",
+    brand: "Acer",
     id: "27",
     price: {
       discount: false,
@@ -817,7 +817,7 @@ const Data = [
     title: "ACER i5/512/16 GB P10",
     img: "https://techno.uz/image/cache/catalog/333-700x500.jpg",
     category: "Noutbuklar",
-    brand: "ACER",
+    brand: "Acer",
     id: "28",
     price: {
       discount: true,
@@ -946,7 +946,7 @@ const Data = [
     title: "ASUS UX433FAC ( Intel® Core™ i5 10210U/ DDR4",
     img: "https://shopme.uz/upload/iblock/30d/30d73ca12fa1bc2a072fd84777736e60.jpg",
     category: "Noutbuklar",
-    brand: "ASUS",
+    brand: "Asus",
     id: "32",
     price: {
       discount: true,
@@ -1266,7 +1266,7 @@ const Data = [
     title: " ASUS VivobookS X530FN (Intel® Core™ i5-8265U/ DDR4 ",
     img: "https://shopme.uz/upload/iblock/338/3385cbef22480f79b32e67585b9bb81e.jpg",
     category: "Noutbuklar",
-    brand: "ASUS",
+    brand: "Asus",
     id: "42",
     price: {
       discount: false,
@@ -1567,6 +1567,14 @@ const Data = [
 export default Data;
 
 
-export const filteredDate = (title) => {
+export const filteredCategory = (title) => {
   return Data.filter(date =>  date.category === title)
+}
+
+export const filteredBrands = (title) => {
+  return Data.filter(date =>  date.brand === title)
+}
+
+export const filteredBrandCategory = (brand, title) => {
+  return Data.filter(date => date.brand === brand && date.category === title)
 }

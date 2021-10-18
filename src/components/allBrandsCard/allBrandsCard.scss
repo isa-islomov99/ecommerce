@@ -1,0 +1,19 @@
+@import "../../styles/base";
+
+.all_brands_card__sidebar_links {
+  .all_brands_card__brands_category_link {
+    display: block;
+    @include fontMedium();
+    color: $textColor;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 0.9rem;
+    width: 85%;
+    transition: all 0.1s;
+    &:hover {
+      border-radius: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+    }
+  }
+}

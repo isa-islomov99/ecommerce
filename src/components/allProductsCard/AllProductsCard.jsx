@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import "./allProductsCard.scss";
 import { NavLink } from "react-router-dom";
-import { Row, Col, Card } from "antd";
+import { Row, Col, Select } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
-import { filteredDate } from "../../service/api";
+import { filteredCategory } from "../../service/api";
 
-const { Meta } = Card;
+const { Option } = Select;
 
 const AllProductsCard = (props) => {
   const { match, history } = props;
 
-  const data = filteredDate(match.params.id);
+  const data = filteredCategory(match.params.id);
 
   const slicesData = data.slice(data.length - 1);
 
@@ -19,6 +19,10 @@ const AllProductsCard = (props) => {
   const handleHeart = () => {
     setToggleHeart(!toggleHeart);
   };
+
+  function handleChange(value) {
+    console.log(`selected ${value}`);
+  }
 
   return (
     <div className="all_products_card">
@@ -29,6 +33,40 @@ const AllProductsCard = (props) => {
               {list.category}
             </h1>
           ))}
+
+        <div className="all_products_card__filter_box">
+          <h2 className="all_products_card__filter_title">Saralash:</h2>
+          <NavLink
+            to={`/category/Smartfonlar/sort-by-price`}
+            className="all_products_card__filter_links"
+          >
+            Avval arzonlari
+          </NavLink>
+          <NavLink
+            to={`/category/Smartfonlar/sort-by-price`}
+            className="all_products_card__filter_links"
+          >
+            Qimmatligi bo'yicha
+          </NavLink>
+          <NavLink
+            to={`/category/Smartfonlar/sort-by-price`}
+            className="all_products_card__filter_links"
+          >
+            Chegirmada
+          </NavLink>
+          <Select
+            defaultValue="Brend"
+            style={{ width: 100 }}
+            onChange={handleChange}
+          >
+            {data &&
+              data.map((brand, index) => (
+                <Option key={index} value={brand.brand}>
+                  {brand.brand}
+                </Option>
+              ))}
+          </Select>
+        </div>
         <Row className="all_products_card__card_row">
           {data &&
             data.map((item, i) => (

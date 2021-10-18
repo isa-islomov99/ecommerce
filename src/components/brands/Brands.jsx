@@ -75,7 +75,7 @@ const Brands = () => {
                   xl={6}
                   className="brands__container"
                 >
-                  <Link to="/brands/apple">
+                  <Link to={`/brands/${item.brandName}`}>
                     <img
                       className="brands__logo"
                       src={item.brandLogo}

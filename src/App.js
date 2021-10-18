@@ -59,6 +59,8 @@ import Faq from "./components/faq/Faq";
 import Footer from "./components/footer/Footer";
 import AllProductsCard from "./components/allProductsCard/AllProductsCard";
 import MainPage from "./containers/MainPage";
+import AllBrandsCard from "./components/allBrandsCard/AllBrandsCard";
+import FilteredBrandCategory from "./components/filteredBrandCategory/FilteredBrandCategory";
 
 const App = () => {
   return (
@@ -73,6 +75,20 @@ const App = () => {
         path="/category/:id"
         render={(props) => {
           return <AllProductsCard {...props} />;
+        }}
+      />
+      <Route
+        exact
+        path="/brands/:id"
+        render={(props) => {
+          return <AllBrandsCard {...props} />;
+        }}
+      />
+      <Route
+        exact
+        path="/brands/:id/:id"
+        render={(props) => {
+          return <FilteredBrandCategory {...props} />;
         }}
       />
       <Footer />
