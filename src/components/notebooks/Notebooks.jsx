@@ -59,18 +59,21 @@ import { Link } from "react-router-dom";
 import { SwiperSlide } from "swiper/react";
 
 const Notebooks = () => {
+  
+  // Asosiy Api dan Barcha category si noutbuk bugan datalani olish uchun
   const filteredData = Data.filter((list) => list.category === "Noutbuklar");
+
+  // HomePage dagi Notebooklar ni carouselida barcha noutbuklar emas faqat 8 tasi chiqishi uchun kesib olingan
   const arrayCut = filteredData.slice(8);
 
-  // const categoryDate = Data.find(item => {return item.category})
-
-  // console.log(categoryDate)
-
+  // useState for Heart of the Cards
   const [toggleHeart, setToggleHeart] = useState(false);
 
+  // Function for Heart of the Cards
   const handleHeart = () => {
     setToggleHeart(!toggleHeart);
   };
+
   return (
     <div className="phones">
       <div className="container">

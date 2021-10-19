@@ -17,7 +17,7 @@ const Footer = () => {
             <h3 className="footer__title">Info</h3>
             <p className="footer__text">
               Ko'rsatilgan narxlar va xarid qilish shartlari joriy sanaga amal
-              qiladi. 2017-2021 ©abad company. Barcha huquqlar himoyalangan.
+              qiladi. 2017-2021 ©shop.uz company. Barcha huquqlar himoyalangan.
             </p>
             <div className="footer__social_box">
               <FacebookFilled className="footer__socal_icon" />

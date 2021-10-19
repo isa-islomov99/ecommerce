@@ -1,23 +1,40 @@
-import React, { useState } from "react";
-import "./allBrandsCard.scss";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Row, Col } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 
-import { filteredBrands } from "../../service/api";
+import { useDispatch, useSelector } from "react-redux";
+
+// import { filteredBrands } from "../../service/api";
+import { filteredBrands } from "../../store/productSlice";
+import SidebarCategoryLinks from "../sidebarCategoryLinks/SidebarCategoryLinks";
 
 const AllBrandsCard = (props) => {
   const { match, history } = props;
 
-  const data = filteredBrands(match.params.id);
+  const dispatch = useDispatch();
 
+  // Brand larni filter qilib olish uchun
+  // const data = filteredBrands(match.params.id);
+
+  // Redux Toolkitdan data larni olish
+  const data = useSelector((state) => state.products.brandsDate);
+
+  // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
 
+  // useState for Heart of the Cards
   const [toggleHeart, setToggleHeart] = useState(false);
 
+  // Function for Heart of the Cards
   const handleHeart = () => {
     setToggleHeart(!toggleHeart);
   };
+
+  // SidebarCategoryLinks componentdagi data ni malumotlari brand larga kirib chiqqanda ham chiqishi uchun
+  useEffect(() => {
+    dispatch(filteredBrands(match.params.id));
+  }, []);
 
   return (
     <div className="all_products_card">
@@ -38,33 +55,7 @@ const AllBrandsCard = (props) => {
             xl={6}
             className="all_brands_card__sidebar_links"
           >
-            {data.map((category, i) => (
-              <NavLink
-                key={i}
-                to={`/brands/${category.brand}/${category.category}`}
-                className="all_brands_card__brands_category_link"
-              >
-                {category.category}
-              </NavLink>
-            ))}
-            {/* <NavLink
-              to={`/brands/Samsung/Televizorlar`}
-              className="all_brands_card__brands_category_link"
-            >
-              Televizorlar
-            </NavLink>
-            <NavLink
-              to={`/brands/Samsung/Smartfonlar`}
-              className="all_brands_card__brands_category_link"
-            >
-              Smartfonlar
-            </NavLink>
-            <NavLink
-              to={`/brands/Samsung/Maishiy texnika`}
-              className="all_brands_card__brands_category_link"
-            >
-              Maishiy texnika
-            </NavLink> */}
+            <SidebarCategoryLinks />
           </Col>
           <Col xs={24} sm={12} md={12} lg={6} xl={18}>
             <div className="all_products_card__filter_box">

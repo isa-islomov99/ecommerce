@@ -82,8 +82,11 @@ import { Link } from "react-router-dom";
 import { SwiperSlide } from "swiper/react";
 
 const Phones = () => {
+
+  // Asosiy Api dan Barcha category si Smartfon bugan datalani olish uchun
   const filteredData = Data.filter((list) => list.category === "Smartfonlar");
 
+  // HomePage dagi Smartfonlar ni carouselida barcha Smartfonlar emas faqat 8 tasi chiqishi uchun kesib olingan
   const arrayCut = filteredData.slice(16);
 
   const [toggleHeart, setToggleHeart] = useState(false);

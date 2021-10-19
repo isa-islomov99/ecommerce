@@ -1,28 +1,58 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./allProductsCard.scss";
 import { NavLink } from "react-router-dom";
 import { Row, Col, Select } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
-import { filteredCategory } from "../../service/api";
+import Pagination from '../../pages/pagination/Pagination'
+// import { filteredCategory } from "../../service/api";
+
+import { useDispatch, useSelector } from "react-redux";
+import { filteredCategory } from "../../store/productSlice";
 
 const { Option } = Select;
 
 const AllProductsCard = (props) => {
   const { match, history } = props;
 
-  const data = filteredCategory(match.params.id);
+  const dispatch = useDispatch();
 
+  // Brand larni service papkadagi Glavniy Api orqali filter qilib olish uchun
+  // const data = filteredCategory(match.params.id);
+
+  // Redux Toolkitdan data larni olish
+  const data = useSelector((state) => state.products.filterCategory);
+
+  // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
 
+  // useState for Heart of the Cards
   const [toggleHeart, setToggleHeart] = useState(false);
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage] = useState(8);
+
+  // Get current posts
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = data.slice(indexOfFirstPost, indexOfLastPost);
+
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  // Function for Heart of the Cards
   const handleHeart = () => {
     setToggleHeart(!toggleHeart);
   };
 
+  // Function to take value of the Select
   function handleChange(value) {
     console.log(`selected ${value}`);
   }
+
+  // Toolkitdan keladigan data lani path uzgarganda har safar render qilishi uchun useEffect ichida yozildi,bumasa har doim ham malumotla kemasdi
+  useEffect(() => {
+    dispatch(filteredCategory(match.params.id));
+  }, [match.params.id]);
 
   return (
     <div className="all_products_card">
@@ -68,8 +98,8 @@ const AllProductsCard = (props) => {
           </Select>
         </div>
         <Row className="all_products_card__card_row">
-          {data &&
-            data.map((item, i) => (
+          {currentPosts &&
+            currentPosts.map((item, i) => (
               <Col
                 key={i}
                 className="all_products_card__card_column"
@@ -135,6 +165,13 @@ const AllProductsCard = (props) => {
               </Col>
             ))}
         </Row>
+        <div className="all_products_card__pagination">
+          <Pagination
+            postsPerPage={postsPerPage}
+            totalPosts={data.length}
+            paginate={paginate}
+          />
+        </div>
       </div>
     </div>
   );

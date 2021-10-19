@@ -1,27 +1,44 @@
-import React, { useState } from "react";
-import "./filteredBrandCategory.scss";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Row, Col } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 
 import { filteredBrandCategory } from "../../service/api";
+import SidebarCategoryLinks from "../sidebarCategoryLinks/SidebarCategoryLinks";
+
+import { useDispatch, useSelector } from "react-redux";
+// import { filteredBrandCategory } from "../../store/productSlice";
 
 const FilteredBrandCategory = (props) => {
   const { match, history } = props;
 
+  const dispatch = useDispatch();
+
+  // 14,15,16 - qatordagi kodla qaysi brandga kirsa usha brendni nomini olish uchun Match ni url ni arrayga utqazib brand nomini kesib olib yana uni stringga utqazib filteredBrandCategory ga argument sifatida berib yuborilgan
   const cutUrl = match.url;
   const convertToArray = cutUrl.split("/");
   const convertToString = convertToArray.slice(2, 3).toString();
 
+  // Brand va category larni filter qilib olish uchun
   const data = filteredBrandCategory(convertToString, match.params.id);
 
+  // Redux Toolkitdan data larni olish
+  // const data = useSelector((state) => state.products.filterProductDate);
+
+  // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
 
+  // useState for Heart of the Cards
   const [toggleHeart, setToggleHeart] = useState(false);
 
+  // Function for Heart of the Cards
   const handleHeart = () => {
     setToggleHeart(!toggleHeart);
   };
+
+  // useEffect(() => {
+  //   dispatch(filteredBrandCategory(convertToString, match.params.id));
+  // }, []);
 
   return (
     <div className="all_products_card">
@@ -42,15 +59,7 @@ const FilteredBrandCategory = (props) => {
             xl={6}
             className="all_brands_card__sidebar_links"
           >
-            {data.map((category, i) => (
-              <NavLink
-                key={i}
-                to={`/brands/${category.brand}/${category.category}`}
-                className="all_brands_card__brands_category_link"
-              >
-                {category.category}
-              </NavLink>
-            ))}
+            <SidebarCategoryLinks />
           </Col>
           <Col xs={24} sm={12} md={12} lg={6} xl={18}>
             <div className="all_products_card__filter_box">

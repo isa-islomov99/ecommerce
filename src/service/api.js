@@ -1567,13 +1567,13 @@ const Data = [
 export default Data;
 
 
-export const filteredCategory = (title) => {
-  return Data.filter(date =>  date.category === title)
-}
+// export const filteredCategory = (title) => {
+//   return Data.filter(date =>  date.category === title)
+// }
 
-export const filteredBrands = (title) => {
-  return Data.filter(date =>  date.brand === title)
-}
+// export const filteredBrands = (title) => {
+//   return Data.filter(date =>  date.brand === title)
+// }
 
 export const filteredBrandCategory = (brand, title) => {
   return Data.filter(date => date.brand === brand && date.category === title)

@@ -44,7 +44,7 @@
 // export default App;
 
 import React from "react";
-import "./_app.scss";
+// import "./_app.scss";
 import Categorys from "./components/category/Categorys";
 import Header from "./components/header/Header";
 import HomeMainCarousel from "./components/homeMainCarousel/HomeMainCarousel";
@@ -61,12 +61,14 @@ import AllProductsCard from "./components/allProductsCard/AllProductsCard";
 import MainPage from "./containers/MainPage";
 import AllBrandsCard from "./components/allBrandsCard/AllBrandsCard";
 import FilteredBrandCategory from "./components/filteredBrandCategory/FilteredBrandCategory";
+import PageNavigationListener from "./utils/PageNavigationListener";
 
 const App = () => {
   return (
     <div>
       <Header />
       <Categorys />
+      <PageNavigationListener />
       <Route exact path="/">
         <MainPage />
       </Route>
