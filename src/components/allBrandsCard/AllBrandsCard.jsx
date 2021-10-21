@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { Row, Col } from "antd";
+import { Row, Col, Pagination } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 
 import { useDispatch, useSelector } from "react-redux";
@@ -23,12 +23,26 @@ const AllBrandsCard = (props) => {
   // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
 
+  // States for pagination
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage, setPostsPerPage] = useState(6);
+  // Codes for pagination
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = data.slice(indexOfFirstPost, indexOfLastPost);
+
   // useState for Heart of the Cards
   const [toggleHeart, setToggleHeart] = useState(false);
 
   // Function for Heart of the Cards
   const handleHeart = () => {
     setToggleHeart(!toggleHeart);
+  };
+
+  // Function for take value of the antdPagination and for scrollTOTop when change page
+  const getValuePagination = (val) => {
+    setCurrentPage(val);
+    window.scrollTo(0, 190);
   };
 
   // SidebarCategoryLinks componentdagi data ni malumotlari brand larga kirib chiqqanda ham chiqishi uchun
@@ -80,8 +94,8 @@ const AllBrandsCard = (props) => {
               </NavLink>
             </div>
             <Row className="all_products_card__card_row">
-              {data &&
-                data.map((item, i) => (
+              {currentPosts &&
+                currentPosts.map((item, i) => (
                   <Col
                     key={i}
                     className="all_products_card__card_column"
@@ -149,6 +163,14 @@ const AllBrandsCard = (props) => {
             </Row>
           </Col>
         </Row>
+        <div className="all_products_card__pagination">
+          <Pagination
+            onChange={(value) => getValuePagination(value)}
+            pageSize={postsPerPage}
+            total={data.length}
+            current={currentPage}
+          />
+        </div>
       </div>
     </div>
   );

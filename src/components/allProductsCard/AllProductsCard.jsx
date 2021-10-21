@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./allProductsCard.scss";
 import { NavLink } from "react-router-dom";
-import { Row, Col, Select } from "antd";
+import { Row, Col, Select, Pagination } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
-import Pagination from '../../pages/pagination/Pagination'
 // import { filteredCategory } from "../../service/api";
 
 import { useDispatch, useSelector } from "react-redux";
@@ -28,16 +27,13 @@ const AllProductsCard = (props) => {
   // useState for Heart of the Cards
   const [toggleHeart, setToggleHeart] = useState(false);
 
+  // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(8);
-
-  // Get current posts
+  const [postsPerPage, setPostsPerPage] = useState(8);
+  // Codes for pagination
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = data.slice(indexOfFirstPost, indexOfLastPost);
-
-  // Change page
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   // Function for Heart of the Cards
   const handleHeart = () => {
@@ -48,6 +44,12 @@ const AllProductsCard = (props) => {
   function handleChange(value) {
     console.log(`selected ${value}`);
   }
+
+  // Function for take value of the antdPagination and for scrollTOTop when change page
+  const getValuePagination = (val) => {
+    setCurrentPage(val);
+    window.scrollTo(0, 190);
+  };
 
   // Toolkitdan keladigan data lani path uzgarganda har safar render qilishi uchun useEffect ichida yozildi,bumasa har doim ham malumotla kemasdi
   useEffect(() => {
@@ -109,67 +111,70 @@ const AllProductsCard = (props) => {
                 lg={6}
                 xl={6}
               >
-                <div
-                  className="all_products_card__product_card_heart"
-                  onClick={handleHeart}
-                >
-                  {toggleHeart ? (
-                    <HeartFilled
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                    />
-                  ) : (
-                    <HeartOutlined
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                    />
-                  )}
-                </div>
-                <div className="product_carousel_card_img">
-                  <img
-                    className="all_products_card__card_img"
-                    src={item?.img}
-                    alt="card-img"
-                  />
-                </div>
-                <div className="product_carousel_card_info">
-                  {item.price.discount && (
-                    <span className="all_products_card__product_sale_text">
-                      Chegirma:
-                    </span>
-                  )}
-                  <p className="all_products_card__product_category">
-                    {item.category}
-                  </p>
-                  <div className="all_products_card__product_price">
-                    <h5
-                      className={
-                        item.price.discount
-                          ? "all_products_card__product_price_text"
-                          : "all_products_card__product_sale_price_text"
-                      }
-                    >
-                      {item.price.cost} so'm
-                    </h5>
-                    {item.price.discount && (
-                      <span className="all_products_card__product_price_sale">
-                        {item.price.discount_price} so'm
-                      </span>
+                <NavLink to={`/products/view/${item.secondTitle}`}>
+                  <div
+                    className="all_products_card__product_card_heart" 
+                    onClick={handleHeart}
+                  >
+                    {toggleHeart ? (
+                      <HeartFilled
+                        style={{ fontSize: "21px", color: "#a5c926" }}
+                      />
+                    ) : (
+                      <HeartOutlined
+                        style={{ fontSize: "21px", color: "#a5c926" }}
+                      />
                     )}
                   </div>
-                  <p className="all_products_card__product_title">
-                    {item.title}
-                  </p>
-                  <button className="all_products_card__product_btn">
-                    Xarid qilish
-                  </button>
-                </div>
+                  <div className="product_carousel_card_img">
+                    <img
+                      className="all_products_card__card_img"
+                      src={item?.img}
+                      alt="card-img"
+                    />
+                  </div>
+                  <div className="product_carousel_card_info">
+                    {item.price.discount && (
+                      <span className="all_products_card__product_sale_text">
+                        Chegirma:
+                      </span>
+                    )}
+                    <p className="all_products_card__product_category">
+                      {item.category}
+                    </p>
+                    <div className="all_products_card__product_price">
+                      <h5
+                        className={
+                          item.price.discount
+                            ? "all_products_card__product_price_text"
+                            : "all_products_card__product_sale_price_text"
+                        }
+                      >
+                        {item.price.cost} so'm
+                      </h5>
+                      {item.price.discount && (
+                        <span className="all_products_card__product_price_sale">
+                          {item.price.discount_price} so'm
+                        </span>
+                      )}
+                    </div>
+                    <p className="all_products_card__product_title">
+                      {item.title}
+                    </p>
+                    <button className="all_products_card__product_btn">
+                      Xarid qilish
+                    </button>
+                  </div>
+                </NavLink>
               </Col>
             ))}
         </Row>
         <div className="all_products_card__pagination">
           <Pagination
-            postsPerPage={postsPerPage}
-            totalPosts={data.length}
-            paginate={paginate}
+            onChange={(value) => getValuePagination(value)}
+            pageSize={postsPerPage}
+            total={data.length}
+            current={currentPage}
           />
         </div>
       </div>

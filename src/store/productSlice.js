@@ -7,6 +7,7 @@ const productSlice = createSlice({
     brandsDate: [],
     filterCategory: [],
     // filterProductDate: [],
+    productDate: [],
   },
 
   reducers: {
@@ -24,9 +25,14 @@ const productSlice = createSlice({
     // filteredBrandCategory(state, action) {
     //   state.filterProductDate = Data.filter(date => date.brand === action.payload && date.category === action.payload)
     // },
+
+    // Har bir productni uziga tegishli malumotini chiqarish uchun
+    productView(state, action) {
+      state.productDate = Data.filter(date =>  date.secondTitle === action.payload);
+    },
   },
 });
 
-export const { filteredBrands, filteredCategory, filteredBrandCategory } = productSlice.actions;
+export const { filteredBrands, filteredCategory, filteredBrandCategory, productView } = productSlice.actions;
 
 export default productSlice.reducer;

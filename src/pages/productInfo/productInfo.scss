@@ -1,0 +1,23 @@
+@import "../../styles/base";
+
+.product_info {
+  margin-top: 3rem;
+  .product_info__product_router {
+    display: flex;
+    .product_info__go_title_page {
+      @include fontMedium();
+    }
+  }
+
+  .product_info_sidebar_column {
+    margin-top: 3rem;
+    .product_info__product_img_slide_gallery {
+      display: flex;
+      flex-direction: column;
+      .product_info__slide_imgs {
+        width: 70px;
+        object-fit: cover;
+      }
+    }
+  }
+}

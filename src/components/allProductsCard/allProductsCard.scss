@@ -115,6 +115,40 @@
       }
     }
   }
+  .all_products_card__pagination {
+    text-align: center;
+    margin-top: 1rem;
+    .ant-pagination-item {
+      @include fontMedium();
+      &:hover {
+        border-color: $globalColor;
+      }
+      a {
+        &:hover {
+          color: $globalColor;
+        }
+      }
+    }
+    .ant-pagination-item-active {
+      background: #fff;
+      border-color: $globalColor;
+      a {
+        color: $globalColor;
+      }
+    }
+    // .ant-pagination-next {
+    //   border-color: $globalColor;
+    // }
+    .ant-pagination-prev .ant-pagination-item-link,
+    .ant-pagination-next .ant-pagination-item-link {
+      &:hover {
+        border-color: $globalColor;
+      }
+      &:hover .anticon {
+        color: $globalColor;
+      }
+    }
+  }
 }
 
 // =========== MEDIA QUERY START ==================
