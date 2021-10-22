@@ -111,7 +111,7 @@ const AllProductsCard = (props) => {
                 lg={6}
                 xl={6}
               >
-                <NavLink to={`/products/view/${item.secondTitle}`}>
+                <NavLink to={`/product/view/${item.secondTitle}`}>
                   <div
                     className="all_products_card__product_card_heart" 
                     onClick={handleHeart}

@@ -64,9 +64,12 @@ const Footer = () => {
         </Row>
       </div>
       <div className="footer_line"></div>
-      <div className="footer__end">
-        {/* <p className="footer__end_text">2021 Shop.uz © - Все права защищены.</p> */}
-        <p className="footer__end_text">2021 Shop.uz © - Barcha xuquqlar himoyalangan.</p>
+      <div className="container">
+        <div className="footer__end">
+          <p className="footer__end_text">
+            2021 Shop.uz © - Barcha xuquqlar himoyalangan.
+          </p>
+        </div>
       </div>
     </footer>
   );

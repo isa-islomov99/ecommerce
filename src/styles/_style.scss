@@ -36,6 +36,7 @@ $textColor: rgb(119, 119, 119);
   font-size: 16px;
   cursor: pointer;
   color: $color;
-  border: 1px solid $borderColor;
+  border: 2px solid $borderColor;
   background-color: $bgColor;
+  transition: all 0.3s;
 }

@@ -17,7 +17,7 @@ import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
-const HomeMainCarousel = () => {
+const HomeMainCarousel = ({slide}) => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   const slides = [

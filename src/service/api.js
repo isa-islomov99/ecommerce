@@ -1,8 +1,19 @@
+import appleLogo from "../assets/img/apple.jpg";
+import samsungLogo from "../assets/img/Samsung.png";
+import xiaomiLogo from "../assets/img/xiaomi.png";
+import acerLogo from "../assets/img/acer.png";
+import asusLogo from "../assets/img/asus-logo.jpg";
+import hpLogo from "../assets/img/HP-logo.png";
+import lenovoLogo from "../assets/img/lenovo.jpg";
+import artelLogo from "../assets/img/Artel.png";
+
+
 const Data = [
   {
     title: "Samsung Galaxy A32 4/64GB",
     secondTitle: "Samsung Galaxy A32 4 64GB",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77143/8u687c.jpeg",
     id: "1",
@@ -13,7 +24,7 @@ const Data = [
       cost: "3 108 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "black",
       made_in: "vetnam",
       total_weight: "230 gr",
@@ -32,6 +43,7 @@ const Data = [
     title: "Samsung Galaxy A12 3/32GB Red",
     secondTitle: "Samsung Galaxy A12 3 32GB Red",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     img: "https://py.abad.uz/media/images/77151/fwv8hp.jpeg",
     category: "Smartfonlar",
     id: "2",
@@ -42,7 +54,7 @@ const Data = [
       cost: "1 936 800",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Red",
       made_in: "China",
       total_weight: "210 gr",
@@ -63,6 +75,7 @@ const Data = [
     title: "Xiaomi Redmi Note 9 2021 3GB/64GB",
     secondTitle: "Xiaomi Redmi Note 9 2021 3GB 64GB",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76696/qirewc.jpeg",
     id: "3",
@@ -73,7 +86,7 @@ const Data = [
       cost: "1 956 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Lunno",
       made_in: "China",
       total_weight: "200 gr",
@@ -94,6 +107,7 @@ const Data = [
     title: "Xiaomi Redmi 9T 4GB/128GB NFC",
     secondTitle: "Xiaomi Redmi 9T 4GB 128GB NFC",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77771/s3f6rr.jpeg",
     id: "4",
@@ -104,7 +118,7 @@ const Data = [
       cost: "2 128 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Lunno",
       made_in: "China",
       total_weight: "200 gr",
@@ -125,6 +139,7 @@ const Data = [
     title: "Samsung Galaxy A02 2GB/32GB",
     secondTitle: "Samsung Galaxy A02 2GB 32GB",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76956/nk3dwn.jpeg",
     id: "5",
@@ -135,7 +150,7 @@ const Data = [
       cost: "2 959 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "black",
       made_in: "vetnam",
       total_weight: "230 gr",
@@ -156,6 +171,7 @@ const Data = [
     title: "Samsung Galaxy A72 6/128GB Gray",
     secondTitle: "Samsung Galaxy A72 6 128GB Gray",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77147/6fmf0o.jpeg",
     id: "6",
@@ -166,7 +182,7 @@ const Data = [
       cost: "5 633 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "black",
       made_in: "vetnam",
       total_weight: "230 gr",
@@ -187,6 +203,7 @@ const Data = [
     title: "Apple iPhone 13 Pro Max 1TB Gold",
     secondTitle: "Apple iPhone 13 Pro Max 1TB Gold",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78237/btyd1q.jpeg",
     id: "7",
@@ -197,7 +214,7 @@ const Data = [
       cost: "27 988 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gold",
       made_in: "USA",
       total_weight: "250 gr",
@@ -208,9 +225,7 @@ const Data = [
     description:
       "Apple iPhone 13 Pro Max 1TB Gold Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://py.abad.uz/media/images/65451/2au4zl.jpeg",
        "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
     ],
   },
@@ -218,6 +233,7 @@ const Data = [
     title: "Samsung Galaxy A12 3 32GB A125 Blue",
     secondTitle: "Samsung Galaxy A12 3/32GB A125 Blue",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77150/2os7ls.jpeg",
     id: "8",
@@ -228,7 +244,7 @@ const Data = [
       cost: "2 274 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "black",
       made_in: "vetnam",
       total_weight: "230 gr",
@@ -249,6 +265,7 @@ const Data = [
     title: "Samsung Galaxy A72 4/64GB Blue",
     secondTitle: "Samsung Galaxy A72 4 64GB Blue",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77009/eio2l8.jpeg",
     id: "9",
@@ -259,7 +276,7 @@ const Data = [
       cost: "3 532 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gray",
       made_in: "China",
       total_weight: "210 gr",
@@ -280,6 +297,7 @@ const Data = [
     title: "Apple Iphone 13 mini 512gb",
     secondTitle: "Apple Iphone 13 mini 512gb",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78266/yrjtim.jpeg",
     id: "10",
@@ -290,7 +308,7 @@ const Data = [
       cost: "13 988 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "White",
       made_in: "USA",
       total_weight: "210 gr",
@@ -311,6 +329,7 @@ const Data = [
     title: "Samsung Galaxy S21 Ultra 5G 12/256GB",
     secondTitle: "Samsung Galaxy S21 Ultra 5G 12 256GB",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76589/ejozs6.jpeg",
     id: "11",
@@ -321,7 +340,7 @@ const Data = [
       cost: "16 560 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gray",
       made_in: "Korea",
       total_weight: "240 gr",
@@ -342,6 +361,7 @@ const Data = [
     title: "Samsung Galaxy A52 SM-A525F/DS",
     secondTitle: "Samsung Galaxy A52 SM-A525F DS",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77009/eio2l8.jpeg",
     id: "12",
@@ -352,7 +372,7 @@ const Data = [
       cost: "4 304 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Blue",
       made_in: "Korea",
       total_weight: "240 gr",
@@ -373,6 +393,7 @@ const Data = [
     title: "Samsung Galaxy S10 Lite SM-G770F/DS",
     secondTitle: "Samsung Galaxy S10 Lite SM-G770F DS",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76677/rrjurz.jpeg",
     id: "13",
@@ -383,7 +404,7 @@ const Data = [
       cost: "9 233 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gray",
       made_in: "Korea",
       total_weight: "210 gr",
@@ -404,6 +425,7 @@ const Data = [
     title: "Samsung Galaxy S20 Ultra 5G SM-G988B/DS",
     secondTitle: "Samsung Galaxy S20 Ultra 5G SM-G988B DS",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/69911/qtrzah.jpeg",
     id: "14",
@@ -414,7 +436,7 @@ const Data = [
       cost: "9 233 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gray",
       made_in: "Korea",
       total_weight: "240 gr",
@@ -436,6 +458,7 @@ const Data = [
     title: "Apple Iphone 13 128GB",
     secondTitle: "Apple Iphone 13 128GB",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78242/2jr725.jpeg",
     id: "15",
@@ -446,7 +469,7 @@ const Data = [
       cost: "11 588 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Red",
       made_in: "USA",
       total_weight: "210 gr",
@@ -467,6 +490,7 @@ const Data = [
     title: "Apple iPhone 13 Pro Max 256GB",
     secondTitle: "Apple iPhone 13 Pro Max 256GB",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78225/ormtgr.jpeg",
     id: "16",
@@ -477,7 +501,7 @@ const Data = [
       cost: "14 988 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Mokriy",
       made_in: "USA",
       total_weight: "230 gr",
@@ -498,6 +522,7 @@ const Data = [
     title: "Apple iPhone 12 Pro Max 256GB Gold",
     secondTitle: "Apple iPhone 12 Pro Max 256GB Gold",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/74122/ktf6pn.jpeg",
     id: "17",
@@ -508,7 +533,7 @@ const Data = [
       cost: "12 288 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gold",
       made_in: "USA",
       total_weight: "230 gr",
@@ -529,6 +554,7 @@ const Data = [
     title: "Apple iPhone SE 128GB White",
     secondTitle: "Apple iPhone SE 128GB White",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/71776/q65b1u.jpeg",
     id: "18",
@@ -539,7 +565,7 @@ const Data = [
       cost: "8 288 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "White",
       made_in: "USA",
       total_weight: "210 gr",
@@ -560,6 +586,7 @@ const Data = [
     title: "Apple iPhone 11 64GB White",
     secondTitle: "Apple iPhone 11 64GB White",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/65485/mulhfa.jpeg",
     id: "19",
@@ -570,7 +597,7 @@ const Data = [
       cost: "7 548 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "White",
       made_in: "USA",
       total_weight: "220 gr",
@@ -591,6 +618,7 @@ const Data = [
     title: "Apple iPhone XS 64GB Gold",
     secondTitle: "Apple iPhone XS 64GB Gold",
     brand: "Apple",
+    brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/47623/06d2a5dff4bf1f4b4d6c43a73a10b48e.jpeg",
     id: "20",
@@ -601,7 +629,7 @@ const Data = [
       cost: "6 758 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Gold",
       made_in: "USA",
       total_weight: "220 gr",
@@ -622,6 +650,7 @@ const Data = [
     title: "Xiaomi Redmi Note 8 2021 4GB/64GB",
     secondTitle: "Xiaomi Redmi Note 8 2021 4GB 64GB",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78204/vfcl01.jpeg",
     id: "21",
@@ -632,7 +661,7 @@ const Data = [
       cost: "2 258 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Lunno",
       made_in: "China",
       total_weight: "200 gr",
@@ -653,6 +682,7 @@ const Data = [
     title: "Xiaomi Mi 10T Lite 6GB/128GB",
     secondTitle: "Xiaomi Mi 10T Lite 6GB 128GB",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77778/zgj9lm.jpeg",
     id: "22",
@@ -663,7 +693,7 @@ const Data = [
       cost: "3 456 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Lunno",
       made_in: "China",
       total_weight: "200 gr",
@@ -685,6 +715,7 @@ const Data = [
     title: "Xiaomi Redmi Note 8 2021 4GB/64GB Blue",
     secondTitle: "Xiaomi Redmi Note 8 2021 4GB 64GB Blue",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78086/vup48k.jpeg",
     id: "23",
@@ -695,7 +726,7 @@ const Data = [
       cost: "2 258 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Blue",
       made_in: "China",
       total_weight: "200 gr",
@@ -716,6 +747,7 @@ const Data = [
     title: "Xiaomi Redmi 9T 4GB/128GB Ocean",
     secondTitle: "Xiaomi Redmi 9T 4GB 128GB Ocean",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76698/juh5fp.jpeg",
     id: "24",
@@ -726,7 +758,7 @@ const Data = [
       cost: "2 214 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Ocean",
       made_in: "China",
       total_weight: "200 gr",
@@ -747,6 +779,7 @@ const Data = [
     title: "Xiaomi Redmi 9T 2021 4GB/128GB Blue",
     secondTitle: "Xiaomi Redmi 9T 2021 4GB 128GB Blue",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76574/wi50yq.jpeg",
     id: "25",
@@ -757,7 +790,7 @@ const Data = [
       cost: "2 214 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Blue",
       made_in: "China",
       total_weight: "200 gr",
@@ -778,6 +811,7 @@ const Data = [
     title: "Xiaomi Redmi Note 9T 4GB/128GB Purple",
     secondTitle: "Xiaomi Redmi Note 9T 4GB 128GB Purple",
     brand: "Xiaomi",
+    brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78205/li2zxi.jpeg",
     id: "26",
@@ -788,7 +822,7 @@ const Data = [
       cost: "2 451 000",
     },
     properties: {
-      guarantee: "12 month",
+      guarantee: "12",
       color: "Purple",
       made_in: "China",
       total_weight: "200 gr",
@@ -811,6 +845,7 @@ const Data = [
     img: "https://py.abad.uz/media/images/73246/2tmi5a.jpeg",
     category: "Noutbuklar",
     brand: "Acer",
+    brandLogo: acerLogo,
     id: "27",
     price: {
       discount: false,
@@ -819,10 +854,11 @@ const Data = [
       cost: "7 123 455",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Red",
       procceccor: "Intel Core i5-8250U",
       total_weight: "6.8 kg",
+      made_in: "USA",
       store: "128GB",
       RAM: "8GB",
       ulchami: "1366x768 HD",
@@ -844,6 +880,7 @@ const Data = [
     img: "https://techno.uz/image/cache/catalog/333-700x500.jpg",
     category: "Noutbuklar",
     brand: "Acer",
+    brandLogo: acerLogo,
     id: "28",
     price: {
       discount: true,
@@ -852,10 +889,11 @@ const Data = [
       cost: "8 423 455",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       procceccor: "Intel Core i5-8250U",
       total_weight: "6kg",
+      made_in: "USA",
       store: "512GB",
       RAM: "16GB",
       ulchami: "1366x768 HD",
@@ -877,6 +915,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/1d5/1d515ac0dba6c107699faaa7e278e34a.jpg",
     category: "Noutbuklar",
     brand: "Lenovo",
+    brandLogo: lenovoLogo,
     id: "29",
     price: {
       discount: false,
@@ -885,7 +924,7 @@ const Data = [
       cost: "8 923 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "black",
       made_in: "Russia",
       procceccor: "Intel Core i5-8250U",
@@ -911,6 +950,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/b85/b8545f3ffb4e971e55dc21bba51fe1ab.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "30",
     price: {
       discount: false,
@@ -919,7 +959,7 @@ const Data = [
       cost: "10 105 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Gray",
       made_in: "USA",
       procceccor: "Intel Core i5-8250U",
@@ -944,6 +984,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/8e7/8e7d51be51f17497909c1eeec5d94c89.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "31",
     price: {
       discount: true,
@@ -952,7 +993,7 @@ const Data = [
       cost: "10 235 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Gray",
       made_in: "USA",
       store: "256GB",
@@ -977,6 +1018,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/30d/30d73ca12fa1bc2a072fd84777736e60.jpg",
     category: "Noutbuklar",
     brand: "Asus",
+    brandLogo: asusLogo,
     id: "32",
     price: {
       discount: true,
@@ -985,7 +1027,7 @@ const Data = [
       cost: "9 272 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Gray",
       made_in: "USA",
       store: "512GB",
@@ -1010,6 +1052,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/509/5090e8992794fab2fe91bf25063061d7.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "33",
     price: {
       discount: false,
@@ -1018,7 +1061,7 @@ const Data = [
       cost: "7 272 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Gray",
       made_in: "USA",
       store: "500GB",
@@ -1043,6 +1086,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/0cf/0cfb62e4682342e27ce425b2abcc1c9e.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "34",
     price: {
       discount: false,
@@ -1051,7 +1095,7 @@ const Data = [
       cost: "8 063 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Gray",
       made_in: "USA",
       store: "500GB",
@@ -1076,6 +1120,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/239/239efe0f575a5701231a9568d3750af8.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "35",
     price: {
       discount: false,
@@ -1084,7 +1129,7 @@ const Data = [
       cost: "10 753 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "500GB",
@@ -1109,6 +1154,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/8c5/8c565c90de53102bda5f2566009ed139.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "36",
     price: {
       discount: false,
@@ -1117,7 +1163,7 @@ const Data = [
       cost: "17 200 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "512GB",
@@ -1142,6 +1188,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/0b4/0b4e1b8cd22bdd80763bd8dc7e1488c7.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "37",
     price: {
       discount: false,
@@ -1150,7 +1197,7 @@ const Data = [
       cost: "10 428 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "White",
       made_in: "USA",
       store: "512GB",
@@ -1175,6 +1222,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/80f/80fd4219ffdce368392d0b14d6caeee3.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "38",
     price: {
       discount: false,
@@ -1183,7 +1231,7 @@ const Data = [
       cost: "17 200 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "512GB",
@@ -1208,6 +1256,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/191/1912909a4aba9bdb100bd7880eb3f1fe.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "39",
     price: {
       discount: false,
@@ -1216,7 +1265,7 @@ const Data = [
       cost: "19 200 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "512GB",
@@ -1241,6 +1290,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/a5a/a5a4a767c30ac9700b501fa1da55673d.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "40",
     price: {
       discount: false,
@@ -1249,7 +1299,7 @@ const Data = [
       cost: "6 500 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "256GB",
@@ -1274,6 +1324,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/981/981e9cbad4d5f4ae11a9345b92586b99.jpg",
     category: "Noutbuklar",
     brand: "HP",
+    brandLogo: hpLogo,
     id: "41",
     price: {
       discount: false,
@@ -1282,7 +1333,7 @@ const Data = [
       cost: "7 740 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "512GB",
@@ -1307,6 +1358,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/338/3385cbef22480f79b32e67585b9bb81e.jpg",
     category: "Noutbuklar",
     brand: "Asus",
+    brandLogo: asusLogo,
     id: "42",
     price: {
       discount: false,
@@ -1315,7 +1367,7 @@ const Data = [
       cost: "8 923 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "White",
       made_in: "USA",
       store: "1000GB",
@@ -1340,6 +1392,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/0de/0de4f7e47c044c4112177e627108a27e.jpg",
     category: "Noutbuklar",
     brand: "Lenovo",
+    brandLogo: lenovoLogo,
     id: "43",
     price: {
       discount: false,
@@ -1348,7 +1401,7 @@ const Data = [
       cost: "8 923 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Black",
       made_in: "USA",
       store: "128GB",
@@ -1373,6 +1426,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/10d/10d43cd3dfce84ab44460c57560b18fe.jpg",
     category: "Maishiy texnika",
     brand: "Artel",
+    brandLogo: artelLogo,
     id: "45",
     price: {
       discount: false,
@@ -1381,7 +1435,7 @@ const Data = [
       cost: "3 763 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "White",
       made_in: "uzbakistan",
       total_weight: "70kg",
@@ -1403,6 +1457,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
     category: "Maishiy texnika",
     brand: "Artel",
+    brandLogo: artelLogo,
     id: "46",
     price: {
       discount: false,
@@ -1411,7 +1466,7 @@ const Data = [
       cost: "4 789 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "White",
       made_in: "uzbakistan",
       total_weight: "60kg",
@@ -1433,6 +1488,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
     category: "Maishiy texnika",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     id: "47",
     price: {
       discount: false,
@@ -1441,7 +1497,7 @@ const Data = [
       cost: "3 523 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "White",
       made_in: "Korea",
       total_weight: "65kg",
@@ -1463,6 +1519,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
     category: "Maishiy texnika",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     id: "48",
     price: {
       discount: false,
@@ -1471,7 +1528,7 @@ const Data = [
       cost: "5 322 000",
     },
     properties: {
-      guarantee: "36 month",
+      guarantee: "36",
       color: "Gray",
       made_in: "Korea",
       total_weight: "65kg",
@@ -1493,6 +1550,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/eb8/eb8e97f3840497f291037577afb7e69f.jpg",
     category: "Televizorlar",
     brand: "Artel",
+    brandLogo: artelLogo,
     id: "49",
     price: {
       discount: false,
@@ -1501,7 +1559,7 @@ const Data = [
       cost: "7 763 000",
     },
     properties: {
-      guarantee: "18 month",
+      guarantee: "18",
       color: "black",
       made_in: "uzbakistan",
       total_weight: "5 kg",
@@ -1524,6 +1582,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/dca/dca6dc3f46bee8ccf2eaf2050582ad38.jpg",
     category: "Televizorlar",
     brand: "Artel",
+    brandLogo: artelLogo,
     id: "50",
     price: {
       discount: false,
@@ -1532,7 +1591,7 @@ const Data = [
       cost: "4 055 000",
     },
     properties: {
-      guarantee: "18 month",
+      guarantee: "18",
       color: "black",
       made_in: "uzbakistan",
       total_weight: "5 kg",
@@ -1555,6 +1614,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/84e/84efba19701ae344338fb9739026dbc3.jpg",
     category: "Televizorlar",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     id: "51",
     price: {
       discount: false,
@@ -1563,7 +1623,7 @@ const Data = [
       cost: "11 234 000",
     },
     properties: {
-      guarantee: "18 month",
+      guarantee: "18",
       color: "black",
       made_in: "uzbakistan",
       total_weight: "6 kg",
@@ -1586,6 +1646,7 @@ const Data = [
     img: "https://shopme.uz/upload/iblock/287/287eda3086c962ecc261edd9ae596dd5.jpg",
     category: "Televizorlar",
     brand: "Samsung",
+    brandLogo: samsungLogo,
     id: "52",
     price: {
       discount: false,
@@ -1594,7 +1655,7 @@ const Data = [
       cost: "20 234 000",
     },
     properties: {
-      guarantee: "18 month",
+      guarantee: "18",
       color: "black",
       made_in: "uzbakistan",
       total_weight: "4 kg",
@@ -1614,7 +1675,6 @@ const Data = [
 ];
 
 export default Data;
-
 
 // export const filteredCategory = (title) => {
 //   return Data.filter(date =>  date.category === title)

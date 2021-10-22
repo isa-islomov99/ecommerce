@@ -96,14 +96,11 @@ const App = () => {
       />
       <Route
         exact
-        path="/products/view/:id"
+        path="/product/view/:id"
         render={(props) => {
           return <ProductInfo {...props} />;
         }}
       />
-      {/* <Route exact path="/products/view">
-        <ProductInfo />{" "}
-      </Route> */}
       <Footer />
     </div>
   );
