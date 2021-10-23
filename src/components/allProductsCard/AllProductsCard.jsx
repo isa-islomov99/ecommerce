@@ -111,21 +111,21 @@ const AllProductsCard = (props) => {
                 lg={6}
                 xl={6}
               >
+                <div
+                  className="all_products_card__product_card_heart"
+                  onClick={handleHeart}
+                >
+                  {toggleHeart ? (
+                    <HeartFilled
+                      style={{ fontSize: "21px", color: "#a5c926" }}
+                    />
+                  ) : (
+                    <HeartOutlined
+                      style={{ fontSize: "21px", color: "#a5c926" }}
+                    />
+                  )}
+                </div>
                 <NavLink to={`/product/view/${item.secondTitle}`}>
-                  <div
-                    className="all_products_card__product_card_heart" 
-                    onClick={handleHeart}
-                  >
-                    {toggleHeart ? (
-                      <HeartFilled
-                        style={{ fontSize: "21px", color: "#a5c926" }}
-                      />
-                    ) : (
-                      <HeartOutlined
-                        style={{ fontSize: "21px", color: "#a5c926" }}
-                      />
-                    )}
-                  </div>
                   <div className="product_carousel_card_img">
                     <img
                       className="all_products_card__card_img"

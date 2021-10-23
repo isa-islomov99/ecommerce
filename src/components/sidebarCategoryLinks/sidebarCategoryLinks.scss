@@ -16,4 +16,8 @@
       box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
     }
   }
+  .active_link {
+    border: 2px solid $globalColor;
+    border-radius: 30px;
+  }
 }

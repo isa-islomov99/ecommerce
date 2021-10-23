@@ -6,7 +6,6 @@ const productSlice = createSlice({
   initialState: {
     brandsDate: [],
     filterCategory: [],
-    // filterProductDate: [],
     productDate: [],
   },
 
@@ -21,11 +20,6 @@ const productSlice = createSlice({
       state.brandsDate = Data.filter((date) => date.brand === action.payload);
     },
 
-    // Glavniy api.js file dagi filteredBrandCategory funksiyasini Redux Toolkit orqali qilingani
-    // filteredBrandCategory(state, action) {
-    //   state.filterProductDate = Data.filter(date => date.brand === action.payload && date.category === action.payload)
-    // },
-
     // Har bir productni uziga tegishli malumotini chiqarish uchun
     productView(state, action) {
       state.productDate = Data.filter(date =>  date.secondTitle === action.payload);
@@ -33,6 +27,6 @@ const productSlice = createSlice({
   },
 });
 
-export const { filteredBrands, filteredCategory, filteredBrandCategory, productView } = productSlice.actions;
+export const { filteredBrands, filteredCategory, productView } = productSlice.actions;
 
 export default productSlice.reducer;

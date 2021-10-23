@@ -119,45 +119,47 @@ const AllBrandsCard = (props) => {
                         />
                       )}
                     </div>
-                    <div className="product_carousel_card_img">
-                      <img
-                        className="all_products_card__card_img"
-                        src={item?.img}
-                        alt="card-img"
-                      />
-                    </div>
-                    <div className="product_carousel_card_info">
-                      {item.price.discount && (
-                        <span className="all_products_card__product_sale_text">
-                          Chegirma:
-                        </span>
-                      )}
-                      <p className="all_products_card__product_category">
-                        {item.category}
-                      </p>
-                      <div className="all_products_card__product_price">
-                        <h5
-                          className={
-                            item.price.discount
-                              ? "all_products_card__product_price_text"
-                              : "all_products_card__product_sale_price_text"
-                          }
-                        >
-                          {item.price.cost} so'm
-                        </h5>
+                    <NavLink to={`/product/view/${item.secondTitle}`}>
+                      <div className="product_carousel_card_img">
+                        <img
+                          className="all_products_card__card_img"
+                          src={item?.img}
+                          alt="card-img"
+                        />
+                      </div>
+                      <div className="product_carousel_card_info">
                         {item.price.discount && (
-                          <span className="all_products_card__product_price_sale">
-                            {item.price.discount_price} so'm
+                          <span className="all_products_card__product_sale_text">
+                            Chegirma:
                           </span>
                         )}
+                        <p className="all_products_card__product_category">
+                          {item.category}
+                        </p>
+                        <div className="all_products_card__product_price">
+                          <h5
+                            className={
+                              item.price.discount
+                                ? "all_products_card__product_price_text"
+                                : "all_products_card__product_sale_price_text"
+                            }
+                          >
+                            {item.price.cost} so'm
+                          </h5>
+                          {item.price.discount && (
+                            <span className="all_products_card__product_price_sale">
+                              {item.price.discount_price} so'm
+                            </span>
+                          )}
+                        </div>
+                        <p className="all_products_card__product_title">
+                          {item.title}
+                        </p>
+                        <button className="all_products_card__product_btn">
+                          Xarid qilish
+                        </button>
                       </div>
-                      <p className="all_products_card__product_title">
-                        {item.title}
-                      </p>
-                      <button className="all_products_card__product_btn">
-                        Xarid qilish
-                      </button>
-                    </div>
+                    </NavLink>
                   </Col>
                 ))}
             </Row>

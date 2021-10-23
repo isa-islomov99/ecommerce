@@ -6,13 +6,8 @@ import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { filteredBrandCategory } from "../../service/api";
 import SidebarCategoryLinks from "../sidebarCategoryLinks/SidebarCategoryLinks";
 
-// import { useDispatch, useSelector } from "react-redux";
-// import { filteredBrandCategory } from "../../store/productSlice";
-
 const FilteredBrandCategory = (props) => {
   const { match, history } = props;
-
-  // const dispatch = useDispatch();
 
   // 14,15,16 - qatordagi kodla qaysi brandga kirsa usha brendni nomini olish uchun Match ni url ni arrayga utqazib brand nomini kesib olib yana uni stringga utqazib filteredBrandCategory ga argument sifatida berib yuborilgan
   const cutUrl = match.url;
@@ -21,9 +16,6 @@ const FilteredBrandCategory = (props) => {
 
   // Brand va category larni filter qilib olish uchun
   const data = filteredBrandCategory(convertToString, match.params.id);
-
-  // Redux Toolkitdan data larni olish
-  // const data = useSelector((state) => state.products.filterProductDate);
 
   // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
@@ -49,10 +41,6 @@ const FilteredBrandCategory = (props) => {
     setCurrentPage(val);
     window.scrollTo(0, 190);
   };
-
-  // useEffect(() => {
-  //   dispatch(filteredBrandCategory(convertToString, match.params.id));
-  // }, []);
 
   return (
     <div className="all_products_card">
@@ -123,45 +111,47 @@ const FilteredBrandCategory = (props) => {
                         />
                       )}
                     </div>
-                    <div className="product_carousel_card_img">
-                      <img
-                        className="all_products_card__card_img"
-                        src={item?.img}
-                        alt="card-img"
-                      />
-                    </div>
-                    <div className="product_carousel_card_info">
-                      {item.price.discount && (
-                        <span className="all_products_card__product_sale_text">
-                          Chegirma:
-                        </span>
-                      )}
-                      <p className="all_products_card__product_category">
-                        {item.category}
-                      </p>
-                      <div className="all_products_card__product_price">
-                        <h5
-                          className={
-                            item.price.discount
-                              ? "all_products_card__product_price_text"
-                              : "all_products_card__product_sale_price_text"
-                          }
-                        >
-                          {item.price.cost} so'm
-                        </h5>
+                    <NavLink to={`/product/view/${item.secondTitle}`}>
+                      <div className="product_carousel_card_img">
+                        <img
+                          className="all_products_card__card_img"
+                          src={item?.img}
+                          alt="card-img"
+                        />
+                      </div>
+                      <div className="product_carousel_card_info">
                         {item.price.discount && (
-                          <span className="all_products_card__product_price_sale">
-                            {item.price.discount_price} so'm
+                          <span className="all_products_card__product_sale_text">
+                            Chegirma:
                           </span>
                         )}
+                        <p className="all_products_card__product_category">
+                          {item.category}
+                        </p>
+                        <div className="all_products_card__product_price">
+                          <h5
+                            className={
+                              item.price.discount
+                                ? "all_products_card__product_price_text"
+                                : "all_products_card__product_sale_price_text"
+                            }
+                          >
+                            {item.price.cost} so'm
+                          </h5>
+                          {item.price.discount && (
+                            <span className="all_products_card__product_price_sale">
+                              {item.price.discount_price} so'm
+                            </span>
+                          )}
+                        </div>
+                        <p className="all_products_card__product_title">
+                          {item.title}
+                        </p>
+                        <button className="all_products_card__product_btn">
+                          Xarid qilish
+                        </button>
                       </div>
-                      <p className="all_products_card__product_title">
-                        {item.title}
-                      </p>
-                      <button className="all_products_card__product_btn">
-                        Xarid qilish
-                      </button>
-                    </div>
+                    </NavLink>
                   </Col>
                 ))}
             </Row>

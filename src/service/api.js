@@ -36,7 +36,6 @@ const Data = [
       "Siz Samsung Galaxy A32 4/64GB Awesome Blackni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Samsung Galaxy A32 4/64GB Awesome Blackni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Samsung Galaxy A32 4/64GB Awesome Blackni kreditga olish shart emas.",
     product_Corusel_Imgs: [
        "https://olcha.uz/image/original/products/nuLlUceSeSMND0d0ahV8WweIdA4N3qNVQBgxbGDWrZ9Cv1TDWF68KgzZq5ln.jpeg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
     ],
   },
   {
@@ -56,7 +55,7 @@ const Data = [
     properties: {
       guarantee: "12",
       color: "Red",
-      made_in: "China",
+      made_in: "Korea",
       total_weight: "210 gr",
       store: "128 GB",
       RAM: "4 GB",
@@ -65,10 +64,10 @@ const Data = [
     description:
       "Samsung Galaxy A12 3/32GB Red Carbon Grayni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/n2dSnCKZ67j5hHscg76c6CmQ9R0NlLGoej8mDifyDkMuOGcrhF3Jo5rO6p0n.jpeg",
+       "https://olcha.uz/image/original/products/uOvo3I8nREGbXoe5hfg7JVPjzeJ8gS1IUIpDkRogJajTvnAOHDE2tofnGw45.jpeg",
+       "https://olcha.uz/image/original/products/2sHxli7HRSm0oSGG591cvgctuOUj8teO0He8l7yNBHyAIQrhB7y5c2tZtTuN.jpeg",
+       "https://olcha.uz/image/original/products/ykdEFY7uyiYWdndP3W7TUt7dT2KfV4uXYTQnvdO9wU9eUYAqFndxGKDbgrHT.jpeg",
     ],
   },
   {
@@ -97,10 +96,8 @@ const Data = [
     description:
       "Xiaomi Redmi Note 9 2021 3GB/64GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/ihLMAwmUKyWL3TxItOX6pSnwCpeKlFrpo1w3QT0SckRtgjzFVHtYVt4bvX1D.jpeg",
+       "https://olcha.uz/image/original/products/7wtp12ZWfeGdQSOZcOLHcKTuCm8YUSPykNdkop6WawN8HdSW8caphvqmTSv6.jpeg",
     ],
   },
   {
@@ -129,10 +126,8 @@ const Data = [
     description:
       "Xiaomi Redmi 9T 4GB/128GB NFC Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/KgnRAs0yTfawX4A1Rt56MeIFI0KILcZnAQ2aKM8y6jGIjEokoRZOWJYKYksY.jpeg",
+       "https://olcha.uz/image/original/products/lsM1HZaZt5w4tfRnigBgAw2jQXsShjNcFk5wsvd78ps5hG1jGFJR0iL1EAjb.jpeg",
     ],
   },
   {
@@ -161,10 +156,7 @@ const Data = [
     description:
       "Samsung Galaxy A02 2GB/32GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Samsung Galaxy A32 4/64GB Awesome Blackni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Samsung Galaxy A32 4/64GB Awesome Blackni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/tIt1MII4a7oEcb6QN5claDYK413vFaMSbVnNiLmX1QIKCiRgfbTW4087vkJH.jpeg",
     ],
   },
   {
@@ -193,10 +185,10 @@ const Data = [
     description:
       "Samsung Galaxy A72 6/128GB Gray Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Samsung Galaxy A32 4/64GB Awesome Blackni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Samsung Galaxy A32 4/64GB Awesome Blackni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/lbiV56m884eskiJqs7UXoxbdx7LNBZ73EnTO1ltnRKYU0zah1FhYKxNwCJ1Y.jpeg",
+       "https://olcha.uz/image/original/products/CEimRFXIyKEkPEvYjSPSVYCkSDvyrghG70jEoDDHWI1DIYaNHUGuI76DTU6H.jpeg",
+       "https://olcha.uz/image/original/products/4ythytfJFpaG5ynBDlAbEZdLnVZVZ2Oth04Z37IqrBNaKhsBpEzmBAUPbwd5.jpeg",
+       "https://olcha.uz/image/original/products/Wrp3dOBbCFtsNhS81eJJZ0lWRIgs2VYmIqTCZ7C4D89lQm6x3NLmb2jgjhMD.jpeg",
     ],
   },
   {
@@ -225,13 +217,13 @@ const Data = [
     description:
       "Apple iPhone 13 Pro Max 1TB Gold Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://py.abad.uz/media/images/65451/2au4zl.jpeg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/n7drIlm1u4uCuocQTsVIzfCkVx6L0i2QOEXpHtAALqKPaUqdZ6vvuJQMU8t8.jpeg",
+       "https://olcha.uz/image/original/products/aQZWrqElk7ajaCJ9vj2bvrsifxlOhh7PaL1Rs36CZxHPYwZruBy9FnVz4oiX.jpeg",
     ],
   },
   {
-    title: "Samsung Galaxy A12 3 32GB A125 Blue",
-    secondTitle: "Samsung Galaxy A12 3/32GB A125 Blue",
+    title: "Samsung Galaxy A12 3/32GB A125 Blue",
+    secondTitle: "Samsung Galaxy A12 3 32GB A125 Blue",
     brand: "Samsung",
     brandLogo: samsungLogo,
     category: "Smartfonlar",
@@ -255,10 +247,9 @@ const Data = [
     description:
       "Samsung Galaxy A12 3/32GB A125 Blue Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Samsung Galaxy A32 4/64GB Awesome Blackni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Samsung Galaxy A32 4/64GB Awesome Blackni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/PRMbSkJsVmKZZi453U5xUvzrrDeFX249Xuinali42Pa1YpOstkha3s5m9qyV.jpeg",
+       "https://olcha.uz/image/original/products/icJlD886zJoqrQTYMnAxKyKUWtAibHuXwrsN4qHOIKonX1jXpgfufDkrNV1u.jpeg",
+       "https://olcha.uz/image/original/products/NuiLEg2OT6GDqUbv5grqRIySfZfCC5Qf4NcydBb1SknswG256pU1CEsDz6hR.jpeg",
     ],
   },
   {
@@ -287,10 +278,10 @@ const Data = [
     description:
       "Samsung Galaxy A72 4/64GB Blue Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/vYXJWquA8q5Y3A5iGkuBKs4fcPY14fKqjdmjKhg8U1bsrMossqU4ko3VlNgI.jpeg",
+       "https://olcha.uz/image/original/products/mll5busPZjpzBRuOGurUcvgEn43b0tMTATTPpCz2wLBw2nwGeYJjgHfZ6rF0.jpeg",
+       "https://olcha.uz/image/original/products/Mpal6A8el3rovkXEZgIyuWx4niMgKeYVHst0MavMu4aMMDfQcBXBwBfLci1x.jpeg",
+       "https://olcha.uz/image/original/products/e5B4C2jHUjZNxJtsVDTJaJyfmDzqddBQaHlNUKTy3MhDAvm5TDHo4Uvcrp4M.jpeg",
     ],
   },
   {
@@ -319,10 +310,9 @@ const Data = [
     description:
       "Apple Iphone 13 mini 512gb Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/DoruW7m8q8nSlZf0xPX9oGtTOgxPLVk4uQtWplGcyIzpgxmyo2iDpDHaBO8O.jpeg",
+       "https://olcha.uz/image/original/products/YEkVPtmPqF2S3qaPNBSLCBtLAcXDH7MQCy2jjgiU9MDPmlpOCaU5XyCipCFF.jpeg",
+       "https://olcha.uz/image/original/products/bXXqqS587Uv3hyt5Q52awm8vl9NE6aN5LpkWwsYNJzWcEFuZAPUiKEoKh47k.jpeg",
     ],
   },
   {
@@ -351,10 +341,7 @@ const Data = [
     description:
       "Samsung Galaxy S21 Ultra 5G 12/256GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/glJiYq5mcBDu5LowDfuVGHF72fLimHPnRCdFTy9SQlF11QNvc9Q2nA08VPAZ.jpeg",
     ],
   },
   {
@@ -383,10 +370,10 @@ const Data = [
     description:
       "Samsung Galaxy A52 SM-A525F/DS Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      "https://olcha.uz/image/original/products/vYXJWquA8q5Y3A5iGkuBKs4fcPY14fKqjdmjKhg8U1bsrMossqU4ko3VlNgI.jpeg",
+      "https://olcha.uz/image/original/products/mll5busPZjpzBRuOGurUcvgEn43b0tMTATTPpCz2wLBw2nwGeYJjgHfZ6rF0.jpeg",
+      "https://olcha.uz/image/original/products/Mpal6A8el3rovkXEZgIyuWx4niMgKeYVHst0MavMu4aMMDfQcBXBwBfLci1x.jpeg",
+      "https://olcha.uz/image/original/products/e5B4C2jHUjZNxJtsVDTJaJyfmDzqddBQaHlNUKTy3MhDAvm5TDHo4Uvcrp4M.jpeg",
     ],
   },
   {
@@ -415,10 +402,10 @@ const Data = [
     description:
       "Samsung Galaxy S10 Lite SM-G770F/DS Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/j3IqSEFSWEB4Ua5SFSbNQ3QCD6DloJtbbSKOMQGihQvZvCCWgzPHhxwMGD3t.jpeg",
+       "https://olcha.uz/image/original/products/91TY51pJ27B3UfhHCi5ECFmpHjS0fsLs8N80Jo0exe049RAXFbYUwVi9wNGu.jpeg",
+       "https://olcha.uz/image/original/products/mccNzDGR2hUKXqxiINHMyGkEvwlwkjmZ9Qs7JXXsSBMizILdhCXC7QfIq9Sf.jpeg",
+       "https://olcha.uz/image/original/products/MhWE1vuGe6hEtzrDP2alj4rzst3Ja7767NRqoDFxvhYX8YF6CuiJemHBa30q.jpeg",
     ],
   },
   {
@@ -447,10 +434,8 @@ const Data = [
     description:
       "Samsung Galaxy S20 Ultra 5G SM-G988B/DS Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/IRpJyRs7jKLVqwSHZhicNt20blTcwknsdnzkw4vhD1CRAkIEqgbZ54eVAVaL.jpeg",
+       "https://olcha.uz/image/original/products/UKOlN2XGDrOgbgITQEb2dM5kBXeUUWO8Pfe29W02pHcFmKxLISEuDH0pSGKg.jpeg",
     ],
   },
 
@@ -480,10 +465,9 @@ const Data = [
     description:
       "Apple Iphone 13 128GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/HkzKTVCeGFtsGqyMv7VFNrJoKdJjTxoCiGaGoNayTfWXOrr886uixOJv4Fvu.jpeg",
+       "https://olcha.uz/image/original/products/Rjwq5FfFSYDnnzD4n3DTEGBoIOZQdkgvK81RIfNtcvtNhGIJQPPbfxT6GwbI.jpeg",
+       "https://olcha.uz/image/original/products/oHUvADMhpV3QbifyFKUAkbxW5iUOKpRWL2HCv1P9L25Vs9xo4BFrmszasuXa.jpeg",
     ],
   },
   {
@@ -512,10 +496,8 @@ const Data = [
     description:
       "Apple iPhone 13 Pro Max 256GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/vd94YPSPi7GOfqtRtI2zLIMdKjwkoxHLScIqpp2r5Xk8gdZeGIB4WXt6Lu2m.jpeg",
+       "https://olcha.uz/image/original/products/K4YmoAA9Nwv1GMGP3mgP1rHJxBoWVDLZuIcCni4dTCiyBLz3SPY6KbLRZJRf.jpeg",
     ],
   },
   {
@@ -544,29 +526,27 @@ const Data = [
     description:
       "Apple iPhone 12 Pro Max 256GB Gold Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/MuM4ajBmrRiJpELXcp0kuU8THxArRwZ4l2OlDKwNRUoYx9zxml7gYdbGUVof.jpeg",
+       "https://olcha.uz/image/original/products/yg6VGOwRRtdo6fdbuawi9HT9M5ah6QqQkH9WzCNobY9t765H8iY0wgkiE68F.jpeg",
     ],
   },
   {
-    title: "Apple iPhone SE 128GB White",
-    secondTitle: "Apple iPhone SE 128GB White",
+    title: "Apple iPhone 13 Mini 256GB Midnight",
+    secondTitle: "Apple iPhone 13 Mini 256GB Midnight",
     brand: "Apple",
     brandLogo: appleLogo,
     category: "Smartfonlar",
-    img: "https://py.abad.uz/media/images/71776/q65b1u.jpeg",
+    img: "https://py.abad.uz/media/images/78267/onh236.jpeg",
     id: "18",
     price: {
       discount: true,
-      discount_price: "6 515 000",
-      previous_price: "8 288 000",
-      cost: "8 288 000",
+      discount_price: "11 515 000",
+      previous_price: "13 392 000",
+      cost: "13 392 000",
     },
     properties: {
       guarantee: "12",
-      color: "White",
+      color: "Midnight",
       made_in: "USA",
       total_weight: "210 gr",
       store: "128GB",
@@ -574,12 +554,10 @@ const Data = [
     },
 
     description:
-      "Apple iPhone SE 128GB White Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
+      "Apple iPhone 13 Mini 256GB Midnight ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Apple iPhone 13 Mini 256GB Midnight ni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Apple iPhone 13 Mini 256GB Midnightni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/pq42FVqSoRyOAatkGiHeSSihDA5reCwMvaySztM2t3zyeDcoklO6EWtIoK4q.jpeg",
+       "https://olcha.uz/image/original/products/NdFPYduJnkjxCv24TTdPEVHhpn9KCpUjjWtLw5KmOg9YUO5opw8hrvnKqosq.jpeg",
     ],
   },
   {
@@ -608,42 +586,36 @@ const Data = [
     description:
       "Apple iPhone 11 64GB White Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/9Pa0HqIr9QyJ4QZYtkEg0t3LB3hpsxDGt2oKzOXEvtcsQxMCbOzYeOuIdXGf.jpeg",
     ],
   },
   {
-    title: "Apple iPhone XS 64GB Gold",
-    secondTitle: "Apple iPhone XS 64GB Gold",
+    title: "Apple iPhone 13 Pro Max 512GB GB Dual Blue",
+    secondTitle: "Apple iPhone 13 Pro Max 512GB GB Dual Blue",
     brand: "Apple",
     brandLogo: appleLogo,
     category: "Smartfonlar",
-    img: "https://py.abad.uz/media/images/47623/06d2a5dff4bf1f4b4d6c43a73a10b48e.jpeg",
+    img: "https://py.abad.uz/media/images/78234/mpecy2.jpeg",
     id: "20",
     price: {
       discount: false,
       discount_price: "0",
-      previous_price: "6 758 000",
-      cost: "6 758 000",
+      previous_price: "24 300 000",
+      cost: "24 300 000",
     },
     properties: {
       guarantee: "12",
-      color: "Gold",
+      color: "Blue",
       made_in: "USA",
       total_weight: "220 gr",
-      store: "64GB",
-      RAM: "8 GB",
+      store: "512GB",
+      RAM: "56 GB",
     },
 
     description:
-      "Apple iPhone XS 64GB Gold Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
+      "Apple iPhone 13 Pro Max 512GB GB Dual Blue Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/8dsZtRAjMXrD9sE4DERsgUEWigkpSqaqL4yZnlQXd9n1cKHI6pfw7njM7kmf.jpeg",
     ],
   },
   {
@@ -672,10 +644,8 @@ const Data = [
     description:
       "Xiaomi Redmi Note 8 2021 4GB/64GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/WlNdndPGoaP9QNjzaNTPK4D1ErIxJHAc86xJ4jvEXklyqSr5rsBxBXV4y6WE.jpeg",
+       "https://olcha.uz/image/original/products/NdzgztyGFFNKkBYUW7DYEMrZ6q8Gt4DgL5FauyDC3xmvjWUcRO3Bwaov0j4k.jpeg",
     ],
   },
   {
@@ -684,7 +654,7 @@ const Data = [
     brand: "Xiaomi",
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
-    img: "https://py.abad.uz/media/images/77778/zgj9lm.jpeg",
+    img: "https://py.abad.uz/media/images/76696/qirewc.jpeg",
     id: "22",
     price: {
       discount: false,
@@ -704,10 +674,8 @@ const Data = [
     description:
       "Xiaomi Mi 10T Lite 6GB/128GB Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/ihLMAwmUKyWL3TxItOX6pSnwCpeKlFrpo1w3QT0SckRtgjzFVHtYVt4bvX1D.jpeg",
+       "https://olcha.uz/image/original/products/7wtp12ZWfeGdQSOZcOLHcKTuCm8YUSPykNdkop6WawN8HdSW8caphvqmTSv6.jpeg",
     ],
   },
 
@@ -737,10 +705,7 @@ const Data = [
     description:
       "Xiaomi Redmi Note 8 2021 4GB/64GB Blue Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/XSA1cVAnXD80E8BQkGOfIHNesd3MYKusD1zl8Kdgl7op43WUjkp6w5HU2yTv.jpeg",
     ],
   },
   {
@@ -769,10 +734,8 @@ const Data = [
     description:
       "Xiaomi Redmi 9T 4GB/128GB Ocean Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/GkWwuQx4cVDFCwB7UzEkSwL876uyg4NPTZhSAC2eheBmYXB6ODoPMKcxa4sK.jpeg",
+       "https://olcha.uz/image/original/products/Q5Y3vrY4o5xKE9MXdQAb59wJuV0Xnf0iltWKP32fa8dVUwua40eVA8v1rHAU.jpeg",
     ],
   },
   {
@@ -801,10 +764,8 @@ const Data = [
     description:
       "Xiaomi Redmi 9T 2021 4GB/128GB Blue Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/nkVetiStqMqOvCboECzGaTXbHy8A3yUV5VCfILHU6K0FOL9aGcNW9O7IfqGs.jpeg",
+       "https://olcha.uz/image/original/products/G2O4HL4128IgZxjgixB6fEEUZlUQCpwrBC1oublR6ORzlDS875JIBTELhBtx.jpeg",
     ],
   },
   {
@@ -833,10 +794,8 @@ const Data = [
     description:
       "Xiaomi Redmi Note 9T 4GB/128GB Purple Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Xiaomi Redmi 9T 4/128GB Carbon Grayni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Xiaomi Redmi 9T 4/128GB Carbon Grayni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/oYdpv5q6ai83AbtkIFGUx8wCwtmHIKZmpNaEsY5QIbWbCpWuLVBZS46UjGk2.jpeg",
+       "https://olcha.uz/image/original/products/mo5LRrR1TnANzvM6PHXtfGAHOISzv58ltCAGOy0wLMJhyBahybypEREfXP4q.jpeg",
     ],
   },
   {
@@ -868,10 +827,10 @@ const Data = [
     description:
       "Acer Swift 3 SF314-54-54YH NX.GZXER.003 Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/YfcTggIz8TputrMMaJn1Sg4OU9PvPtdle4EsDpXT4GXwUDcvK1DXux5L8tXx.jpeg",
+       "https://olcha.uz/image/original/products/oHDlVyMWmWwAkFDFOiVB3QijIONZDxdpfX5HvQsEVgeG3bRuPCnTZyzqhGje.jpeg",
+       "https://olcha.uz/image/original/products/ZDjNnO0WuEiIo23Te5aB16cfvQVFt9gsQRs7Uz2R4b6mrigWJT8KRWaVwvlX.jpeg",
+       "https://olcha.uz/image/original/products/kE2Vwl5W3zq2C3Bhd5eUhOdOFgwA8bJvtjBxTgPuoeor6bBVm5MQeb1Kl2Fp.jpeg",
     ],
   },
   {
@@ -903,10 +862,10 @@ const Data = [
     description:
       "ACER i5/512/16 GB P10 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/YfcTggIz8TputrMMaJn1Sg4OU9PvPtdle4EsDpXT4GXwUDcvK1DXux5L8tXx.jpeg",
+       "https://olcha.uz/image/original/products/Ltalvjou1lbWiQ6WnQNUc75xbbaj2KK9UZa47PxSWwv4jnz0WDX7QxDwfjhM.jpeg",
+       "https://olcha.uz/image/original/products/oHDlVyMWmWwAkFDFOiVB3QijIONZDxdpfX5HvQsEVgeG3bRuPCnTZyzqhGje.jpeg",
+       "https://olcha.uz/image/original/products/ikF3OkQ8rU3Prit5bUoAFI7lsqOW2DqKFdmsGytiVyjmQljwiXaL1XKqQlYk.jpeg",
     ],
   },
   {
@@ -938,10 +897,10 @@ const Data = [
     description:
       "Lenovo ThinkPad X280 /Intel i5-8250U ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/t0d2BTnBdwK4KveyZC0Cm3e343TeG8VUnu9LzYFFOOByThuky5cTVfBJyCKy.jpeg",
+       "https://olcha.uz/image/original/products/D7y7myHsn9QaSZ8A2xW5Hhuv6esQXwMeuubDRyWcJl243cjyTOg6aQSZSc3S.jpeg",
+       "https://olcha.uz/image/original/products/ZbGCX5YrVBI8BVRX6JcMyu0bc9MR1z6OForZ6hpLViRHUiqTH5rpJV2RvUhF.jpeg",
+       "https://olcha.uz/image/original/products/xHEhOTxh1txtTXVNvzOqHn4OzSWZ9UagZE4JR8hB5hOoXvb2ELB89pN1JpAB.jpeg",
     ],
   },
   {
@@ -972,10 +931,9 @@ const Data = [
     description:
       "HP EliteBook 1040 G4 (705) /Intel i5-7200U ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/N143Ea8zGIjYdUBrX670Eup5EZd4EFRld3kZvAolNNGYvaaXnWzmM387tswE.jpeg",
+       "https://olcha.uz/image/original/products/0YQhHwU8usRM4EqemPg03biRuzEl4qEcf1Omy3OpCavWDyK1uI6jkSVkuPYC.jpeg",
+       "https://olcha.uz/image/original/products/nxXaZUAuuN347vPI1PXfreoIHjEzEArmwDUXe8Yb5hdvcfAFk2mdbQGxGrOm.jpeg",
     ],
   },
   {
@@ -988,7 +946,7 @@ const Data = [
     id: "31",
     price: {
       discount: true,
-      discount_price: "0",
+      discount_price: "8 456 000",
       previous_price: "8 456 000",
       cost: "10 235 000",
     },
@@ -1006,10 +964,10 @@ const Data = [
     description:
       "HP Spectre x360 13-ap0031ur(909) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/yq1KwhH5wmq4STLshqAVA0rtS651xi0waTFzVn96yeVoZthWgjyDULzhS3nu.jpeg",
+       "https://olcha.uz/image/original/products/sHg6zXDVoMOeLWYQ1QiCCEdof5kUi2bzS0bAiKI9nkW3l9Hna7Zzx8xlIb1p.jpeg",
+       "https://olcha.uz/image/original/products/wunCEwE1jEJ9pDqH2xQZVBL3MooVCvBW9emdWDkFDLeHG4wnNh6bjW8Rx4KC.jpeg",
+       "https://olcha.uz/image/original/products/H6twbl6ROo1DUFxOWSlknKkwNFMOsInwJXURBWBuDIZLpoSD9hW2RKPNROdd.jpeg",
     ],
   },
   {
@@ -1022,7 +980,7 @@ const Data = [
     id: "32",
     price: {
       discount: true,
-      discount_price: "0",
+      discount_price: "8 986 000",
       previous_price: "8 986 000",
       cost: "9 272 000",
     },
@@ -1040,10 +998,10 @@ const Data = [
     description:
       "ASUS UX433FAC ( Intel® Core™ i5 10210U/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/GooluZQYn5t9ahI97yEIjKTSVvk3JGUVObGvn0q8vIG9PI3wSuZlgIHH0TYW.jpeg",
+       "https://olcha.uz/image/original/products/QouTxKZszt04D5eH9jKHKWrno7q5r0XmlQc8MI9tEsCM6CkzTBRfuakEgyd2.jpeg",
+       "https://olcha.uz/image/original/products/6eSWAeOXlYTV6ocsvEiV0qJ1tCL5YQmPgiwU0oOBPQXIURqXGXdykPjWaPAu.jpeg",
+       "https://olcha.uz/image/original/products/Au8Sl18C4bM39Zm9jhhlS0SlZNHaFWf63yhxdmX6h5naM8d5X4UJUvtkniv9.jpeg",
     ],
   },
   {
@@ -1074,10 +1032,9 @@ const Data = [
     description:
       " HP Probook 640 G3 (198)/Intel i5-7200U/DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/VprvgBpZXDk9DxErMPpTQI6Epxp6XoKbiG2Zl0QzTVks2IuKD8XbXm85e9Js.jpeg",
+       "https://olcha.uz/image/original/products/yDfou5cpVJgjhxM10qCl43Yccxojvek13uCe4cVW0PTwejntm2LDoy3w1mUy.jpeg",
+       "https://olcha.uz/image/original/products/5qFbTdjeiqOW2z2K8adFSaHDjWw479tlBeRWj0uLSmpgj3qf40cZ5m9NtMOV.jpeg"
     ],
   },
   {
@@ -1108,10 +1065,9 @@ const Data = [
     description:
       "HP Pavilion 15-cs2050ur (150) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      "https://olcha.uz/image/original/products/N143Ea8zGIjYdUBrX670Eup5EZd4EFRld3kZvAolNNGYvaaXnWzmM387tswE.jpeg",
+      "https://olcha.uz/image/original/products/0YQhHwU8usRM4EqemPg03biRuzEl4qEcf1Omy3OpCavWDyK1uI6jkSVkuPYC.jpeg",
+      "https://olcha.uz/image/original/products/nxXaZUAuuN347vPI1PXfreoIHjEzEArmwDUXe8Yb5hdvcfAFk2mdbQGxGrOm.jpeg",
     ],
   },
   {
@@ -1142,10 +1098,10 @@ const Data = [
     description:
       " HP Envy 15 x360 15-ds0002ur (R6M) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/eXzLVd30BuGIm9h7i7VAdK9PJE3J0KrzM5mQY6ujcjxP5bVmguNCpFkufgiN.jpeg",
+       "https://olcha.uz/image/original/products/fvGqr8spl2k6P4cvaoZhWR2FVTDBwOkXnsI7FH5YY6WtKSmB4yawRdr5M5mX.jpeg",
+       "https://olcha.uz/image/original/products/maLsw4meQhvsOjwL9UhD787edQRVB7hACQCor6Z4cmvF5GeVJxLzUYvNsRqP.jpeg",
+       "https://olcha.uz/image/original/products/qZz2UaMXeGbISIJYRHjdh6sJpvvDZWTSb59JzCN1Z2z7eHf7k4e6k7Iqs25Z.jpeg",
     ],
   },
   {
@@ -1176,10 +1132,9 @@ const Data = [
     description:
       " HP Elite Dragonfly (505) (Intel i5-8265U/ DDR4 512GB ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/5I2kP6I7sw9oOp0etE8Q15YKH6NvfujJvCPByrKSEPcEf9NCYzgwIDfH6KyS.jpeg",
+       "https://olcha.uz/image/original/products/pgCUFwd2z9M8EQXutUanl6q0LshbP2dGla29zEe6uCEqrJ1A8j7joYhaNbXD.jpeg",
+       "https://olcha.uz/image/original/products/2cJGR3xr4PYxQcYCxWa8Ze8yrLdctQ52K9z6ezKaz1H7rAStyfoq1FtxZqLO.jpeg",
     ],
   },
   {
@@ -1210,10 +1165,9 @@ const Data = [
     description:
       "HP Envy 13-aq0001ur (SDO) (Intel i5 - 8265U/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/YvfeNzOwtAz2uv5zmWsaoIzNFNIhABFxMjGtEk20ydak5W6sf8ArRSNViMJa.jpeg",
+       "https://olcha.uz/image/original/products/r4FszCFGWbdWQZiDWMymQwR5dkHDHWpSsZiGNVSgpKu9Imaw69zA1YSite3d.jpeg",
+       "https://olcha.uz/image/original/products/Y80hkZMqF3Dbd6vwbRRvbGvzUJVZXXarCpzp1M3HlvcakindZtovNLRJoVC3.jpeg",
     ],
   },
   {
@@ -1244,10 +1198,9 @@ const Data = [
     description:
       "HP Spectre x360 13-aw0003ur (011) (Intel i5-1035G4/ DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+      "https://olcha.uz/image/original/products/N143Ea8zGIjYdUBrX670Eup5EZd4EFRld3kZvAolNNGYvaaXnWzmM387tswE.jpeg",
+      "https://olcha.uz/image/original/products/0YQhHwU8usRM4EqemPg03biRuzEl4qEcf1Omy3OpCavWDyK1uI6jkSVkuPYC.jpeg",
+      "https://olcha.uz/image/original/products/nxXaZUAuuN347vPI1PXfreoIHjEzEArmwDUXe8Yb5hdvcfAFk2mdbQGxGrOm.jpeg",
     ],
   },
   {
@@ -1278,15 +1231,14 @@ const Data = [
     description:
       "HP Spectre x360 13-aw0006ur (244) (Intel i7-1065G7/ DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/YvfeNzOwtAz2uv5zmWsaoIzNFNIhABFxMjGtEk20ydak5W6sf8ArRSNViMJa.jpeg",
+       "https://olcha.uz/image/original/products/r4FszCFGWbdWQZiDWMymQwR5dkHDHWpSsZiGNVSgpKu9Imaw69zA1YSite3d.jpeg",
+       "https://olcha.uz/image/original/products/Y80hkZMqF3Dbd6vwbRRvbGvzUJVZXXarCpzp1M3HlvcakindZtovNLRJoVC3.jpeg",
     ],
   },
   {
     title: " HP Probook 430 G5 (065)/Intel i5-8250/ DDR4 256GB",
-    secondTitle: " HP Probook 430 G5 (065)/Intel i5-8250 DDR4 256GB",
+    secondTitle: " HP Probook 430 G5 (065) Intel i5-8250 DDR4 256GB",
     img: "https://shopme.uz/upload/iblock/a5a/a5a4a767c30ac9700b501fa1da55673d.jpg",
     category: "Noutbuklar",
     brand: "HP",
@@ -1312,10 +1264,9 @@ const Data = [
     description:
       " HP Probook 430 G5 (065)/Intel i5-8250/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/bMzUx9QSUx3TePiQwYbN3GQcgl9yGNwRhg3aQG3kzs9LK2OMNRtW9WLsTazU.jpeg",
+       "https://olcha.uz/image/original/products/KQ4ZblyXqXX6bnzSgd0JmEa1i7FK2IMSx65KTBdGF6k9OGv5RRmyM1VmaiHl.jpeg",
+       "https://olcha.uz/image/original/products/5qFbTdjeiqOW2z2K8adFSaHDjWw479tlBeRWj0uLSmpgj3qf40cZ5m9NtMOV.jpeg",
     ],
   },
   {
@@ -1346,10 +1297,8 @@ const Data = [
     description:
       "HP ProBook x360 G1 (Q1V) (Intel i5-8250U/ DDR4 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/FdYrH1PIS4NKmZiBsHNeoyZc8yJJKWQx0hkYClmPKbrcOeL5eQfIWBhqRbx0.jpeg",
+       "https://olcha.uz/image/original/products/rV6Jt4DZNEZZsASmFurTf7Z7O33O9WwjXQu9ZqkSg9ELU8Lu2KZv4Xxh6Mna.jpeg",
     ],
   },
   {
@@ -1380,10 +1329,9 @@ const Data = [
     description:
       " ASUS VivobookS X530FN (Intel® Core™ i5-8265U/ DDR4  ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/9dsKzhniQKGBL303kAIBoIPOedXOY8JfoAHhFow9Hwb0ICPlJSDtAeJdbJAt.jpeg",
+       "https://olcha.uz/image/original/products/y906ToKYUzcb5PIpxlfWHY1QLtgkbkxQfLfd92xFuw90jKsIGQl7622GIbDZ.jpeg",
+       "https://olcha.uz/image/original/products/7iPJvRju3x4aA6diX6HzoATNK6gULigQxIocBadQaA05yDksmCmTdae07oDN.jpeg",
     ],
   },
   {
@@ -1414,10 +1362,9 @@ const Data = [
     description:
       " Lenovo IdeaPad Legion Y540-15IRH (Intel I5-9300H/DDR4   ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/FYnORgFM1AAB5NqXNbyEwTVWZw5fnakD0LBIaA7G0LkWMK6PXDXpuQeR783w.jpeg",
+       "https://olcha.uz/image/original/products/mszZEpElT6scbLSQrwroiR1A0DJ4rcnbnCvMIDsy1f7Zt8cpmuQTxA0vMPgk.jpeg",
+       "https://olcha.uz/image/original/products/YRITJCBEGGL2hbJvlbQISGr4uUF8KvyPvnUhfRZehEfqcZfLfcHo0UcdlFM0.jpeg",
     ],
   },
   {
@@ -1445,10 +1392,8 @@ const Data = [
     description:
       "Artel 80К141 White 8kg ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/WQ5XMQqsBjf8ahfkTO5gNBLE9tFdEB3VZdrzaCsa799OVkMqII1WXMmBb2HB.jpeg",
+       "https://olcha.uz/image/original/products/eQYvln4pcg2EQDRqApa9Ft5FG7XdpZBXX39gBpXSb1tvyXC6YbIn2kl8zpes.jpeg"
     ],
   },
   {
@@ -1476,20 +1421,49 @@ const Data = [
     description:
       "Automat Artel 80K142-IP White 8kg ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/XD0kNUOWCkRPzKOJlLAH3nugXL4U78Ci3JQkSAonDvIu9FAZh3mMYN5a16h7.jpeg",
+       "https://olcha.uz/image/original/products/uFS1wetV9PArF0jqWbXLEgFWWpzgoAhM7yuXYPUnlGYNh5DwzFRcvkC61HQB.jpeg",
+       "https://olcha.uz/image/original/products/eAbfo3bO2AaOZip8slmTHREAvPAoIq174C5BsHBzWj7LMXaIssdIcnVrgbC3.jpeg",
+    ],
+  },
+  {
+    title: "Kir yuvish mashinasi Artel 60С101",
+    secondTitle: "Kir yuvish mashinasi Artel 60С101 (Gold)",
+    img: "https://shopme.uz/upload/iblock/fb2/fb203ee662498d8a663c07564cb85e2a.jpg",
+    category: "Maishiy texnika",
+    brand: "Artel",
+    brandLogo: artelLogo,
+    id: "47",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "5 231 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "Mokriy",
+      made_in: "uzbakistan",
+      total_weight: "60kg",
+      ulchami: "606x850 mm",
+    },
+
+    description:
+      "Kir yuvish mashinasi Artel 60С101 (Gold) ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/zIGd8H5HIqPQRcCaDdor9u3ufKcvMpviSoqFz5p5utZZJcAIJi8PPfIO5jBj.jpeg",
+       "https://olcha.uz/image/original/products/aM3argubz3ZtrBoyerybagEG3D7utBGeQTbdPlsfECqjzLW9vIE4xLcGexw6.jpeg",
+       "https://olcha.uz/image/original/products/97pfpgALj4bthGKCdnaRqWLtFpbKZjct2MGtg6CYWQcO8VN1N8btLG5OAvNt.jpeg",
     ],
   },
   {
     title: "Automat Samsung WW60J4210JWULD 6kg White",
     secondTitle: "Automat Samsung WW60J4210JWULD 6kg White",
-    img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
+    img: "https://shopme.uz/upload/iblock/1c7/1c791351f5eca5b9135097cff69c4e68.jpg",
     category: "Maishiy texnika",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "47",
+    id: "48",
     price: {
       discount: false,
       discount_price: "0",
@@ -1507,20 +1481,20 @@ const Data = [
     description:
       "Automat Samsung WW60J4210JWULD 6kg White ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/La1owE7zNk7XnAxikR0KqmzXAoFizRMSEvrqIeesSLPWAqA3PReC2k6gNn77.jpeg",
+       "https://olcha.uz/image/original/products/qrVYfd3sPilAUQOPkR6lc5yNroNtOiq0OAMJftGjowHII5TZPgp7XLLg1j5u.jpeg",
+       "https://olcha.uz/image/original/products/X53ORWFzd5RoLrqM222zxF3kNCwV00ZbQTshtKD3RJXfaBGzfGXAiMTnNQv1.jpeg",
+       "https://olcha.uz/image/original/products/wOhccx9lOZAr8f3QuAzpjivq6rajbvJ3tqGKd6n7uA4vKfisD9eL0i6dj3ak.jpeg",
     ],
   },
   {
     title: "Automat Samsung WW80K6210RS/LP 8kg Gray",
     secondTitle: "Automat Samsung WW80K6210RS LP 8kg Gray",
-    img: "https://shopme.uz/upload/iblock/07c/07c49ea22292378c1ac633081e7a970d.jpg",
+    img: "https://shopme.uz/upload/iblock/493/493a1f6175acb2c7c225160d4edea96e.jpg",
     category: "Maishiy texnika",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "48",
+    id: "49",
     price: {
       discount: false,
       discount_price: "0",
@@ -1538,10 +1512,161 @@ const Data = [
     description:
       "Automat Samsung WW80K6210RS/LP 8kg Gray ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/Yf41GhXrbkG1QNAeDufqQGwEn1JxHb5u4CMGbPI6hcXQi6EBVegvtyQLM7iU.jpeg",
+       "https://olcha.uz/image/original/products/K4Am2fUOxgGMmL6ZzynX1ATTfVhwMHxtKuKT5Eqry7MKN842tq5OaNrgioaS.jpeg",
+       "https://olcha.uz/image/original/products/LBJDKmLyckG2BxrFQI9nQXp79S818dFHPEGQahuXbnqFyBCvFBMQOsboi0Fc.jpeg",
+       "https://olcha.uz/image/original/products/bErtYfhlNd8nppEvXOTTpTD9wM8wPzqqvo9sEvYgwvLX7n27WBWEkjsEQVc5.jpeg",
+    ],
+  },
+  {
+    title: "Automat Samsung WW80K6210RS/LP 8kg",
+    secondTitle: "Automat Samsung WW80K6210RSLP 8kg",
+    img: "https://shopme.uz/upload/iblock/4b8/4b861e42e026ba0f853d29875a868145.jpg",
+    category: "Maishiy texnika",
+    brand: "Samsung",
+    brandLogo: samsungLogo,
+    id: "50",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "5 456 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "Gray",
+      made_in: "Korea",
+      total_weight: "55kg",
+      ulchami: "596x820 mm",
+    },
+
+    description:
+      "Automat Samsung WW80K6210RS/LP 8kg Gray ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/yKRArUPskBVxom4DZKUczBxtVnH67e748UwS1wcRtWSAk2Cl8GdvcSH5EkUV.jpeg",
+       "https://olcha.uz/image/original/products/IrfsRK3w5XQ0CNpGXf7DvG67D6M0vIoqznGNHAEq7Vpu5UCO0Xzgc9wcrWDS.jpeg",
+       "https://olcha.uz/image/original/products/ISp3YYFgnK3ZuMVzNI77z3TLiG8izX5LuitkWagwIBZwfL1zPfpysi7ld9d7.jpeg",
+       "https://olcha.uz/image/original/products/x25itCy8B9sRHsfYWBgt6iNmwNhqqAYfJkfocnPraxZK27wa79iSlel9o7uN.jpeg",
+    ],
+  },
+  {
+    title: "Automat Samsung WW60J4260HS/LD 6kg Silver",
+    secondTitle: "Automat Samsung WW60J4260HSLD 6kg Silver",
+    img: "https://shopme.uz/upload/iblock/863/863a957fede8ba339cc28762512a610e.jpg",
+    category: "Maishiy texnika",
+    brand: "Samsung",
+    brandLogo: samsungLogo,
+    id: "51",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "3 978 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "Silver",
+      made_in: "Korea",
+      total_weight: "65kg",
+      ulchami: "596x820 mm",
+    },
+
+    description:
+      "Automat Samsung WW60J4260HS/LD 6kg Silver Gray ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/UTr4RKt2NPqQ7EMqtDdv52USrJgYAAG0CaGH19JtKIbiOWOJCxJ63aYAvLsq.jpeg",
+       "https://olcha.uz/image/original/products/BBvxXD63hPAthSwggkhWHOErmv3AJnBfUlgsRa9VSImOGQxEGv4jcF0EHI1R.jpeg",
+       "https://olcha.uz/image/original/products/XvYvjLGEBdcq6D5SFL6mjjrIW6YJzDyvZPuU6VtLsY8jy42J0Zj0cj6SvJJ2.jpeg",
+       "https://olcha.uz/image/original/products/hafeUFpbxZj8IJEzfCuqltx1pY55SuTYjBw5sjKL83pVwzvKlZmDZuIvEdE5.jpeg",
+    ],
+  },
+  {
+    title: "Automat Artel 80K142224183-IP Gold 8kg",
+    secondTitle: "Automat Artel 80K142-IP Gold 8kg",
+    img: "https://shopme.uz/upload/iblock/fb2/fb203ee662498d8a663c07564cb85e2a.jpg",
+    category: "Maishiy texnika",
+    brand: "Artel",
+    brandLogo: artelLogo,
+    id: "52",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "4 221 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "Mokriy",
+      made_in: "uzbakistan",
+      total_weight: "60kg",
+      ulchami: "606x850 mm",
+    },
+
+    description:
+      "Automat Artel 80K142-IP Gold 8kg ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/VXruRsKPsq1kIYeOJrUBtpI9pvXMPGGsrv5zDBKcyDCmM1UyOmT7V4J9vXlz.jpeg",
+       "https://olcha.uz/image/original/products/dGzR5WjiCOprFD5wRKGjWd4ENnPehMzC9s0ILYvdo9MDINzIoINZm2LgittY.jpeg",
+       "https://olcha.uz/image/original/products/M6bUhLlDNZ2aJOyYteIfIcD4c7eFO3D7gXg5VqnZyVM6U8aapHKOMzoZGmhE.jpeg",
+    ],
+  },
+  {
+    title: "Automat Artel 80К141 White 8kg",
+    secondTitle: "Automat Artel 80К141 White 8kg",
+    img: "https://shopme.uz/upload/iblock/10d/10d43cd3dfce84ab44460c57560b18fe.jpg",
+    category: "Maishiy texnika",
+    brand: "Artel",
+    brandLogo: artelLogo,
+    id: "53",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "3 763 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "White",
+      made_in: "uzbakistan",
+      total_weight: "60kg",
+      ulchami: "606x850 mm",
+    },
+
+    description:
+      "Automat Artel 80К141 White 8kg ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/k8bsz9gp8TWksBNIRVIGL8qdNLQul3c0oCrB9IHfx5J1o8WZVJmRSgB7bKV1.jpeg",
+       "https://olcha.uz/image/original/products/1tQKxpZbvw4XDLKd4MeQK3jOoDZJSCqQ0K43d0HfNlZixHcC5am6GEZrozsj.jpeg",
+       "https://olcha.uz/image/original/products/KcBczLmwqiv04F0DOMaULd8bUbXrlRGTvgSKHn9GPw4DzxNmqcZb8Gzf9oAU.jpeg",
+    ],
+  },
+  {
+    title: "Pol Automat Artel TG 80 P 8 kg White",
+    secondTitle: "Pol Automat Artel TG 80 P 8 kg White",
+    img: "https://shopme.uz/upload/iblock/24d/24d29431bdeb5205d126c35bbb68c69a.jpg",
+    category: "Maishiy texnika",
+    brand: "Artel",
+    brandLogo: artelLogo,
+    id: "54",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "2200",
+      cost: "1 559 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "White",
+      made_in: "uzbakistan",
+      total_weight: "60kg",
+      ulchami: "606x850 mm",
+    },
+
+    description:
+      "Pol Automat Artel TG 80 P 8 kg White ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/8ZHg7zTJHyHrBd7dzpHbpT8BI7aP5bFS8D6hTaAOQu5X2d6DvJVv4rrdVhp6.jpeg",
+       "https://olcha.uz/image/original/products/L3kU9bUT73X42e8H8s4SvZNeVNj2gutwFsnRMfEI2jQWX8kF8rfkX1uAZ1yv.jpeg",
     ],
   },
   {
@@ -1551,7 +1676,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "49",
+    id: "55",
     price: {
       discount: false,
       discount_price: "0",
@@ -1570,10 +1695,8 @@ const Data = [
     description:
       "Siz Artel 50AU20H 4K UHD Android TV Full HD ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/Uecf38cjoEozd8oVWlTBTJJjWfRqT3LwYa54F3IeNt9Y1gncDKasndmLWTrB.jpeg",
+       "https://olcha.uz/image/original/products/BkVBLAqV6DMJ6xZqHz8lYaapNdpVxwTBl6MjnQ47v0rWQHBUQNH0OQeRpsLa.jpeg",
     ],
   },
   {
@@ -1583,7 +1706,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "50",
+    id: "56",
     price: {
       discount: false,
       discount_price: "0",
@@ -1602,10 +1725,8 @@ const Data = [
     description:
       "Artel 50-Dyumli ART-UA50H3301 Full HD TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/gxrSqW8ymtdRNzsd5OIRGvF2dfuzol4kMM6rQOzWWOg3Z9NdVdaXEeysgCWd.jpeg",
+       "https://olcha.uz/image/original/products/zwRsUhgvr9JtK2VdglPJU7kipBNaY2rbP1zz1KBcgcgoJym8VNHD9UGalmXQ.jpeg",
     ],
   },
   {
@@ -1615,7 +1736,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "51",
+    id: "57",
     price: {
       discount: false,
       discount_price: "0",
@@ -1634,10 +1755,8 @@ const Data = [
     description:
       "Samsung 65-Dyumli 65TU7500 8K HDR Smart TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/gudQq1mAhk1fMqWanZ8qVehTX2v467LemDDkGnNjpb6smHxFbF3BlLkaaRKm.jpeg",
+       "https://olcha.uz/image/original/products/ESz3by989mX00Q9WXYEljK7g14wotbhcM4TysL4vmsNEh9OKQf5SdSlX2h9f.jpeg",
     ],
   },
   {
@@ -1647,7 +1766,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "52",
+    id: "58",
     price: {
       discount: false,
       discount_price: "0",
@@ -1666,10 +1785,133 @@ const Data = [
     description:
       "Samsung 55-Dyumli 55Q95TAU 4K UHD Smart TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
     product_Corusel_Imgs: [
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
-       "https://shopme.uz/upload/iblock/7b7/7b7a06c2d9b02f7bab9d018cafccd474.jpg",
+       "https://olcha.uz/image/original/products/1PuVVBZjuIMB3ZH9KyLwXGDVaJzYUiwuob9m8VpCb1tfPQx56vytqIcAokfv.jpeg",
+       "https://olcha.uz/image/original/products/JovGwAbgwoHjdGQPTmPhQfzXPU4HmzvAShcWGAHDubZdU4FlS7eRrHEGc3bt.jpeg",
+    ],
+  },
+  {
+    title: "Samsung 65-dyumli 65Q800TAU 8K HDR Smart TV",
+    secondTitle: "Samsung 65-dyumli 65Q800TAU 8K HDR Smart TV",
+    img: "https://shopme.uz/upload/iblock/fe5/fe52ac8646630a21187ec1e690bd7f67.jpg",
+    category: "Televizorlar",
+    brand: "Samsung",
+    brandLogo: samsungLogo,
+    id: "59",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "4 945 000",
+      cost: "35 454 000",
+    },
+    properties: {
+      guarantee: "18",
+      color: "black",
+      made_in: "uzbakistan",
+      total_weight: "3 kg",
+      RAM: "24GB",
+      ulchami: "4240x2160",
+    },
+
+    description:
+      "Samsung 65-dyumli 65Q800TAU 8K HDR Smart TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/tvXI5u3LdF1P16NLYF5lBKaCKZGenGHnkhWMUNS2yU12Kn5kFFwpyRwfseCX.jpeg",
+       "https://olcha.uz/image/original/products/rePySb5bcblv6OjAsAJHm9robqAFlgiK9HxzYZ3kDkAZq9NJfJiiFMbP4VwP.jpeg",
+    ],
+  },
+  {
+    title: "Samsung 65-dyumli 65Q95TAU 4K UHD Smart TV",
+    secondTitle: "Samsung 65-dyumli 65Q95TAU 4K UHD Smart TV",
+    img: "https://shopme.uz/upload/iblock/287/287eda3086c962ecc261edd9ae596dd5.jpg",
+    category: "Televizorlar",
+    brand: "Samsung",
+    brandLogo: samsungLogo,
+    id: "60",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "4 945 000",
+      cost: "21 188 000",
+    },
+    properties: {
+      guarantee: "18",
+      color: "black",
+      made_in: "uzbakistan",
+      total_weight: "3 kg",
+      RAM: "24GB",
+      ulchami: "4240x2160",
+    },
+
+    description:
+      "Samsung 65-dyumli 65Q95TAU 4K UHD Smart TV ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/3fuKXKIbv92VK7xuBNcIt9AOVzYHbQHfW7jqihyzviCt7wJqnEGpDw9DCKlP.jpeg",
+       "https://olcha.uz/image/original/products/FTRIh7mMejZKxEizowb9SCet0wTU6v1SybbR5ukWrnfuTeYYfaYsErmRJbsR.jpeg",
+       "https://olcha.uz/image/original/products/PRsp9UDPukEIuzFAYa8e3vRAZRIZesoJMn9vBT26ZJAFgd7SnQldokU85pJH.jpeg",
+    ],
+  },
+  {
+    title: "Noutbuk Apple MacBook Pro 16 2019 MVVJ2",
+    secondTitle: "Noutbuk Apple MacBook Pro 16 2019 MVVJ2",
+    img: "https://py.abad.uz/media/images/70968/jbhk81.jpeg",
+    category: "Noutbuklar",
+    brand: "Apple",
+    brandLogo: appleLogo,
+    id: "61",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "23 753 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "Silver",
+      made_in: "USA",
+      store: "500GB",
+      procceccor: "Intel Core i8-8250U",
+      RAM: "12GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "Noutbuk Apple MacBook Pro 16 2019 MVVJ2 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/SDIv5xQZ0S5t30uQw20en680vg5Fjk6KbqedTx3QHaakmy6IKyxaMeVCLiPk.jpeg",
+       "https://olcha.uz/image/original/products/9VV5zH9yp4VGiPmf2CaiAxvMrsUWL4OIQkVnGt2u6g3fQBuhjp5XcdtSCcYT.jpeg",
+    ],
+  },
+  {
+    title: "Noutbuk Apple MacBook Air 13 2020 MVH52",
+    secondTitle: "Noutbuk Apple MacBook Air 13 2020 MVH52",
+    img: "https://py.abad.uz/media/images/70987/imei71.jpeg",
+    category: "Noutbuklar",
+    brand: "Apple",
+    brandLogo: appleLogo,
+    id: "62",
+    price: {
+      discount: false,
+      discount_price: "0",
+      previous_price: "8 986 000",
+      cost: "14 753 000",
+    },
+    properties: {
+      guarantee: "36",
+      color: "Gold",
+      made_in: "USA",
+      store: "500GB",
+      procceccor: "Intel Core i8-8250U",
+      RAM: "8GB",
+      total_weight: "5 kg",
+      ulchami: "1366x768 HD",
+      power: "45,0 Vt",
+    },
+    description:
+      "Noutbuk Apple MacBook Air 13 2020 MVH52 ni Qoraqalpog’iston, Xorazm, Farg’ona, Sirdaryo, Surxandaryo, Samarqand, Namangan, Navoiy, Qashqadaryo, Jizzax, Buxoro, Andijon, Toshkent viloyati, Toshkent tezkor yetkazib berish va rasmiy kafolati bilan zudlik bilan yoki bo'lib to'lashga sotib olishingiz mumkin. Bizda Artel 32AH90G HDni muddatli to'lovga xarid qilish juda tez, arzon va oson. Onlayn muddatli to'lov turganga ovora bo'lib Artel 32AH90G HDni kreditga olish shart emas.",
+    product_Corusel_Imgs: [
+       "https://olcha.uz/image/original/products/vI1VL663bGLyZ7jWxC02GYry7i96gX2tm5i8hhucMwgKbZemAi63YCaBkx4D.jpeg",
+       "https://olcha.uz/image/original/products/j23FJvotDvjAHZZ6woDOL4lMZ9ngMsiMJZas7vlf9zny5AYw3AXih6Pi2NXE.jpeg",
     ],
   },
 ];

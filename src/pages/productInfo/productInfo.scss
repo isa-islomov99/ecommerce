@@ -6,9 +6,10 @@
     display: flex;
     align-items: baseline;
     .product_info__button_back {
-      @include btn($textColor, $textColor, #fff);
-      @include fontMedium();
-      padding: 0.5rem 1rem;
+      color: $textColor;
+      font-size: 1.8rem;
+      position: relative;
+      top: 3px;
     }
     .product_info__go_title_page {
       @include fontMedium();
@@ -226,7 +227,7 @@
           margin-right: 1rem;
         }
         &:nth-child(3) {
-          margin-right: 0rem;
+          margin-right: 2rem;
         }
         &::after {
           display: none;
@@ -240,6 +241,7 @@
       flex-direction: column;
       .product_info__go_brands_page_title {
         @include fontSemiBold();
+        margin-top: 1rem;
         font-size: 1.8rem;
         &::after {
           display: none;

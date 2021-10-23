@@ -1,0 +1,17 @@
+@import "../../styles/base";
+.about {
+  margin: 3rem 0;
+  .about__title {
+    @include fontBold();
+    font-size: 2.3rem;
+  }
+  .about__subtitle {
+    @include fontMedium();
+    font-size: 1rem;
+    color: $textColor;
+    span {
+        color: #111;
+        @include fontSemiBold();
+    }
+  }
+}

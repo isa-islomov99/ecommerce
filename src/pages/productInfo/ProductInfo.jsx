@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./productInfo.scss";
 import { Row, Col } from "antd";
+import { ArrowLeftOutlined } from '@ant-design/icons'
 import { Link } from "react-router-dom";
 import ReactImageMagnify from "react-image-magnify";
 
@@ -48,12 +49,10 @@ const ProductInfo = (props) => {
             <React.Fragment>
               <div key={item.id} className="product_info__product_router">
                 <div className="product_info__btn_back">
-                  <button
+                  <ArrowLeftOutlined
                     onClick={handleGoBack}
                     className="product_info__button_back"
-                  >
-                    Orqaga
-                  </button>
+                  />
                 </div>
                 <Link to="/" className="product_info__go_title_page">
                   Bosh sahifa
