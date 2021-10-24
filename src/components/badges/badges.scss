@@ -1,0 +1,60 @@
+@import "../../styles/base";
+
+.badges {
+  position: fixed;
+  bottom: 40%;
+  right: 0;
+  z-index: 999;
+  .badges_container {
+    background: #424f60;
+    display: block;
+    text-align: center;
+    padding: 0.8rem 1.1rem;
+    border-bottom: 1px solid rgb(175, 174, 174);
+    transition: all 0.2s;
+    &:hover {
+      background-color: rgba(126, 125, 125, 0.7);
+    }
+    &:last-child {
+      display: none;
+    }
+    .badges_icon {
+      font-size: 1.5rem;
+      color: #fff;
+      padding-top: 9px;
+    }
+    .badges_title {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .badges {
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    .badges_container {
+      background: #fff;
+      padding: 0.4rem 1.1rem;
+      border: none;
+      &:hover {
+        background-color: rgba(219, 218, 218, 0.7);
+      }
+      &:last-child {
+        display: block;
+      }
+      .badges_icon {
+        color: $textColor;
+      }
+      .badges_title {
+        display: block;
+        color: $textColor;
+        @include fontMedium();
+      }
+    }
+  }
+}

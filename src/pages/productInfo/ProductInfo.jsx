@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import ReactImageMagnify from "react-image-magnify";
 
 import { useDispatch, useSelector } from "react-redux";
-import { productView } from "../../store/productSlice";
+import { productView, addProduct } from "../../store/productSlice";
+
 
 import { SwiperSlide } from "swiper/react";
 import MainCarouselCards from "../../components/mainCarouselCards/MainCarouselCards";
@@ -188,7 +189,7 @@ const ProductInfo = (props) => {
                         Rangi: <button>{list.properties.color}</button>
                       </h3>
                       <div className="product_info__product_add_buttons">
-                        <button className="product_info__add_to_cart_btn">
+                        <button className="product_info__add_to_cart_btn" onClick={() => dispatch(addProduct({...list}))}>
                           Savatchaga qo'shish
                         </button>
                         <button className="product_info__add_to_like_btn">

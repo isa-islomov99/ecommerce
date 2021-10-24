@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import Data from "../service/api";
+import {addItemToCard} from './product-utils'
 
 const productSlice = createSlice({
   name: "product",
@@ -7,6 +8,7 @@ const productSlice = createSlice({
     brandsDate: [],
     filterCategory: [],
     productDate: [],
+    products: [],
   },
 
   reducers: {
@@ -24,9 +26,16 @@ const productSlice = createSlice({
     productView(state, action) {
       state.productDate = Data.filter(date =>  date.secondTitle === action.payload);
     },
+
+    addProduct(state, action) {
+      return {
+        ...state,
+        products: addItemToCard(state.products, action.payload)
+      }
+    }
   },
 });
 
-export const { filteredBrands, filteredCategory, productView } = productSlice.actions;
+export const { filteredBrands, filteredCategory, productView, addProduct } = productSlice.actions;
 
 export default productSlice.reducer;

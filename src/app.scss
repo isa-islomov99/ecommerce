@@ -11,12 +11,20 @@
     transition: all 0.3s;
     transform: scale(1);
     &:hover {
-    transform: scale(1.1);
+      transform: scale(1.1);
     }
     @include flexBox();
     justify-content: center;
     .up_arrow {
       font-size: 1.3rem;
     }
+  }
+}
+
+
+@media (max-width: 600px) {
+  .ant-back-top {
+    bottom: 110px;
+    z-index: 9999;
   }
 }

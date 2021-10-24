@@ -58,6 +58,8 @@ import FilteredBrandCategory from "./components/filteredBrandCategory/FilteredBr
 import PageNavigationListener from "./utils/PageNavigationListener";
 import ProductInfo from "./pages/productInfo/ProductInfo";
 import About from "./pages/about/About";
+import Badges from "./components/badges/Badges";
+import Cart from "./pages/cart/Cart";
 
 const App = () => {
   return (
@@ -70,11 +72,15 @@ const App = () => {
       <Header />
       <Categorys />
       <PageNavigationListener />
+      <Badges />
       <Route exact path="/">
         <MainPage />
       </Route>
       <Route exact path="/about">
         <About />
+      </Route>
+      <Route exact path="/cart">
+        <Cart />
       </Route>
       <Route
         exact
