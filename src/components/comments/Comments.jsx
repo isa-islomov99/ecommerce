@@ -3,7 +3,7 @@ import "./comments.scss";
 import { UserOutlined } from "@ant-design/icons";
 import MainCarouselCards from "../mainCarouselCards/MainCarouselCards";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/swiper.min.css";

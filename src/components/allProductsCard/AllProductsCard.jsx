@@ -11,7 +11,7 @@ import { filteredCategory } from "../../store/productSlice";
 const { Option } = Select;
 
 const AllProductsCard = (props) => {
-  const { match, history } = props;
+  const { match } = props;
 
   const dispatch = useDispatch();
 
@@ -29,7 +29,7 @@ const AllProductsCard = (props) => {
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(8);
+  const [postsPerPage] = useState(8);
   // Codes for pagination
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -141,7 +141,7 @@ const AllProductsCard = (props) => {
                     )}
                     <p className="all_products_card__product_category">
                       {item.category}
-                    </p>
+                    </p>  
                     <div className="all_products_card__product_price">
                       <h5
                         className={

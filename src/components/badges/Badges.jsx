@@ -20,13 +20,13 @@ const Badges = () => {
         <p className="badges_title">Bosh sahifa</p>
       </Link>
       <Link to="/cart" className="badges_container">
-        <Badge status="success" count={products.length} showZero>
+        <Badge status="success" count={products.length}>
           <ShoppingCartOutlined className="badges_icon" />
         </Badge>
         <p className="badges_title">Savatcha</p>
       </Link>
       <Link to="/favorite" className="badges_container">
-        <Badge status="success" count={0} showZero>
+        <Badge status="success" count={0}>
           <HeartOutlined className="badges_icon" />
         </Badge>
         <p className="badges_title">Sevimlilar</p>

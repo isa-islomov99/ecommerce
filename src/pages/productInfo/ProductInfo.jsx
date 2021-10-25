@@ -85,18 +85,18 @@ const ProductInfo = (props) => {
               <Row key={list.id}>
                 <Col
                   xs={24}
-                  sm={12}
-                  md={12}
-                  lg={18}
+                  sm={24}
+                  md={24}
+                  lg={24}
                   xl={18}
                   className="product_info_sidebar_column"
                 >
                   <Row>
                     <Col
                       xs={0}
-                      sm={12}
-                      md={12}
-                      lg={6}
+                      sm={4}
+                      md={3}
+                      lg={3}
                       xl={3}
                       className="product_info__sidebar_slides_img_box"
                     >
@@ -118,7 +118,7 @@ const ProductInfo = (props) => {
                       xs={24}
                       sm={12}
                       md={12}
-                      lg={6}
+                      lg={10}
                       xl={10}
                       className="product_info__sidebar_zoom_img_box"
                     >
@@ -154,9 +154,9 @@ const ProductInfo = (props) => {
                     </Col>
                     <Col
                       xs={24}
-                      sm={12}
-                      md={12}
-                      lg={6}
+                      sm={24}
+                      md={24}
+                      lg={10}
                       xl={10}
                       className="product_info__product_details_box"
                     >
@@ -199,7 +199,7 @@ const ProductInfo = (props) => {
                     </Col>
                   </Row>
                 </Col>
-                <Col xs={24} sm={12} md={12} lg={6} xl={6}>
+                <Col xs={24} sm={24} md={24} lg={24} xl={6}>
                   <div className="product_info__delivery_info_box">
                     <div className="product_info__brand_img_box">
                       <Link to={`/brands/${list.brand}`}>

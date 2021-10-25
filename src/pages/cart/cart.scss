@@ -1,0 +1,192 @@
+@import "../../styles/base";
+
+.cart {
+  margin: 3rem 0;
+  .cart_count_of_carts {
+    @include fontBold();
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .cart__product_info {
+    @include flexBox();
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    width: 98%;
+    position: relative;
+    .cart__product_img {
+      width: 45px;
+    }
+    .cart__product_common_info {
+      @include flexBox();
+      margin-left: 2rem;
+      .cart__product_label {
+        @include fontMedium();
+        font-size: 1rem;
+        color: $textColor;
+      }
+      .cart__product_price {
+        margin-left: 3rem;
+        .cart__product_price_text {
+          @include fontSemiBold();
+          font-size: 0.9rem;
+          margin: -0.4rem 0 0 0;
+          color: $globalColor;
+          text-decoration: line-through;
+        }
+        .cart__product_sale_price_text {
+          @include fontSemiBold();
+          font-size: 1rem;
+          margin: -0.4rem 0 0 0;
+          color: $textColor;
+        }
+        .cart__product_price_sale {
+          @include fontSemiBold();
+          font-size: 1rem;
+          color: $textColor;
+        }
+      }
+      .cart__number_product_btn {
+        border: 1px solid $textColor;
+        border-radius: 30px;
+        padding: 0.3rem 0;
+        margin-left: 2rem;
+        @include flexBox();
+        .cart__count_icon {
+          color: $globalColor;
+          font-size: 1.3rem;
+          cursor: pointer;
+        }
+        span {
+          color: $textColor;
+          font-size: 1.2rem;
+          @include fontMedium();
+          margin: 0 0.7rem;
+        }
+      }
+    }
+    .cart__delete_box {
+      //   position: absolute;
+      //   top: -25%;
+      //   right: 0;
+      margin-left: 2rem;
+      .cart__delete_icon {
+        font-size: 1.3rem;
+        color: $textColor;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          color: $globalColor;
+        }
+      }
+    }
+  }
+  .cart__cart_prices_info_box {
+    margin-left: 3rem;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 20px;
+    padding: 1.5rem 1.1rem;
+    height: 280px;
+    .cart__product_sales_box {
+      @include flexContent();
+      &:nth-child(4) {
+        border-top: 1px solid rgb(237, 237, 237);
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+      }
+      .cart__product_sales_tile {
+        @include fontSemiBold();
+        font-size: 1rem;
+      }
+      .cart__product_common_pay_title {
+        @include fontBold();
+        font-size: 1.3rem;
+      }
+    }
+    .cart__order_button {
+      text-align: center;
+      margin-top: 1rem;
+      .cart__product_buy_btn {
+        @include btn(#fff, $globalColor, $globalColor);
+        @include fontMedium();
+        padding: 0.6rem 1rem;
+        font-size: 1.2rem;
+        width: 100%;
+      }
+    }
+  }
+  .cart__empty_cart_box {
+    text-align: center;
+    .cart__empty_cart_img {
+      max-width: 100%;
+    }
+    .cart__empty_cart_title {
+      @include fontSemiBold();
+    }
+    .cart__empty_cart_subtitle {
+      @include fontSemiBold();
+      color: $textColor;
+    }
+    .cart__redirect_main_page_btn {
+      margin-top: 1rem;
+      @include btn(#fff, $globalColor, $globalColor);
+      @include fontMedium();
+      font-size: 1.1rem;
+      padding: 0.4rem 3rem;
+    }
+  }
+}
+
+// =============== MEDIA QUERY START================
+@media (max-width: 992px) {
+  .cart {
+    .cart__cart_prices_info_box {
+      margin-left: 0rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .cart {
+    .cart_count_of_carts {
+      font-size: 1.8rem;
+    }
+    .cart__product_info {
+      .cart__product_common_info {
+        flex-direction: column;
+        .cart__product_label {
+          margin-bottom: 0.8rem;
+        }
+        .cart__product_price {
+          margin-left: 0rem;
+          @include flexContent();
+          .cart__product_price_text {
+            margin: 0rem 1.5rem 0 0;
+          }
+        }
+        .cart__number_product_btn {
+          padding: 0.2rem 0;
+          margin: 1rem 0 0 0;
+        }
+      }
+      .cart__delete_box {
+        position: absolute;
+        top: -15%;
+        right: 0;
+        margin-left: 0rem;
+        .cart__delete_icon {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .cart__cart_prices_info_box {
+      margin-left: 0rem;
+      .cart__order_button {
+        .cart__product_buy_btn {
+          padding: 0.5rem 1rem;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

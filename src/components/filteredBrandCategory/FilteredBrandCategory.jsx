@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Row, Col, Pagination } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
@@ -7,7 +7,7 @@ import { filteredBrandCategory } from "../../service/api";
 import SidebarCategoryLinks from "../sidebarCategoryLinks/SidebarCategoryLinks";
 
 const FilteredBrandCategory = (props) => {
-  const { match, history } = props;
+  const { match } = props;
 
   // 14,15,16 - qatordagi kodla qaysi brandga kirsa usha brendni nomini olish uchun Match ni url ni arrayga utqazib brand nomini kesib olib yana uni stringga utqazib filteredBrandCategory ga argument sifatida berib yuborilgan
   const cutUrl = match.url;
@@ -22,7 +22,7 @@ const FilteredBrandCategory = (props) => {
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(6);
+  const [postsPerPage] = useState(6);
   // Codes for pagination
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
