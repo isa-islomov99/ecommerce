@@ -12,7 +12,6 @@ import { useSelector } from "react-redux";
 
 const Badges = () => {
   const {products} = useSelector((state) => state.products);
-  console.log(products)
   return (
     <div className="badges">
       <Link to="/" className="badges_container">

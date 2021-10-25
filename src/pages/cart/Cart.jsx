@@ -8,9 +8,15 @@ import {
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import {
+  addProduct,
+  decreaseProduct,
+  removeProduct,
+} from "../../store/productSlice";
 
 const Cart = () => {
   const { products } = useSelector((state) => state.products);
+  const dispatch = useDispatch();
   return (
     <div className="cart">
       <div className="container">
@@ -64,13 +70,24 @@ const Cart = () => {
                           )}
                         </div>
                         <div className="cart__number_product_btn">
-                          <MinusOutlined className="cart__count_icon" />
+                          <MinusOutlined
+                            className="cart__count_icon"
+                            onClick={() =>
+                              dispatch(decreaseProduct({ ...item }))
+                            }
+                          />
                           <span>{item.countNum}</span>
-                          <PlusCircleOutlined className="cart__count_icon" />
+                          <PlusCircleOutlined
+                            className="cart__count_icon"
+                            onClick={() => dispatch(addProduct({ ...item }))}
+                          />
                         </div>
                       </div>
                       <div className="cart__delete_box">
-                        <DeleteOutlined className="cart__delete_icon" />
+                        <DeleteOutlined
+                          className="cart__delete_icon"
+                          onClick={() => dispatch(removeProduct({ ...item }))}
+                        />
                       </div>
                     </div>
                   ))}

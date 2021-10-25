@@ -51,6 +51,7 @@
         border-radius: 30px;
         padding: 0.3rem 0;
         margin-left: 2rem;
+        user-select: none;
         @include flexBox();
         .cart__count_icon {
           color: $globalColor;

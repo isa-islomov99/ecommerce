@@ -28,6 +28,7 @@ const ProductInfo = (props) => {
     history.goBack();
   };
 
+  // Function to change slide imgs when click
   const handleTab = (index) => {
     setIndex((index = index));
     const images = ref.current.children;
@@ -80,9 +81,9 @@ const ProductInfo = (props) => {
             </React.Fragment>
           ))}
         {data &&
-          data.map((list) => (
+          data.map((list, i) => (
             <>
-              <Row key={list.id}>
+              <Row key={i}>
                 <Col
                   xs={24}
                   sm={24}

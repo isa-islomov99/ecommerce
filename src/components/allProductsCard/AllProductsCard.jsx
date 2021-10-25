@@ -6,7 +6,7 @@ import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 // import { filteredCategory } from "../../service/api";
 
 import { useDispatch, useSelector } from "react-redux";
-import { filteredCategory } from "../../store/productSlice";
+import { filteredCategory, activeHeart } from "../../store/productSlice";
 
 const { Option } = Select;
 
@@ -20,12 +20,13 @@ const AllProductsCard = (props) => {
 
   // Redux Toolkitdan data larni olish
   const data = useSelector((state) => state.products.filterCategory);
+  const {heart} = useSelector((state) => state.products);
 
   // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
 
   // useState for Heart of the Cards
-  const [toggleHeart, setToggleHeart] = useState(false);
+  // const [toggleHeart, setToggleHeart] = useState(false);
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
@@ -37,7 +38,8 @@ const AllProductsCard = (props) => {
 
   // Function for Heart of the Cards
   const handleHeart = () => {
-    setToggleHeart(!toggleHeart);
+    // setToggleHeart(!toggleHeart);
+    dispatch(activeHeart(true))
   };
 
   // Function to take value of the Select
@@ -113,15 +115,17 @@ const AllProductsCard = (props) => {
               >
                 <div
                   className="all_products_card__product_card_heart"
-                  onClick={handleHeart}
+                  // onClick={handleHeart}
                 >
-                  {toggleHeart ? (
+                  {heart ? (
                     <HeartFilled
                       style={{ fontSize: "21px", color: "#a5c926" }}
+                      onClick={() => dispatch(activeHeart(false))}
                     />
                   ) : (
                     <HeartOutlined
                       style={{ fontSize: "21px", color: "#a5c926" }}
+                      onClick={() => dispatch(activeHeart(true))}
                     />
                   )}
                 </div>

@@ -15,7 +15,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77143/8u687c.jpeg",
-    id: "1",
+    id: 1,
     price: {
       discount: true,
       discount_price: "2 305 000",
@@ -45,7 +45,7 @@ const Data = [
     brandLogo: samsungLogo,
     img: "https://py.abad.uz/media/images/77151/fwv8hp.jpeg",
     category: "Smartfonlar",
-    id: "2",
+    id: 2,
     price: {
       discount: false,
       discount_price: "0",
@@ -78,7 +78,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76696/qirewc.jpeg",
-    id: "3",
+    id: 3,
     price: {
       discount: false,
       discount_price: "0",
@@ -109,7 +109,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77771/s3f6rr.jpeg",
-    id: "4",
+    id: 4,
     price: {
       discount: false,
       discount_price: "0",
@@ -140,7 +140,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76956/nk3dwn.jpeg",
-    id: "5",
+    id: 5,
     price: {
       discount: true,
       discount_price: "2 559 000",
@@ -170,7 +170,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77147/6fmf0o.jpeg",
-    id: "6",
+    id: 6,
     price: {
       discount: true,
       discount_price: "5 133 000",
@@ -203,7 +203,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78237/btyd1q.jpeg",
-    id: "7",
+    id: 7,
     price: {
       discount: false,
       discount_price: "0",
@@ -234,7 +234,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77150/2os7ls.jpeg",
-    id: "8",
+    id: 8,
     price: {
       discount: true,
       discount_price: "1 878 000",
@@ -266,7 +266,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77009/eio2l8.jpeg",
-    id: "9",
+    id: 9,
     price: {
       discount: false,
       discount_price: "0",
@@ -299,7 +299,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78266/yrjtim.jpeg",
-    id: "10",
+    id: 10,
     price: {
       discount: false,
       discount_price: "0",
@@ -331,7 +331,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76589/ejozs6.jpeg",
-    id: "11",
+    id: 11,
     price: {
       discount: false,
       discount_price: "0",
@@ -361,7 +361,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/77009/eio2l8.jpeg",
-    id: "12",
+    id: 12,
     price: {
       discount: false,
       discount_price: "0",
@@ -394,7 +394,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76677/rrjurz.jpeg",
-    id: "13",
+    id: 13,
     price: {
       discount: false,
       discount_price: "0",
@@ -427,7 +427,7 @@ const Data = [
     brandLogo: samsungLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/69911/qtrzah.jpeg",
-    id: "14",
+    id: 14,
     price: {
       discount: false,
       discount_price: "0",
@@ -459,7 +459,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78242/2jr725.jpeg",
-    id: "15",
+    id: 15,
     price: {
       discount: false,
       discount_price: "0",
@@ -491,7 +491,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78225/ormtgr.jpeg",
-    id: "16",
+    id: 16,
     price: {
       discount: false,
       discount_price: "0",
@@ -522,7 +522,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/74122/ktf6pn.jpeg",
-    id: "17",
+    id: 17,
     price: {
       discount: true,
       discount_price: "10 144 000",
@@ -553,7 +553,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78267/onh236.jpeg",
-    id: "18",
+    id: 18,
     price: {
       discount: true,
       discount_price: "11 515 000",
@@ -584,7 +584,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/65485/mulhfa.jpeg",
-    id: "19",
+    id: 19,
     price: {
       discount: false,
       discount_price: "0",
@@ -614,7 +614,7 @@ const Data = [
     brandLogo: appleLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78234/mpecy2.jpeg",
-    id: "20",
+    id: 20,
     price: {
       discount: false,
       discount_price: "0",
@@ -644,7 +644,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78204/vfcl01.jpeg",
-    id: "21",
+    id: 21,
     price: {
       discount: true,
       discount_price: "1 750 000",
@@ -675,7 +675,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76696/qirewc.jpeg",
-    id: "22",
+    id: 22,
     price: {
       discount: false,
       discount_price: "0",
@@ -707,7 +707,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78086/vup48k.jpeg",
-    id: "23",
+    id: 23,
     price: {
       discount: true,
       discount_price: "1 750 000",
@@ -737,7 +737,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76698/juh5fp.jpeg",
-    id: "24",
+    id: 24,
     price: {
       discount: false,
       discount_price: "0",
@@ -768,7 +768,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/76574/wi50yq.jpeg",
-    id: "25",
+    id: 25,
     price: {
       discount: false,
       discount_price: "0",
@@ -799,7 +799,7 @@ const Data = [
     brandLogo: xiaomiLogo,
     category: "Smartfonlar",
     img: "https://py.abad.uz/media/images/78205/li2zxi.jpeg",
-    id: "26",
+    id: 26,
     price: {
       discount: false,
       discount_price: "0",
@@ -830,7 +830,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Acer",
     brandLogo: acerLogo,
-    id: "27",
+    id: 27,
     price: {
       discount: false,
       discount_price: "0",
@@ -866,7 +866,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Acer",
     brandLogo: acerLogo,
-    id: "28",
+    id: 28,
     price: {
       discount: true,
       discount_price: "6 233 000",
@@ -902,7 +902,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Lenovo",
     brandLogo: lenovoLogo,
-    id: "29",
+    id: 29,
     price: {
       discount: false,
       discount_price: "0",
@@ -938,7 +938,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "30",
+    id: 30,
     price: {
       discount: false,
       discount_price: "0",
@@ -972,7 +972,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "31",
+    id: 31,
     price: {
       discount: true,
       discount_price: "8 456 000",
@@ -1007,7 +1007,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Asus",
     brandLogo: asusLogo,
-    id: "32",
+    id: 32,
     price: {
       discount: true,
       discount_price: "8 986 000",
@@ -1042,7 +1042,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "33",
+    id: 33,
     price: {
       discount: false,
       discount_price: "0",
@@ -1076,7 +1076,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "34",
+    id: 34,
     price: {
       discount: false,
       discount_price: "0",
@@ -1110,7 +1110,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "35",
+    id: 35,
     price: {
       discount: false,
       discount_price: "0",
@@ -1145,7 +1145,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "36",
+    id: 36,
     price: {
       discount: false,
       discount_price: "0",
@@ -1179,7 +1179,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "37",
+    id: 37,
     price: {
       discount: false,
       discount_price: "0",
@@ -1213,7 +1213,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "38",
+    id: 38,
     price: {
       discount: false,
       discount_price: "13 566 000",
@@ -1247,7 +1247,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "39",
+    id: 39,
     price: {
       discount: false,
       discount_price: "13 566 000",
@@ -1281,7 +1281,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "40",
+    id: 40,
     price: {
       discount: false,
       discount_price: "13 566 000",
@@ -1315,7 +1315,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "HP",
     brandLogo: hpLogo,
-    id: "41",
+    id: 41,
     price: {
       discount: false,
       discount_price: "13 566 000",
@@ -1348,7 +1348,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Asus",
     brandLogo: asusLogo,
-    id: "42",
+    id: 42,
     price: {
       discount: false,
       discount_price: "13 566 000",
@@ -1382,7 +1382,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Lenovo",
     brandLogo: lenovoLogo,
-    id: "43",
+    id: 43,
     price: {
       discount: false,
       discount_price: "13 566 000",
@@ -1416,7 +1416,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "45",
+    id: 45,
     price: {
       discount: false,
       discount_price: "0",
@@ -1446,7 +1446,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "46",
+    id: 46,
     price: {
       discount: false,
       discount_price: "0",
@@ -1477,7 +1477,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "47",
+    id: 47,
     price: {
       discount: false,
       discount_price: "0",
@@ -1508,7 +1508,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "48",
+    id: 48,
     price: {
       discount: false,
       discount_price: "0",
@@ -1540,7 +1540,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "49",
+    id: 49,
     price: {
       discount: false,
       discount_price: "0",
@@ -1572,7 +1572,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "50",
+    id: 50,
     price: {
       discount: false,
       discount_price: "0",
@@ -1604,7 +1604,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "51",
+    id: 51,
     price: {
       discount: false,
       discount_price: "0",
@@ -1636,7 +1636,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "52",
+    id: 52,
     price: {
       discount: false,
       discount_price: "0",
@@ -1667,7 +1667,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "53",
+    id: 53,
     price: {
       discount: false,
       discount_price: "0",
@@ -1698,7 +1698,7 @@ const Data = [
     category: "Maishiy texnika",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "54",
+    id: 54,
     price: {
       discount: false,
       discount_price: "0",
@@ -1728,7 +1728,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "55",
+    id: 55,
     price: {
       discount: false,
       discount_price: "0",
@@ -1759,7 +1759,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Artel",
     brandLogo: artelLogo,
-    id: "56",
+    id: 56,
     price: {
       discount: false,
       discount_price: "0",
@@ -1790,7 +1790,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "57",
+    id: 57,
     price: {
       discount: false,
       discount_price: "0",
@@ -1821,7 +1821,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "58",
+    id: 58,
     price: {
       discount: false,
       discount_price: "0",
@@ -1852,7 +1852,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "59",
+    id: 59,
     price: {
       discount: false,
       discount_price: "0",
@@ -1883,7 +1883,7 @@ const Data = [
     category: "Televizorlar",
     brand: "Samsung",
     brandLogo: samsungLogo,
-    id: "60",
+    id: 60,
     price: {
       discount: false,
       discount_price: "0",
@@ -1915,7 +1915,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Apple",
     brandLogo: appleLogo,
-    id: "61",
+    id: 61,
     price: {
       discount: false,
       discount_price: "0",
@@ -1948,7 +1948,7 @@ const Data = [
     category: "Noutbuklar",
     brand: "Apple",
     brandLogo: appleLogo,
-    id: "62",
+    id: 62,
     price: {
       discount: false,
       discount_price: "0",
