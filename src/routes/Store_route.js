@@ -8,8 +8,6 @@ firebase.initializeApp({
   authDomain:"fir-auth-tutorial-66538.web.app"
 })
 
-
-
 class Store_route extends React.Component {
     state = { isSingnedIn: false}
 
@@ -27,7 +25,7 @@ class Store_route extends React.Component {
 
   render() {
     return (
-      <div>
+      <div  style={{marginTop: "4rem", marginBottom: "4rem"}}>
       {this.state.isSingnedIn ? (
         <>
           <Store />

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const Badges = () => {
-  const {products} = useSelector((state) => state.products);
+  const {products, favorites} = useSelector((state) => state.products);
   return (
     <div className="badges">
       <Link to="/" className="badges_container">
@@ -25,7 +25,7 @@ const Badges = () => {
         <p className="badges_title">Savatcha</p>
       </Link>
       <Link to="/favorite" className="badges_container">
-        <Badge status="success" count={0}>
+        <Badge status="success" count={favorites.length}>
           <HeartOutlined className="badges_icon" />
         </Badge>
         <p className="badges_title">Sevimlilar</p>

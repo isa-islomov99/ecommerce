@@ -119,9 +119,11 @@ const Cart = () => {
                   <h3 className="cart__product_common_pay_title">so'm</h3>
                 </div>
                 <div className="cart__order_button">
-                  <button className="cart__product_buy_btn">
-                    Buyurtmani Rasmiylashtirish
-                  </button>
+                  <Link to="/checkout">
+                    <button className="cart__product_buy_btn">
+                      Buyurtmani Rasmiylashtirish
+                    </button>
+                  </Link>
                 </div>
               </Col>
             </Row>

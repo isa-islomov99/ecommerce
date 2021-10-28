@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./notebooks.scss";
 import Data from "../../service/api";
 import MainCarouselCards from "../mainCarouselCards/MainCarouselCards";
-import { RightOutlined, HeartOutlined, HeartFilled } from "@ant-design/icons";
+import { RightOutlined } from "@ant-design/icons";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
 
@@ -13,15 +13,7 @@ const Notebooks = () => {
   const filteredData = Data.filter((list) => list.category === "Noutbuklar");
 
   // HomePage dagi Notebooklar ni carouselida barcha noutbuklar emas faqat 8 tasi chiqishi uchun kesib olingan
-  const arrayCut = filteredData.slice(8);
-
-  // useState for Heart of the Cards
-  const [toggleHeart, setToggleHeart] = useState(false);
-
-  // Function for Heart of the Cards
-  const handleHeart = () => {
-    setToggleHeart(!toggleHeart);
-  };
+  const arrayCut = filteredData.slice(12);
 
   return (
     <div className="phones">
@@ -61,20 +53,6 @@ const Notebooks = () => {
           {arrayCut &&
             arrayCut.map((item, i) => (
               <SwiperSlide key={i} className="swiper_slide_card">
-                <div
-                  className="main_swiper_carousel__product_card_heart"
-                  onClick={handleHeart}
-                >
-                  {toggleHeart ? (
-                    <HeartFilled
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                    />
-                  ) : (
-                    <HeartOutlined
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                    />
-                  )}
-                </div>
                 <Link to={`/product/view/${item.secondTitle}`}>
                   <div className="product_carousel_card_img">
                     <img

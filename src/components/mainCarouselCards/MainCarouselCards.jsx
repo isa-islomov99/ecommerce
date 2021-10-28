@@ -13,7 +13,7 @@ import SwiperCore, { Navigation } from "swiper/core";
 
 SwiperCore.use([Navigation]);
 
-const MainCarouselCards = ({ children, slidesPerView = 5 }) => {
+const MainCarouselCards = ({ children, slidesPerView = 4 }) => {
   // const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
 

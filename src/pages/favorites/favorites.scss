@@ -1,0 +1,97 @@
+@import "../../styles/base";
+
+.favorites_products_card {
+  margin: 3rem 0;
+  .favorites__title {
+    @include fontSemiBold();
+    font-size: 1.9rem;
+  }
+  .favorites_products_card__card_column {
+    cursor: pointer;
+    padding: 2rem 0 1.5rem 0;
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &:hover {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+    }
+    .favorites_products_card__product_card_heart {
+      position: absolute;
+      top: 3%;
+      right: 6%;
+    }
+    .product_carousel_card_img {
+      text-align: center;
+      .favorites_products_card__card_img {
+        width: 150px;
+      }
+    }
+    .product_carousel_card_info {
+      padding: 0rem 1rem 0.2rem 0.9rem;
+      .favorites_products_card__product_sale_text {
+        @include fontMedium();
+        background-color: $globalColor;
+        color: #fff;
+        padding: 3px 5px;
+        font-size: 1rem;
+        border-radius: 15px;
+      }
+      .favorites_products_card__product_category {
+        @include fontMedium();
+        font-size: 1rem;
+        padding: 0.5rem 0 0 0;
+        color: $textColor;
+        &:hover {
+          color: $globalColor;
+        }
+      }
+      .favorites_products_card__product_price {
+        @include flexContent();
+        .favorites_products_card__product_price_text {
+          @include fontSemiBold();
+          font-size: 1rem;
+          margin: -0.1rem 0 0 0;
+          color: $globalColor;
+          text-decoration: line-through;
+        }
+        .favorites_products_card__product_sale_price_text {
+          @include fontSemiBold();
+          font-size: 1.1rem;
+          margin: -0.1rem 0 0 0;
+          color: $textColor;
+        }
+        .favorites_products_card__product_price_sale {
+          @include fontSemiBold();
+          font-size: 1.1rem;
+          color: $textColor;
+        }
+      }
+      .favorites_products_card__product_title {
+        @include fontMedium();
+        font-size: 1rem;
+        padding: 1rem 0 0 0;
+        color: $textColor;
+      }
+    }
+    .favorites__buttons {
+      @include flexContent();
+      padding: 0 0.9rem;
+      .favorites_products_card__product_btn {
+        @include btn($textColor, $textColor, #fff);
+        @include fontMedium();
+        padding: 0.4rem 2rem;
+      }
+    }
+  }
+  .favorites_no_data_title {
+    @include fontMedium();
+    font-size: 1.5rem;
+    color: $textColor;
+    text-align: center;
+  }
+}

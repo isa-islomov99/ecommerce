@@ -31,3 +31,23 @@ export const removeItemFromCard = (product, newProduct) => {
         list.title === newProduct.title ? {...list, countNum: list.countNum - 100} : list
     );
 };
+
+export const addItemToFavorites = (product, newProduct) => {
+    const isExist = product.find((item) => item.title === newProduct.title)
+
+    if(isExist) {
+        return product.map((list) => {
+            return list.title === newProduct.title ? {...list, countNum: list.countNum + 1} : list
+        })
+    }
+    return [...product, {...newProduct}]
+};
+
+export const removeItemFromFavorites = (product, newProduct) => {
+    const isExist = product.find((item) => item.title === newProduct.title)
+
+    if(isExist) {
+        return product.filter((list) => list.title !== newProduct.title)
+    }
+}
+

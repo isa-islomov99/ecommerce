@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./phones.scss";
 import Data from "../../service/api";
 import MainCarouselCards from "../mainCarouselCards/MainCarouselCards";
-import { RightOutlined, HeartOutlined, HeartFilled } from "@ant-design/icons";
+import { RightOutlined} from "@ant-design/icons";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
+
+import { useDispatch } from "react-redux";
 
 import { SwiperSlide } from "swiper/react";
 
@@ -13,13 +15,9 @@ const Phones = () => {
   const filteredData = Data.filter((list) => list.category === "Smartfonlar");
 
   // HomePage dagi Smartfonlar ni carouselida barcha Smartfonlar emas faqat 8 tasi chiqishi uchun kesib olingan
-  const arrayCut = filteredData.slice(16);
+  const arrayCut = filteredData.slice(18);
 
-  const [toggleHeart, setToggleHeart] = useState(false);
-
-  const handleHeart = () => {
-    setToggleHeart(!toggleHeart);
-  };
+  const dispatch = useDispatch();
 
   return (
     <div className="phones">
@@ -59,20 +57,6 @@ const Phones = () => {
           {arrayCut &&
             arrayCut.map((item, i) => (
               <SwiperSlide key={i} className="swiper_slide_card">
-                <div
-                  className="main_swiper_carousel__product_card_heart"
-                  onClick={handleHeart}
-                >
-                  {toggleHeart ? (
-                    <HeartFilled
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                    />
-                  ) : (
-                    <HeartOutlined
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                    />
-                  )}
-                </div>
                 <Link to={`/product/view/${item.secondTitle}`}>
                   <div className="product_carousel_card_img">
                     <img

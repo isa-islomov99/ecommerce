@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./allProductsCard.scss";
 import { NavLink } from "react-router-dom";
-import { Row, Col, Select, Pagination } from "antd";
-import { HeartOutlined, HeartFilled } from "@ant-design/icons";
+import { Row, Select, Pagination } from "antd";
 // import { filteredCategory } from "../../service/api";
+import Card from "../card/Card";
 
 import { useDispatch, useSelector } from "react-redux";
-import { filteredCategory, activeHeart } from "../../store/productSlice";
+import { filteredCategory } from "../../store/productSlice";
 
 const { Option } = Select;
 
@@ -20,13 +20,9 @@ const AllProductsCard = (props) => {
 
   // Redux Toolkitdan data larni olish
   const data = useSelector((state) => state.products.filterCategory);
-  const {heart} = useSelector((state) => state.products);
 
   // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
-
-  // useState for Heart of the Cards
-  // const [toggleHeart, setToggleHeart] = useState(false);
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
@@ -35,12 +31,6 @@ const AllProductsCard = (props) => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = data.slice(indexOfFirstPost, indexOfLastPost);
-
-  // Function for Heart of the Cards
-  const handleHeart = () => {
-    // setToggleHeart(!toggleHeart);
-    dispatch(activeHeart(true))
-  };
 
   // Function to take value of the Select
   function handleChange(value) {
@@ -101,77 +91,9 @@ const AllProductsCard = (props) => {
               ))}
           </Select>
         </div>
-        <Row className="all_products_card__card_row">
+        <Row>
           {currentPosts &&
-            currentPosts.map((item, i) => (
-              <Col
-                key={i}
-                className="all_products_card__card_column"
-                xs={24}
-                sm={12}
-                md={12}
-                lg={6}
-                xl={6}
-              >
-                <div
-                  className="all_products_card__product_card_heart"
-                  // onClick={handleHeart}
-                >
-                  {heart ? (
-                    <HeartFilled
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                      onClick={() => dispatch(activeHeart(false))}
-                    />
-                  ) : (
-                    <HeartOutlined
-                      style={{ fontSize: "21px", color: "#a5c926" }}
-                      onClick={() => dispatch(activeHeart(true))}
-                    />
-                  )}
-                </div>
-                <NavLink to={`/product/view/${item.secondTitle}`}>
-                  <div className="product_carousel_card_img">
-                    <img
-                      className="all_products_card__card_img"
-                      src={item?.img}
-                      alt="card-img"
-                    />
-                  </div>
-                  <div className="product_carousel_card_info">
-                    {item.price.discount && (
-                      <span className="all_products_card__product_sale_text">
-                        Chegirma:
-                      </span>
-                    )}
-                    <p className="all_products_card__product_category">
-                      {item.category}
-                    </p>  
-                    <div className="all_products_card__product_price">
-                      <h5
-                        className={
-                          item.price.discount
-                            ? "all_products_card__product_price_text"
-                            : "all_products_card__product_sale_price_text"
-                        }
-                      >
-                        {item.price.cost} so'm
-                      </h5>
-                      {item.price.discount && (
-                        <span className="all_products_card__product_price_sale">
-                          {item.price.discount_price} so'm
-                        </span>
-                      )}
-                    </div>
-                    <p className="all_products_card__product_title">
-                      {item.title}
-                    </p>
-                    <button className="all_products_card__product_btn">
-                      Xarid qilish
-                    </button>
-                  </div>
-                </NavLink>
-              </Col>
-            ))}
+            currentPosts.map((item, i) => <Card key={i} {...item} />)}
         </Row>
         <div className="all_products_card__pagination">
           <Pagination

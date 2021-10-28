@@ -4,6 +4,8 @@ import {
   addItemToCard,
   decreaseItemToCard,
   removeItemFromCard,
+  addItemToFavorites,
+  removeItemFromFavorites
 } from "./product-utils";
 
 const productSlice = createSlice({
@@ -13,7 +15,7 @@ const productSlice = createSlice({
     filterCategory: [],
     productDate: [],
     products: [],
-    heart: false,
+    favorites: [],
   },
 
   reducers: {
@@ -60,11 +62,19 @@ const productSlice = createSlice({
       };
     },
 
-    activeHeart(state, action) {
+    // Mahsulotni Sevimlilarga qushish
+    addProductToFavorites(state, action) {
       return {
         ...state,
-        heart: action.payload,
-      };
+        favorites: addItemToFavorites(state.favorites, action.payload)
+      }
+    },
+
+    removeProductFromFavorites(state, action) {
+      return {
+        ...state,
+        favorites: removeItemFromFavorites(state.favorites, action.payload)
+      }
     },
   },
 });
@@ -76,7 +86,8 @@ export const {
   addProduct,
   decreaseProduct,
   removeProduct,
-  activeHeart,
+  addProductToFavorites,
+  removeProductFromFavorites,
 } = productSlice.actions;
 
 export default productSlice.reducer;
