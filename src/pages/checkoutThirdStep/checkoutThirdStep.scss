@@ -1,0 +1,27 @@
+@import "../../styles/base";
+
+.checkoutThirdStep {
+  margin-top: 2rem;
+  text-align: center;
+  .checkoutThirdStep__title {
+    @include fontSemiBold();
+    font-size: 1.7rem;
+  }
+  .checkoutThirdStep__btn {
+    @include btn(#fff, $globalColor, $globalColor);
+    padding: 0.4rem 2rem;
+    @include fontMedium();
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .checkoutThirdStep {
+    .checkoutThirdStep__title {
+      font-size: 1.5rem;
+    }
+    .checkoutThirdStep__btn {
+      margin-left: 0.5rem;
+    }
+  }
+}

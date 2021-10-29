@@ -12,7 +12,7 @@ import AllBrandsCard from "./components/allBrandsCard/AllBrandsCard";
 import FilteredBrandCategory from "./components/filteredBrandCategory/FilteredBrandCategory";
 import PageNavigationListener from "./utils/PageNavigationListener";
 import ProductInfo from "./pages/productInfo/ProductInfo";
-import Main_page from "./pages/Main_page.jsx";
+// import Main_page from "./pages/Main_page.jsx";
 import Store_route from "./routes/Store_route";
 import About from "./pages/about/About";
 import Badges from "./components/badges/Badges";

@@ -1,7 +1,7 @@
 import React,{ Component,useEffect } from "react" 
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 import firebase from "firebase"
-import Store from "../pages/Store"
+import Checkout from "../pages/checkout/Checkout"
 
 firebase.initializeApp({
   apiKey : "AIzaSyCANSSjdi5KaXENRuTvaLcORHxD2FCeazA",
@@ -28,7 +28,7 @@ class Store_route extends React.Component {
       <div  style={{marginTop: "4rem", marginBottom: "4rem"}}>
       {this.state.isSingnedIn ? (
         <>
-          <Store />
+          <Checkout />
         </>
         ) : (
           <> <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth= {firebase.auth()} /> </>

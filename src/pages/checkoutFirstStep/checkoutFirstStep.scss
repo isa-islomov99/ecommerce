@@ -1,0 +1,49 @@
+@import "../../styles/base";
+
+.checkoutFirstStep {
+  margin-top: 2rem;
+  .checkoutFirstStep__own_info_title {
+    text-align: center;
+    @include fontSemiBold();
+  }
+  .checkoutFirstStep__form {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    .checkoutFirstStep__input_box {
+      .checkoutFirstStep__input {
+        width: 100%;
+        margin-bottom: 1.2rem;
+        padding: 1rem 1rem;
+        @include fontSemiBold();
+        color: #222;
+        border: 1px solid rgb(237, 237, 237);
+        outline: none;
+        border-radius: 8px;
+        background-color: rgba(248, 248, 248, 0.9);
+        &::placeholder {
+          @include fontMedium();
+          color: $textColor;
+        }
+      }
+    }
+    .checkoutFirstStep__error_text {
+      color: red;
+      @include fontSemiBold();
+      margin-top: -0.8rem;
+    }
+    .checkoutFirstStep__btn {
+      @include btn(#fff, $globalColor, $globalColor);
+      padding: 0.4rem 2rem;
+      @include fontMedium();
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .checkoutFirstStep {
+    .checkoutFirstStep__form {
+      width: 100%;
+    }
+  }
+}

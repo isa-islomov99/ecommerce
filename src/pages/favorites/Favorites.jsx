@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./favorites.scss";
 import { Row, Col } from "antd";
 import { DeleteOutlined, HeartFilled } from "@ant-design/icons";
@@ -10,6 +10,14 @@ import { useDispatch, useSelector } from "react-redux";
 const Favorites = () => {
   const dispatch = useDispatch();
   const { favorites } = useSelector((state) => state.products);
+
+  // useEffect(() => {
+  //   if (favorites.length > 0) {
+  //     localStorage.setItem("favorite", JSON.stringify(favorites));
+  //   }
+  // }, []);
+  
+  // const favoriteDates = JSON.parse(localStorage.getItem("favorite"));
 
   return (
     <div className="favorites_products_card">
