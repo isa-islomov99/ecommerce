@@ -1,0 +1,41 @@
+@import "../../styles/base";
+
+.search_bar__active {
+  opacity: 1;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  z-index: 99;
+  border-radius: 10px;
+  height: 380px;
+  width: 100%;
+  background-color: #fff;
+  overflow-y: scroll;
+  .search_bar__dates {
+    padding-top: 1rem;
+    @include flexBox();
+    margin-bottom: 1.5rem;
+    .search_bar__product_img {
+      margin-left: 2rem;
+      img {
+        width: 60px;
+      }
+    }
+    .search_bar__product_info {
+      margin: 0.7rem 0 0 3rem;
+      .search_bar__product_title {
+        @include fontMedium();
+        font-size: 1rem;
+        color: $textColor;
+      }
+      .search_bar__product_cost {
+        @include fontSemiBold();
+        margin-top: -1rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.search_bar {
+  opacity: 0;
+}

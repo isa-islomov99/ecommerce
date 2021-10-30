@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./header.scss";
 import logo from "../../assets/img/logo.svg";
 import { Input, Select, Row, Col } from "antd";
+import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import SearchBar from "../searchBar/SearchBar";
 
 const { Option } = Select;
 
 const Header = () => {
+  const [getInput, setGetInput] = useState("");
+
   function handleChange(value) {
     console.log(`selected ${value}`);
   }
+
+  useEffect(() => {}, [getInput]);
 
   return (
     <header className="header">
@@ -32,7 +38,17 @@ const Header = () => {
             <Input
               className="header__input"
               placeholder="Mahsulotlarni qidirish..."
+              onChange={(e) => setGetInput(e.target.value)}
             />
+            <SearchOutlined className="header__search_icon" />
+            {getInput.length > 0 && (
+              <CloseOutlined
+                className="header__close_icon"
+                onClick={() => setGetInput("")}
+              />
+            )}
+
+            <SearchBar getInput={getInput} />
           </Col>
           <Col
             xs={6}

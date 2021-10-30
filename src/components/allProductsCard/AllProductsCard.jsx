@@ -46,6 +46,14 @@ const AllProductsCard = (props) => {
   // Toolkitdan keladigan data lani path uzgarganda har safar render qilishi uchun useEffect ichida yozildi,bumasa har doim ham malumotla kemasdi
   useEffect(() => {
     dispatch(filteredCategory(match.params.id));
+    const filteredCard = () => {
+      let cheapDates = [];
+      for (let i = 0; i < currentPosts.length; i++) {
+        cheapDates.push(currentPosts[i].NumCost);
+      }
+      console.log(cheapDates);
+    };
+    filteredCard();
   }, [match.params.id]);
 
   return (
