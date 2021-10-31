@@ -39,6 +39,19 @@
       }
     }
   }
+  .search_bar__no_data {
+    @include flexBox();
+    flex-direction: column;
+    justify-content: center;
+    img {
+      max-width: 95%;
+    }
+    h2 {
+      @include fontSemiBold();
+      color: $textColor;
+      margin-top: -2rem;
+    }
+  }
 }
 
 .search_bar {
@@ -68,6 +81,12 @@
         .search_bar__product_cost {
           font-size: 1rem;
         }
+      }
+    }
+    .search_bar__no_data {
+      margin-top: 4rem;
+      h2 {
+        margin-top: -1rem;
       }
     }
   }

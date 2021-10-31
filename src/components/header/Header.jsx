@@ -6,14 +6,19 @@ import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import SearchBar from "../searchBar/SearchBar";
 
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
+
 const { Option } = Select;
 
 const Header = () => {
+  const { t } = useTranslation();
+
   const [getInput, setGetInput] = useState("");
 
-  function handleChange(value) {
-    console.log(`selected ${value}`);
-  }
+  const handleChange = (value) => {
+    i18next.changeLanguage(value);
+  };
 
   const handleFilter = (event) => {
     setGetInput(event.target.value);
@@ -39,7 +44,8 @@ const Header = () => {
           >
             <Input
               className="header__input"
-              placeholder="Mahsulotlarni qidirish..."
+              // placeholder="Mahsulotlarni qidirish..."
+              placeholder={t("placeholder_input")}
               value={getInput}
               onChange={handleFilter}
             />
@@ -63,11 +69,12 @@ const Header = () => {
           >
             <Select
               defaultValue="O'zb"
+              name="language"
               style={{ width: 70 }}
               onChange={handleChange}
             >
-              <Option value="O'zb">O'zb</Option>
-              <Option value="Рус">Рус</Option>
+              <Option value="uz">O'zb</Option>
+              <Option value="ru">Рус</Option>
             </Select>
           </Col>
         </Row>
