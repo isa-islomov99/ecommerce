@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./header.scss";
 import logo from "../../assets/img/logo.svg";
 import { Input, Select, Row, Col } from "antd";
@@ -15,7 +15,9 @@ const Header = () => {
     console.log(`selected ${value}`);
   }
 
-  useEffect(() => {}, [getInput]);
+  const handleFilter = (event) => {
+    setGetInput(event.target.value);
+  };
 
   return (
     <header className="header">
@@ -38,17 +40,18 @@ const Header = () => {
             <Input
               className="header__input"
               placeholder="Mahsulotlarni qidirish..."
-              onChange={(e) => setGetInput(e.target.value)}
+              value={getInput}
+              onChange={handleFilter}
             />
-            <SearchOutlined className="header__search_icon" />
-            {getInput.length > 0 && (
+            {getInput.length === 0 ? (
+              <SearchOutlined className="header__search_icon" />
+            ) : (
               <CloseOutlined
                 className="header__close_icon"
                 onClick={() => setGetInput("")}
               />
             )}
-
-            <SearchBar getInput={getInput} />
+            <SearchBar getInput={getInput} setGetInput={setGetInput} />
           </Col>
           <Col
             xs={6}

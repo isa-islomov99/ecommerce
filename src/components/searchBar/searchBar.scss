@@ -4,16 +4,21 @@
   opacity: 1;
   padding: 0.5rem 1rem;
   position: absolute;
-  z-index: 99;
+  z-index: 999;
   border-radius: 10px;
   height: 380px;
   width: 100%;
   background-color: #fff;
-  overflow-y: scroll;
+  overflow: hidden;
+  overflow-y: auto;
   .search_bar__dates {
-    padding-top: 1rem;
+    padding: 1rem 0;
     @include flexBox();
     margin-bottom: 1.5rem;
+    transition: all 0.2s;
+    &:hover {
+      background-color: lightgray;
+    }
     .search_bar__product_img {
       margin-left: 2rem;
       img {
@@ -38,4 +43,32 @@
 
 .search_bar {
   opacity: 0;
+}
+
+@media (max-width: 600px) {
+  .search_bar__active {
+    padding: 0.3rem 0.2rem;
+    // height: 420px;
+    height: 100vh;
+    width: 132%;
+    .search_bar__dates {
+      padding: 0.6rem 0.3rem 0.6rem 0;
+      margin-bottom: 1rem;
+      .search_bar__product_img {
+        margin-left: 1rem;
+        img {
+          width: 65px;
+        }
+      }
+      .search_bar__product_info {
+        margin: 0.7rem 0 0 1.8rem;
+        .search_bar__product_title {
+          font-size: 0.9rem;
+        }
+        .search_bar__product_cost {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

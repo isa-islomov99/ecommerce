@@ -3,7 +3,7 @@ import "./searchBar.scss";
 import Data from "../../service/api";
 import { Link } from "react-router-dom";
 
-const SearchBar = ({ getInput }) => {
+const SearchBar = ({ getInput, setGetInput }) => {
   const [products, setProducts] = useState(false);
 
   useEffect(() => {
@@ -13,8 +13,6 @@ const SearchBar = ({ getInput }) => {
       setProducts(false);
     }
   }, [getInput]);
-
-  console.log(getInput);
 
   return (
     <div className={`${products ? "search_bar__active" : "search_bar"}`}>
@@ -26,8 +24,8 @@ const SearchBar = ({ getInput }) => {
             return val;
           }
         }).map((item) => (
-          <Link to={`/product/view/${item.secondTitle}`}>
-            <div key={item.id} className="search_bar__dates">
+          <Link key={item.id} to={`/product/view/${item.secondTitle}`}>
+            <div className="search_bar__dates" onClick={() => setGetInput("")}>
               <div className="search_bar__product_img">
                 <img src={item?.img} alt="product-img" />
               </div>
