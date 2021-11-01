@@ -7,10 +7,13 @@ import Card from "../card/Card";
 
 import { useDispatch, useSelector } from "react-redux";
 import { filteredCategory } from "../../store/productSlice";
+import { useTranslation } from "react-i18next";
 
 const { Option } = Select;
 
 const AllProductsCard = (props) => {
+  const { t } = useTranslation();
+
   const { match } = props;
 
   const dispatch = useDispatch();
@@ -46,14 +49,6 @@ const AllProductsCard = (props) => {
   // Toolkitdan keladigan data lani path uzgarganda har safar render qilishi uchun useEffect ichida yozildi,bumasa har doim ham malumotla kemasdi
   useEffect(() => {
     dispatch(filteredCategory(match.params.id));
-    // const filteredCard = () => {
-    //   let cheapDates = [];
-    //   for (let i = 0; i < currentPosts.length; i++) {
-    //     cheapDates.push(currentPosts[i].NumCost);
-    //   }
-    //   console.log(cheapDates);
-    // };
-    // filteredCard();
   }, [match.params.id]);
 
   return (
@@ -67,7 +62,9 @@ const AllProductsCard = (props) => {
           ))}
 
         <div className="all_products_card__filter_box">
-          <h2 className="all_products_card__filter_title">Saralash:</h2>
+          <h2 className="all_products_card__filter_title">
+            {t("filter_title")}
+          </h2>
           <NavLink
             to={`/category/Smartfonlar/sort-by-price`}
             className="all_products_card__filter_links"
@@ -84,11 +81,10 @@ const AllProductsCard = (props) => {
             to={`/category/Smartfonlar/sort-by-price`}
             className="all_products_card__filter_links"
           >
-            Chegirmada
+            {t("filter_sale_title")}
           </NavLink>
           <Select
-            defaultValue="Brend"
-            style={{ width: 100 }}
+            defaultValue={t("filter_brand_title")}
             onChange={handleChange}
           >
             {data &&

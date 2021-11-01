@@ -16,7 +16,7 @@ const Categorys = () => {
               to={`/category/Smartfonlar`}
               className="category__links_text"
             >
-              {t('smartfoni')}
+              {t("smartfoni")}
             </NavLink>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} className="categorys__box">
@@ -24,7 +24,7 @@ const Categorys = () => {
               to={`/category/Noutbuklar`}
               className="category__links_text"
             >
-              {t('noutbuki')}
+              {t("noutbuki")}
             </NavLink>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} className="categorys__box">
@@ -32,7 +32,7 @@ const Categorys = () => {
               to={`/category/Maishiy texnika`}
               className="category__links_text"
             >
-              Maishiy texnika
+              {t("bitovaya")}
             </NavLink>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} className="categorys__box">
@@ -40,7 +40,7 @@ const Categorys = () => {
               to={`/category/Televizorlar`}
               className="category__links_text"
             >
-              Televizorlar
+              {t("tv")}
             </NavLink>
           </Col>
         </Row>

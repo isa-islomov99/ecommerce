@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Row, Col, Pagination } from "antd";
-import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import Card from "../card/Card";
+
+import { useTranslation } from "react-i18next";
 
 import { useDispatch, useSelector } from "react-redux";
 
@@ -12,6 +13,8 @@ import SidebarCategoryLinks from "../sidebarCategoryLinks/SidebarCategoryLinks";
 
 const AllBrandsCard = (props) => {
   const { match, history } = props;
+
+  const { t } = useTranslation();
 
   const dispatch = useDispatch();
 
@@ -26,7 +29,7 @@ const AllBrandsCard = (props) => {
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(6);
+  const [postsPerPage] = useState(8);
   // Codes for pagination
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -49,7 +52,7 @@ const AllBrandsCard = (props) => {
         {slicesData &&
           slicesData.map((list, i) => (
             <h1 className="all_products_card__category_title" key={i}>
-              {list.brand} Brendi mahsulotlari
+              {list.brand} {t("brand_title")}
             </h1>
           ))}
 
@@ -66,7 +69,9 @@ const AllBrandsCard = (props) => {
           </Col>
           <Col xs={24} sm={12} md={12} lg={6} xl={19}>
             <div className="all_products_card__filter_box">
-              <h2 className="all_products_card__filter_title">Saralash:</h2>
+              <h2 className="all_products_card__filter_title">
+                {t("filter_title")}
+              </h2>
               <NavLink
                 to={`/category/Smartfonlar/sort-by-price`}
                 className="all_products_card__filter_links"
@@ -83,7 +88,7 @@ const AllBrandsCard = (props) => {
                 to={`/category/Smartfonlar/sort-by-price`}
                 className="all_products_card__filter_links"
               >
-                Chegirmada
+                {t("filter_sale_title")}
               </NavLink>
             </div>
             <Row className="all_products_card__card_row">

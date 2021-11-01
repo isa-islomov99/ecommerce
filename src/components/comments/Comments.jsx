@@ -3,6 +3,8 @@ import "./comments.scss";
 import { UserOutlined } from "@ant-design/icons";
 import MainCarouselCards from "../mainCarouselCards/MainCarouselCards";
 
+import { useTranslation } from "react-i18next";
+
 import { SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -15,6 +17,8 @@ import SwiperCore, { Pagination, Navigation } from "swiper/core";
 SwiperCore.use([Pagination, Navigation]);
 
 const Comments = () => {
+  const { t } = useTranslation();
+
   const CommentsData = [
     {
       commentText:
@@ -60,9 +64,7 @@ const Comments = () => {
   return (
     <div className="comments">
       <div className="container">
-        <h1 className="comments__products_comment_title">
-          Mahsulotlarga sharhlar
-        </h1>
+        <h1 className="comments__products_comment_title">{t("comments")}</h1>
         <MainCarouselCards slidesPerView="4">
           {CommentsData &&
             CommentsData.map((item, i) => (

@@ -6,8 +6,12 @@ import Card from "../card/Card";
 import { filteredBrandCategory } from "../../service/api";
 import SidebarCategoryLinks from "../sidebarCategoryLinks/SidebarCategoryLinks";
 
+import { useTranslation } from "react-i18next";
+
 const FilteredBrandCategory = (props) => {
   const { match } = props;
+
+  const { t } = useTranslation();
 
   // 14,15,16 - qatordagi kodla qaysi brandga kirsa usha brendni nomini olish uchun Match ni url ni arrayga utqazib brand nomini kesib olib yana uni stringga utqazib filteredBrandCategory ga argument sifatida berib yuborilgan
   const cutUrl = match.url;
@@ -22,7 +26,7 @@ const FilteredBrandCategory = (props) => {
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(6);
+  const [postsPerPage] = useState(8);
   // Codes for pagination
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -40,7 +44,7 @@ const FilteredBrandCategory = (props) => {
         {slicesData &&
           slicesData.map((list, i) => (
             <h1 className="all_products_card__category_title" key={i}>
-              {list.brand} Brendi mahsulotlari {list.category}
+              {list.brand} {t("brand_title")} {list.category}
             </h1>
           ))}
 
@@ -57,7 +61,9 @@ const FilteredBrandCategory = (props) => {
           </Col>
           <Col xs={24} sm={12} md={12} lg={6} xl={19}>
             <div className="all_products_card__filter_box">
-              <h2 className="all_products_card__filter_title">Saralash:</h2>
+              <h2 className="all_products_card__filter_title">
+                {t("filter_title")}
+              </h2>
               <NavLink
                 to={`/category/Smartfonlar/sort-by-price`}
                 className="all_products_card__filter_links"
@@ -74,7 +80,7 @@ const FilteredBrandCategory = (props) => {
                 to={`/category/Smartfonlar/sort-by-price`}
                 className="all_products_card__filter_links"
               >
-                Chegirmada
+                {t("filter_sale_title")}
               </NavLink>
             </div>
             <Row className="all_products_card__card_row">

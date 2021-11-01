@@ -6,9 +6,13 @@ import { RightOutlined } from "@ant-design/icons";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
+
 import { SwiperSlide } from "swiper/react";
 
 const Notebooks = () => {
+  const { t } = useTranslation();
+
   // Asosiy Api dan Barcha category si noutbuk bugan datalani olish uchun
   const filteredData = Data.filter((list) => list.category === "Noutbuklar");
 
@@ -27,7 +31,7 @@ const Notebooks = () => {
             xl={18}
             className="phones__section_title"
           >
-            <h1 className="phones__section_title_text">Noutbuklar</h1>
+            <h1 className="phones__section_title_text">{t("noutbuki")}</h1>
           </Col>
           <Col
             xs={24}
@@ -38,7 +42,7 @@ const Notebooks = () => {
             className="phones__see_all_box"
           >
             <Link to={`/category/Noutbuklar`} className="phones__see_all_text">
-              Hammasini ko'rish
+              {t("see_all")}
               <RightOutlined
                 style={{
                   fontSize: "14px",
@@ -64,7 +68,7 @@ const Notebooks = () => {
                   <div className="product_carousel_card_info">
                     {item.price.discount && (
                       <span className="main_swiper_carousel__product_sale_text">
-                        Chegirma:
+                        {t("sale_text")}
                       </span>
                     )}
                     <p className="main_swiper_carousel__product_category">
@@ -78,11 +82,11 @@ const Notebooks = () => {
                             : "main_swiper_carousel__product_sale_price_text"
                         }
                       >
-                        {item.price.cost} so'm
+                        {item.price.cost} {t("sum")}
                       </h5>
                       {item.price.discount && (
                         <span className="main_swiper_carousel__product_price_sale">
-                          {item.price.discount_price} so'm
+                          {item.price.discount_price} {t("sum")}
                         </span>
                       )}
                     </div>
@@ -90,7 +94,7 @@ const Notebooks = () => {
                       {item.title}
                     </p>
                     <button className="main_swiper_carousel__product_btn">
-                      Xarid qilish
+                      {t("buy")}
                     </button>
                   </div>
                 </Link>

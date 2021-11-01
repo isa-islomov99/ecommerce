@@ -7,7 +7,11 @@ import { NavLink } from "react-router-dom";
 import { removeProductFromFavorites } from "../../store/productSlice";
 import { useDispatch, useSelector } from "react-redux";
 
+import { useTranslation } from "react-i18next";
+
 const Favorites = () => {
+  const { t } = useTranslation();
+
   const dispatch = useDispatch();
   const { favorites } = useSelector((state) => state.products);
 
@@ -16,13 +20,13 @@ const Favorites = () => {
   //     localStorage.setItem("favorite", JSON.stringify(favorites));
   //   }
   // }, []);
-  
+
   // const favoriteDates = JSON.parse(localStorage.getItem("favorite"));
 
   return (
     <div className="favorites_products_card">
       <div className="container">
-        <h1 className="favorites__title">Sevimli mahsulotlar</h1>
+        <h1 className="favorites__title">{t("favorites_products")}</h1>
         {favorites.length > 0 ? (
           <Row gutter={14}>
             {favorites &&
@@ -52,7 +56,7 @@ const Favorites = () => {
                     <div className="product_carousel_card_info">
                       {item.price.discount && (
                         <span className="favorites_products_card__product_sale_text">
-                          Chegirma:
+                          {t("sale_text")}
                         </span>
                       )}
                       <p className="favorites_products_card__product_category">
@@ -66,11 +70,11 @@ const Favorites = () => {
                               : "favorites_products_card__product_sale_price_text"
                           }
                         >
-                          {item.price.cost} so'm
+                          {item.price.cost} {t("sum")}
                         </h5>
                         {item.price.discount && (
                           <span className="favorites_products_card__product_price_sale">
-                            {item.price.discount_price} so'm
+                            {item.price.discount_price} {t("sum")}
                           </span>
                         )}
                       </div>
@@ -82,7 +86,7 @@ const Favorites = () => {
                   <div className="favorites__buttons">
                     <NavLink to={`/product/view/${item.secondTitle}`}>
                       <button className="favorites_products_card__product_btn">
-                        Xarid qilish
+                        {t('buy')}
                       </button>
                     </NavLink>
                     <DeleteOutlined
@@ -97,9 +101,7 @@ const Favorites = () => {
               ))}
           </Row>
         ) : (
-          <h1 className="favorites_no_data_title">
-            Tanlangan mahsulotlar yo'q
-          </h1>
+          <h1 className="favorites_no_data_title">{t("favorites_no_data")}</h1>
         )}
       </div>
     </div>

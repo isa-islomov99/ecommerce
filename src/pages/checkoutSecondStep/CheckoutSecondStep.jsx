@@ -1,12 +1,16 @@
 import React from "react";
 import "./checkoutSecondStep.scss";
 
+import { useTranslation } from "react-i18next";
+
 const CheckoutSecondStep = (props) => {
   const { prev, next, register, handleSubmit, errors } = props;
 
   const handleNext = () => {
     next();
   };
+
+  const { t } = useTranslation();
 
   return (
     <div className="checkoutSecondStep">
@@ -18,7 +22,7 @@ const CheckoutSecondStep = (props) => {
           <input
             className="checkoutSecondStep__input"
             type="text"
-            placeholder="Yetkazib berish shahri"
+            placeholder={t("cart_input_placeholder1")}
             name="city"
             {...register("City", {
               required: "Iltimos, o'z hududingizni kiriting",
@@ -34,7 +38,7 @@ const CheckoutSecondStep = (props) => {
           <input
             type="text"
             className="checkoutSecondStep__input"
-            placeholder="Yetkazib berish okrugi"
+            placeholder={t("cart_input_placeholder2")}
             name="tuman"
             {...register("Tuman", {
               required: "Iltimos, tumaningizni tanlang",
@@ -50,7 +54,7 @@ const CheckoutSecondStep = (props) => {
           <input
             type="text"
             className="checkoutSecondStep__input"
-            placeholder="Ko'cha"
+            placeholder={t("cart_input_placeholder3")}
             name="street"
             {...register("Street", {
               required: "Iltimos, ko'changiz nomini kiriting",
@@ -65,7 +69,7 @@ const CheckoutSecondStep = (props) => {
         <div className="checkoutSecondStep__input_box">
           <textarea
             className="checkoutSecondStep__texterea"
-            placeholder="Buyurtma uchun sharh qoldiring"
+            placeholder={t("cart_input_placeholder4")}
             name="texterea"
             {...register("Text", {
               required: "Iltimos, sharh qoldiring",
@@ -79,10 +83,10 @@ const CheckoutSecondStep = (props) => {
         )}
         <div className="checkoutSecondStep__button_box">
           <button className="checkoutSecondStep__btn" onClick={() => prev()}>
-            Orqaga
+            {t("cart_previous_btn")}
           </button>
           <button type="submit" className="checkoutSecondStep__btn">
-            Keyingisi
+            {t("cart_next_btn")}
           </button>
         </div>
       </form>

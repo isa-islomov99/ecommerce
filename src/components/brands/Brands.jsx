@@ -11,7 +11,11 @@ import hpLogo from "../../assets/img/HP-logo.png";
 import lenovoLogo from "../../assets/img/lenovo.jpg";
 import artelLogo from "../../assets/img/Artel.png";
 
+import { useTranslation } from "react-i18next";
+
 const Brands = () => {
+  const { t } = useTranslation();
+
   const BrandsData = [
     {
       brandLogo: appleLogo,
@@ -58,7 +62,7 @@ const Brands = () => {
             xl={24}
             className="phones__section_title"
           >
-            <h1 className="phones__section_title_text">Brendlar</h1>
+            <h1 className="phones__section_title_text">{t("brands_title")}</h1>
           </Col>
         </Row>
 

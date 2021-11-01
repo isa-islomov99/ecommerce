@@ -6,13 +6,21 @@ import { Link } from "react-router-dom";
 import ReactImageMagnify from "react-image-magnify";
 
 import { useDispatch, useSelector } from "react-redux";
-import { productView, addProduct, addProductToFavorites } from "../../store/productSlice";
+import {
+  productView,
+  addProduct,
+  addProductToFavorites,
+} from "../../store/productSlice";
 
 import { SwiperSlide } from "swiper/react";
 import MainCarouselCards from "../../components/mainCarouselCards/MainCarouselCards";
 
+import { useTranslation } from "react-i18next";
+
 const ProductInfo = (props) => {
   const { match, history } = props;
+
+  const { t } = useTranslation();
 
   const dispatch = useDispatch();
   const [index, setIndex] = useState(0);
@@ -56,7 +64,7 @@ const ProductInfo = (props) => {
                   />
                 </div>
                 <Link to="/" className="product_info__go_title_page">
-                  Bosh sahifa
+                  {t("main_page_title")}
                 </Link>
                 <Link
                   to={`/category/${item.category}`}
@@ -163,7 +171,7 @@ const ProductInfo = (props) => {
                       <div className="product_info__product_price">
                         {list.price.discount && (
                           <p className="product_info__product_price_sale">
-                            {list.price.discount_price} so'm
+                            {list.price.discount_price} {t("sum")}
                           </p>
                         )}
                         <h1
@@ -173,33 +181,37 @@ const ProductInfo = (props) => {
                               : "product_info__product_sale_price_text"
                           }
                         >
-                          {list.price.cost} so'm
+                          {list.price.cost} {t("sum")}
                         </h1>
                       </div>
                       <h3 className="product_info__short_info__title">
-                        Mahsulot haqida qisqacha
+                        {t("short_about_product")}
                       </h3>
                       <p className="product_info__guarantee_period_text">
-                        Kafolat muddati (oy): {list.properties.guarantee}
+                        {t("garantiya_product")} {t("month_product")}{" "}
+                        {list.properties.guarantee}
                       </p>
                       <p className="product_info__product_desciription_text">
                         {list.description}
                       </p>
                       <h3 className="product_info__product_color">
-                        Rangi: <button>{list.properties.color}</button>
+                        {t("color_product")}:{" "}
+                        <button>{list.properties.color}</button>
                       </h3>
                       <div className="product_info__product_add_buttons">
                         <button
                           className="product_info__add_to_cart_btn"
                           onClick={() => dispatch(addProduct({ ...list }))}
                         >
-                          Savatchaga qo'shish
+                          {t("add_product_to_cart_title")}
                         </button>
                         <button
                           className="product_info__add_to_like_btn"
-                          onClick={() => dispatch(addProductToFavorites({ ...list }))}
+                          onClick={() =>
+                            dispatch(addProductToFavorites({ ...list }))
+                          }
                         >
-                          Sevimlilarga qo'shish
+                          {t("add_product_to_favorites_title")}
                         </button>
                       </div>
                     </Col>
@@ -217,30 +229,32 @@ const ProductInfo = (props) => {
                       </Link>
                     </div>
                     <p className="product_info__delivery_paragraf">
-                      Yetkazib berish:
+                      {t("product_delivery_title")}
                     </p>
                     <h2 className="product_info__delivery_title">
-                      Manzilga qarab 4 soatdan 2 ish kunigacha yetkazib beriladi
+                      {t("product_delivery_sub_title")}
                     </h2>
                     <p className="product_info__delivery_paragraf">
-                      Yetkaziladigan ombor:
+                      {t("product_sklad_title")}
                     </p>
                     <h2 className="product_info__delivery_title">shop_uz</h2>
-                    <p className="product_info__delivery_paragraf">Sotuvchi:</p>
+                    <p className="product_info__delivery_paragraf">
+                      {t("product_salesman_title")}
+                    </p>
                     <h2 className="product_info__delivery_title">shop_uz</h2>
                   </div>
                 </Col>
               </Row>
               <div className="product_info__product_specifications">
                 <h1 className="product_info__product_all_specifications_title">
-                  Barcha xususiyatlari
+                  {t("product_specifications_title")}
                 </h1>
                 <h1 className="product_info__product_common_info">
-                  Umumiy ma’lumot
+                  {t("product_common_info_title")}
                 </h1>
                 <div className="product_info__product_specifications_box">
                   <h3 className="product_info__specifications_key_title">
-                    Kafolat muddati
+                    {t("garantiya_product")}
                   </h3>
                   <div className="product_info__specifications_line"></div>
                   <h3 className="product_info__specifications_key_title">
@@ -249,7 +263,7 @@ const ProductInfo = (props) => {
                 </div>
                 <div className="product_info__product_specifications_box">
                   <h3 className="product_info__specifications_key_title">
-                    Rangi
+                    {t("color_product")}
                   </h3>
                   <div className="product_info__specifications_line"></div>
                   <h3 className="product_info__specifications_key_title">
@@ -258,7 +272,7 @@ const ProductInfo = (props) => {
                 </div>
                 <div className="product_info__product_specifications_box">
                   <h3 className="product_info__specifications_key_title">
-                    Ishlab chiqarilgan joyi
+                    {t("product_made_in_title")}
                   </h3>
                   <div className="product_info__specifications_line"></div>
                   <h3 className="product_info__specifications_key_title">
@@ -267,7 +281,7 @@ const ProductInfo = (props) => {
                 </div>
                 <div className="product_info__product_specifications_box">
                   <h3 className="product_info__specifications_key_title">
-                    Vazni
+                    {t("product_weight_title")}
                   </h3>
                   <div className="product_info__specifications_line"></div>
                   <h3 className="product_info__specifications_key_title">
@@ -277,7 +291,7 @@ const ProductInfo = (props) => {
                 {list.properties.store && (
                   <div className="product_info__product_specifications_box">
                     <h3 className="product_info__specifications_key_title">
-                      Doimiy xotira hajmi
+                      {t("product_store_title")}
                     </h3>
                     <div className="product_info__specifications_line"></div>
                     <h3 className="product_info__specifications_key_title">
@@ -288,7 +302,7 @@ const ProductInfo = (props) => {
                 {list.properties.RAM && (
                   <div className="product_info__product_specifications_box">
                     <h3 className="product_info__specifications_key_title">
-                      Tezkor xotira hajmi
+                      {t("product_ram_info_title")}
                     </h3>
                     <div className="product_info__specifications_line"></div>
                     <h3 className="product_info__specifications_key_title">
@@ -299,7 +313,7 @@ const ProductInfo = (props) => {
                 {list.properties.procceccor && (
                   <div className="product_info__product_specifications_box">
                     <h3 className="product_info__specifications_key_title">
-                      Protsessori
+                      {t("product_protsessor_title")}
                     </h3>
                     <div className="product_info__specifications_line"></div>
                     <h3 className="product_info__specifications_key_title">
@@ -310,7 +324,7 @@ const ProductInfo = (props) => {
                 {list.properties.ulchami && (
                   <div className="product_info__product_specifications_box">
                     <h3 className="product_info__specifications_key_title">
-                      O'lchami
+                      {t("product_razmer_title")}
                     </h3>
                     <div className="product_info__specifications_line"></div>
                     <h3 className="product_info__specifications_key_title">
@@ -321,7 +335,7 @@ const ProductInfo = (props) => {
                 {list.properties.power && (
                   <div className="product_info__product_specifications_box">
                     <h3 className="product_info__specifications_key_title">
-                      Chidmliligi
+                      {t("product_acumlator_title")}
                     </h3>
                     <div className="product_info__specifications_line"></div>
                     <h3 className="product_info__specifications_key_title">

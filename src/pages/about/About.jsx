@@ -1,30 +1,20 @@
 import React from "react";
 import "./about.scss";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="about">
       <div className="container">
-        <h1 className="about__title">Biz haqimizda</h1>
+        <h1 className="about__title">{t("footer_about_sub_title1")}</h1>
         <p className="about__subtitle">
-          <span>Shop.uz</span> – bu 2017 yilda yo‘lga qo‘yilgan zamonaviy
-          internet-do‘kon bo‘lib, o‘z mijozlarini yetakchi xalqaro va mahalliy
-          ishlab chiqaruvchilarining sifatli mahsulotlari bilan xursand qiladi.
-          Shuningdek, xaridorlarga ko‘rsatiladigan yuqori sifatli xizmat, xarid
-          qilish jarayonining yanada tezroq va yoqimli bo‘lishini ta‘minlaydi.
+          <span>Shop.uz </span>
+          {t("about_page_text1")}
         </p>
-        <p className="about__subtitle">
-          Shop.uz jamoasi yosh, shijoatli va mehnatsevar insonlardan iborat
-          bo‘lib, ular zamon bilan hamnafas bo‘lishga va o‘z ustilarida tinmay
-          ishlashga intiladilar. Ahil jamoamiz a‘zolari tomonidan har bir ishga
-          professional va ijodkorona yondashuv Siz aziz xaridorlarni
-          ajablantirishi tabiiy!
-        </p>
-        <p className="about__subtitle">
-          Jahon miqyosidagi ishlab chiqaruvchilar bilan strategik hamkorlik,
-          olcha.uz foydalanuvchilariga innovatsiyalar va eksklyuziv
-          yangiliklardan xabardor bo‘lish imkonini beradi.
-        </p>
+        <p className="about__subtitle">{t("about_page_text2")}</p>
+        <p className="about__subtitle">{t("about_page_text3")}</p>
       </div>
     </div>
   );

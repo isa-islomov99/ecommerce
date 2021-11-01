@@ -14,16 +14,22 @@ import {
   removeProduct,
 } from "../../store/productSlice";
 
+import { useTranslation } from "react-i18next";
+
 const Cart = () => {
+  const { t } = useTranslation();
+
   const { products } = useSelector((state) => state.products);
+
   const dispatch = useDispatch();
+
   return (
     <div className="cart">
       <div className="container">
         {products.length > 0 ? (
           <>
             <h1 className="cart_count_of_carts">
-              Savatda {products.length} ta mahsulot
+              {t("cart_title")} {products.length} {t("cart_product_title")}
             </h1>
             <Row>
               <Col
@@ -61,11 +67,11 @@ const Cart = () => {
                                 : "cart__product_sale_price_text"
                             }
                           >
-                            {item.price.cost} so'm
+                            {item.price.cost} {t("sum")}
                           </h5>
                           {item.price.discount && (
                             <span className="cart__product_price_sale">
-                              {item.price.discount_price} so'm
+                              {item.price.discount_price} {t("sum")}
                             </span>
                           )}
                         </div>
@@ -101,27 +107,31 @@ const Cart = () => {
                 className="cart__cart_prices_info_box"
               >
                 <div className="cart__product_sales_box">
-                  <h4 className="cart__product_sales_tile">Narxi:</h4>
-                  <h4 className="cart__product_sales_tile"> so'm</h4>
+                  <h4 className="cart__product_sales_tile">
+                    {t("cart_product__price_title")}
+                  </h4>
+                  <h4 className="cart__product_sales_tile">{t("sum")}</h4>
                 </div>
                 <div className="cart__product_sales_box">
-                  <h4 className="cart__product_sales_tile">Chegirma:</h4>
-                  <h4 className="cart__product_sales_tile">0 so'm</h4>
+                  <h4 className="cart__product_sales_tile">{t("sale_text")}</h4>
+                  <h4 className="cart__product_sales_tile">0 {t("sum")}</h4>
                 </div>
                 <div className="cart__product_sales_box">
                   <h4 className="cart__product_sales_tile">
-                    Yetkazib berish narxi:
+                    {t("cart_product__delivery_price")}
                   </h4>
-                  <h4 className="cart__product_sales_tile">0 so'm</h4>
+                  <h4 className="cart__product_sales_tile">0 {t("sum")}</h4>
                 </div>
                 <div className="cart__product_sales_box">
-                  <h3 className="cart__product_common_pay_title">Jami:</h3>
-                  <h3 className="cart__product_common_pay_title">so'm</h3>
+                  <h3 className="cart__product_common_pay_title">
+                    {t("cart_product__end_price")}
+                  </h3>
+                  <h3 className="cart__product_common_pay_title">{t("sum")}</h3>
                 </div>
                 <div className="cart__order_button">
                   <Link to="/checkout">
                     <button className="cart__product_buy_btn">
-                      Buyurtmani Rasmiylashtirish
+                      {t("cart_product__buy_title")}
                     </button>
                   </Link>
                 </div>
@@ -136,15 +146,14 @@ const Cart = () => {
               alt="no-data"
             />
             <h1 className="cart__empty_cart_title">
-              Savatchangiz bo'shmi? Muammo yo'q!
+              {t('cart_empty_text')}
             </h1>
             <h3 className="cart__empty_cart_subtitle">
-              Bizning katalogimizdan keng assortimentidan mahsulot tanlashni
-              boshlang.
+            {t('cart_empty_text2')}
             </h3>
             <Link to="/">
               <button className="cart__redirect_main_page_btn">
-                Asosiy saxifaga
+                {t('cart_to_main_page_btn')}
               </button>
             </Link>
           </div>

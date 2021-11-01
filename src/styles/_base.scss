@@ -24,6 +24,14 @@
   border-radius: 50px;
 }
 
+.example {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("../assets/fonts/Gilroy-ExtraBold.eot");

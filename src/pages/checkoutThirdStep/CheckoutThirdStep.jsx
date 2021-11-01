@@ -1,23 +1,23 @@
 import React from "react";
 import "./checkoutThirdStep.scss";
-import { Button, message } from "antd";
+import { message } from "antd";
 
-const CheckoutThirdStep = ({prev}) => {
+import { useTranslation } from "react-i18next";
+
+const CheckoutThirdStep = ({ prev }) => {
+  const { t } = useTranslation();
 
   return (
     <div className="checkoutThirdStep">
-      <h1 className="checkoutThirdStep__title">
-        Siz barcha bosqishlarni to'liq tuldirdingiz va Buyurtmangiz yaqin 48
-        soat ichida yetkazib beriladi. Haridingiz uchun tashakkur
-      </h1>
+      <h1 className="checkoutThirdStep__title">{t("cart_finish_text")}</h1>
       <button className="checkoutThirdStep__btn" onClick={() => prev()}>
-        Orqaga
+        {t("cart_previous_btn")}
       </button>
       <button
         className="checkoutThirdStep__btn"
         onClick={() => message.success("Jarayon muvoffiyiqatli yakunlandi!")}
       >
-        Yakunlash
+        {t("cart_end_btn")}
       </button>
     </div>
   );

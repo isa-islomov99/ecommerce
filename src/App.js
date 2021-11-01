@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./app.scss";
 import Categorys from "./components/category/Categorys";
 import Header from "./components/header/Header";
@@ -19,7 +19,14 @@ import Badges from "./components/badges/Badges";
 import Cart from "./pages/cart/Cart";
 import Favorites from "./pages/favorites/Favorites";
 
+import { useTranslation } from "react-i18next";
+
 const App = () => {
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = t("title");
+  }, []);
   return (
     <div className="App">
       <BackTop>

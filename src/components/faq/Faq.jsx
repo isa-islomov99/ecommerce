@@ -3,16 +3,19 @@ import "./faq.scss";
 import faqImg from "../../assets/img/faq_man.jpg";
 
 import { Row, Col, Collapse } from "antd";
+import { useTranslation } from "react-i18next";
 
 const { Panel } = Collapse;
 
 const Faq = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="faq">
       <div className="container">
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={24}>
-            <h1 className="faq__section_title_text">FaQ</h1>
+            <h1 className="faq__section_title_text">{t("faq")}</h1>
           </Col>
         </Row>
         <Row className="faq__main_box">
@@ -26,48 +29,20 @@ const Faq = () => {
           <Col xs={24} sm={24} md={12} lg={12} xl={12}>
             <div className="faq__collapse_box">
               <Collapse accordion>
-                <Panel header="Muddatli to'lov shartlari" key="1">
-                  <p>
-                    Bizda O‘zbekiston bo‘yicha yetkazib beriladigan muddatli
-                    to‘lov mavjud.Muddatli to‘lovga mahsulot xarid qilish uchun:
-                    Pasport, oxirgi 3 oyda faol bo‘lgan va SMS-maʼlumotlar
-                    xizmati yoqilgan Uzсard yoki Humo kartochkasi bo‘lishi
-                    lozim.
-                  </p>
+                <Panel header={t("muddatli_tulov_title")} key="1">
+                  <p>{t("muddatli_tulov_sub_title")}</p>
                 </Panel>
-                <Panel header=" Qanday xarid qilinadi ?" key="2">
-                  <p>
-                    1. Sayt menyusi yoki qidiruv tugmasi orqali o'zingizga
-                    kerakli bo'lgan maxsulotni tanlang. 2. Xarid qilish/bo’lib
-                    to’lash tugmasini bosing. Siz birdaniga bir necha xaridni
-                    amalga oshirishingiz mumkin. 3. Tanlagan maxsulotingiz
-                    savatchaga tushadi. Siz u yerdan buyurtmani
-                    rasmiylashtirasiz. 4. Rasmiylashtirish davomida Siz yetkazib
-                    berish manzili va to'lov turlarini kiritishingiz lozim.
-                    Shundan so'ng buyurtmani rasmiylashtirish tugmasini bosing.
-                  </p>
+                <Panel header={t("how_buy_title")} key="2">
+                  <p>{t("how_buy_sub_title")}</p>
                 </Panel>
-                <Panel
-                  header="Qanday qilib to'lovni amalga oshiraman ?"
-                  key="3"
-                >
-                  <p>
-                    To'lov turi ixtiyoringiz - Istasangiz buyurtmani qabul
-                    qilgan payt naqd yoki plastik karta orqali, istasangiz
-                    buyurtma paytida onlayn to'lasangiz bo'ladi
-                  </p>
+                <Panel header={t("how_pay_title")} key="3">
+                  {t("how_pay_sub_title")}
                 </Panel>
-                <Panel header="Yetkazib berish muddati qancha ?" key="4">
-                  <p>
-                    Toshkent bo'ylab - 12 ish soatida (Biz undan ham tezroq
-                    yetkazishga xarakat qilamiz) O'zbekistonning boshqa barcha
-                    hududlariga - 2 ish kuni (tezroq yetkazishga xarakat
-                    qilishamiz) Ekspress - Toshkent bo'ylab 4 ish soatida
-                    (yakshanbadan tashqari)
-                  </p>
+                <Panel header={t("delivery_title")} key="4">
+                  <p>{t("delivery_sub_title")}</p>
                 </Panel>
-                <Panel header="Nega Shop.uz da narxlar qimmat" key="5">
-                  <p>Shop.uz da mahsulotlar narxlari imkon boricha minimallashtirishga alohida urg'u beriladi, va shu bilan birga sifatli mahsulotlarni iste'molchilarga yetkazib beradi</p>
+                <Panel header={t("why_expensive_title")} key="5">
+                  <p>{t("why_expensive_sub_title")}</p>
                 </Panel>
               </Collapse>
             </div>

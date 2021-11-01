@@ -2,22 +2,21 @@ import React from "react";
 import "./phones.scss";
 import Data from "../../service/api";
 import MainCarouselCards from "../mainCarouselCards/MainCarouselCards";
-import { RightOutlined} from "@ant-design/icons";
+import { RightOutlined } from "@ant-design/icons";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
-
-import { useDispatch } from "react-redux";
+import { useTranslation } from "react-i18next";
 
 import { SwiperSlide } from "swiper/react";
 
 const Phones = () => {
+  const { t } = useTranslation();
+
   // Asosiy Api dan Barcha category si Smartfon bugan datalani olish uchun
   const filteredData = Data.filter((list) => list.category === "Smartfonlar");
 
   // HomePage dagi Smartfonlar ni carouselida barcha Smartfonlar emas faqat 8 tasi chiqishi uchun kesib olingan
   const arrayCut = filteredData.slice(18);
-
-  const dispatch = useDispatch();
 
   return (
     <div className="phones">
@@ -31,7 +30,7 @@ const Phones = () => {
             xl={18}
             className="phones__section_title"
           >
-            <h1 className="phones__section_title_text">Smartfonlar</h1>
+            <h1 className="phones__section_title_text">{t("smartfoni")}</h1>
           </Col>
           <Col
             xs={24}
@@ -42,7 +41,7 @@ const Phones = () => {
             className="phones__see_all_box"
           >
             <Link to={`/category/Smartfonlar`} className="phones__see_all_text">
-              Hammasini ko'rish
+              {t("see_all")}
               <RightOutlined
                 style={{
                   fontSize: "14px",
@@ -68,7 +67,7 @@ const Phones = () => {
                   <div className="product_carousel_card_info">
                     {item.price.discount && (
                       <span className="main_swiper_carousel__product_sale_text">
-                        Chegirma:
+                        {t("sale_text")}
                       </span>
                     )}
                     <p className="main_swiper_carousel__product_category">
@@ -82,11 +81,11 @@ const Phones = () => {
                             : "main_swiper_carousel__product_sale_price_text"
                         }
                       >
-                        {item.price.cost} so'm
+                        {item.price.cost} {t("sum")}
                       </h5>
                       {item.price.discount && (
                         <span className="main_swiper_carousel__product_price_sale">
-                          {item.price.discount_price} so'm
+                          {item.price.discount_price} {t("sum")}
                         </span>
                       )}
                     </div>
@@ -94,7 +93,7 @@ const Phones = () => {
                       {item.title}
                     </p>
                     <button className="main_swiper_carousel__product_btn">
-                      Xarid qilish
+                      {t("buy")}
                     </button>
                   </div>
                 </Link>

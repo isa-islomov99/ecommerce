@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom";
 import { Col } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 
+import { useTranslation } from "react-i18next";
+
 import { useDispatch } from "react-redux";
 import {
   addProductToFavorites,
@@ -11,6 +13,8 @@ import {
 } from "../../store/productSlice";
 
 const Card = (props) => {
+  const { t } = useTranslation();
+
   const { title, secondTitle, img, category, price } = props;
   const items = { title, secondTitle, img, category, price };
 
@@ -60,7 +64,7 @@ const Card = (props) => {
         <div className="product_carousel_card_info">
           {price.discount && (
             <span className="all_products_card__product_sale_text">
-              Chegirma:
+              {t("sale_text")}
             </span>
           )}
           <p className="all_products_card__product_category">{category}</p>
@@ -72,11 +76,11 @@ const Card = (props) => {
                   : "all_products_card__product_sale_price_text"
               }
             >
-              {price.cost} so'm
+              {price.cost} {t("sum")}
             </h5>
             {price.discount && (
               <span className="all_products_card__product_price_sale">
-                {price.discount_price} so'm
+                {price.discount_price} {t("sum")}
               </span>
             )}
           </div>
@@ -85,9 +89,7 @@ const Card = (props) => {
       </NavLink>
       <div className="all_products_card__button_box">
         <NavLink to={`/product/view/${secondTitle}`}>
-          <button className="all_products_card__product_btn">
-            Xarid qilish
-          </button>
+          <button className="all_products_card__product_btn">{t("buy")}</button>
         </NavLink>
       </div>
     </Col>
