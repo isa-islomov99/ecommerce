@@ -68,18 +68,6 @@ const FilteredBrandCategory = (props) => {
                 to={`/category/Smartfonlar/sort-by-price`}
                 className="all_products_card__filter_links"
               >
-                Avval arzonlari
-              </NavLink>
-              <NavLink
-                to={`/category/Smartfonlar/sort-by-price`}
-                className="all_products_card__filter_links"
-              >
-                Qimmatligi bo'yicha
-              </NavLink>
-              <NavLink
-                to={`/category/Smartfonlar/sort-by-price`}
-                className="all_products_card__filter_links"
-              >
                 {t("filter_sale_title")}
               </NavLink>
             </div>

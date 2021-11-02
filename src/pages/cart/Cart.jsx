@@ -21,6 +21,14 @@ const Cart = () => {
 
   const { products } = useSelector((state) => state.products);
 
+  const orderCost = products.map((item) => {
+    return item.costPrice;
+  });
+
+  const toOrder = orderCost.reduce((a, b) => a + b, 0);
+
+  console.log(toOrder);
+
   const dispatch = useDispatch();
 
   return (
@@ -110,7 +118,12 @@ const Cart = () => {
                   <h4 className="cart__product_sales_tile">
                     {t("cart_product__price_title")}
                   </h4>
-                  <h4 className="cart__product_sales_tile">{t("sum")}</h4>
+                  <h4 className="cart__product_sales_tile">
+                    {new Intl.NumberFormat("en-US", {
+                      style: "decimal",
+                    }).format(toOrder.toFixed(2))}{" "}
+                    {t("sum")}
+                  </h4>
                 </div>
                 <div className="cart__product_sales_box">
                   <h4 className="cart__product_sales_tile">{t("sale_text")}</h4>
@@ -126,7 +139,12 @@ const Cart = () => {
                   <h3 className="cart__product_common_pay_title">
                     {t("cart_product__end_price")}
                   </h3>
-                  <h3 className="cart__product_common_pay_title">{t("sum")}</h3>
+                  <h3 className="cart__product_common_pay_title">
+                    {new Intl.NumberFormat("en-US", {
+                      style: "decimal",
+                    }).format(toOrder.toFixed(2))}{" "}
+                    {t("sum")}
+                  </h3>
                 </div>
                 <div className="cart__order_button">
                   <Link to="/checkout">
@@ -145,15 +163,13 @@ const Cart = () => {
               src="https://olcha.uz/_nuxt/img/shoppingCart.9c0394b.png"
               alt="no-data"
             />
-            <h1 className="cart__empty_cart_title">
-              {t('cart_empty_text')}
-            </h1>
+            <h1 className="cart__empty_cart_title">{t("cart_empty_text")}</h1>
             <h3 className="cart__empty_cart_subtitle">
-            {t('cart_empty_text2')}
+              {t("cart_empty_text2")}
             </h3>
             <Link to="/">
               <button className="cart__redirect_main_page_btn">
-                {t('cart_to_main_page_btn')}
+                {t("cart_to_main_page_btn")}
               </button>
             </Link>
           </div>

@@ -1,35 +1,31 @@
-import React, { useState, useEffect } from "react";
-import "./allProductsCard.scss";
+import React, { useState } from "react";
+import "./filterSelectBrands.scss";
 import { NavLink } from "react-router-dom";
-import { Row, Pagination, Input  } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
-// import { filteredCategory } from "../../service/api";
+import { Row, Pagination } from "antd";
+import { filteredSelectBrandsData } from "../../service/api";
 import Card from "../card/Card";
 
-import { useDispatch, useSelector } from "react-redux";
-import { filteredCategory } from "../../store/productSlice";
 import { useTranslation } from "react-i18next";
 import SelectBrands from "../selectBrands/SelectBrands";
 
-const AllProductsCard = (props) => {
+
+const FilterSelectBrands = (props) => {
   const { t } = useTranslation();
 
   const { match } = props;
 
-  const paramsId = match.params.id;
+  // 21,22,23 - qatordagi kodla select dan brendni tanlaganda usha brandni productlarini chiqarish uchun Match ni url ni arrayga utqazib brand nomini kesib olib yana uni stringga utqazib filteredBrandCategory ga argument sifatida berib yuborilgan
+  const cutUrl = match.url;
+  const convertToArray = cutUrl.split("/");
+  const convertToString = convertToArray.slice(2, 3).toString();
 
-  const dispatch = useDispatch();
+//   console.log(convertToString)
 
-  // Brand larni service papkadagi Glavniy Api orqali filter qilib olish uchun
-  // const data = filteredCategory(match.params.id);
-
-  // Redux Toolkitdan data larni olish
-  const data = useSelector((state) => state.products.filterCategory);
+  // Brand va category larni filter qilib olish uchun
+  const data = filteredSelectBrandsData(convertToString, match.params.id);
 
   // Map qiganda hamma data ni brandining nomi emas faqat 1 ta sini nomi chiqishi uchun kesib olingan
   const slicesData = data.slice(data.length - 1);
-
-  const [valueLength, setValueLength] = useState("");
 
   // States for pagination
   const [currentPage, setCurrentPage] = useState(1);
@@ -45,16 +41,6 @@ const AllProductsCard = (props) => {
     window.scrollTo(0, 190);
   };
 
-  // Function to take value of the input
-  const onChange = e => {
-    console.log(e);
-    setValueLength(e)
-  };
-
-  // Toolkitdan keladigan data lani path uzgarganda har safar render qilishi uchun useEffect ichida yozildi,bumasa har doim ham malumotla kemasdi
-  useEffect(() => {
-    dispatch(filteredCategory(paramsId));
-  }, [paramsId]);
 
   return (
     <div className="all_products_card">
@@ -70,14 +56,13 @@ const AllProductsCard = (props) => {
           <h2 className="all_products_card__filter_title">
             {t("filter_title")}
           </h2>
-          <Input placeholder="Narx buyicha qidirish" allowClear onChange={onChange} style={{width: "170px",}} />
           <NavLink
             to={`/category/Smartfonlar/sort-by-price`}
             className="all_products_card__filter_links"
           >
-            <SearchOutlined />
+            {t("filter_sale_title")}
           </NavLink>
-          <SelectBrands paramsId={paramsId} />
+          <SelectBrands paramsId={convertToString} />
         </div>
         <Row>
           {currentPosts &&
@@ -96,4 +81,4 @@ const AllProductsCard = (props) => {
   );
 };
 
-export default AllProductsCard;
+export default FilterSelectBrands;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.scss";
 import logo from "../../assets/img/logo.svg";
 import { Input, Select, Row, Col } from "antd";
-import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
+import { SearchOutlined, CloseOutlined, CloseCircleOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import SearchBar from "../searchBar/SearchBar";
 
@@ -44,7 +44,6 @@ const Header = () => {
           >
             <Input
               className="header__input"
-              // placeholder="Mahsulotlarni qidirish..."
               placeholder={t("placeholder_input")}
               value={getInput}
               onChange={handleFilter}
@@ -52,7 +51,7 @@ const Header = () => {
             {getInput.length === 0 ? (
               <SearchOutlined className="header__search_icon" />
             ) : (
-              <CloseOutlined
+              <CloseCircleOutlined
                 className="header__close_icon"
                 onClick={() => setGetInput("")}
               />

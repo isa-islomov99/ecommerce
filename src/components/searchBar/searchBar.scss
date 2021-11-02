@@ -8,8 +8,10 @@
   border-radius: 10px;
   height: 380px;
   width: 100%;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   overflow: hidden;
+  margin-top: 3px;
   overflow-y: auto;
   .search_bar__dates {
     padding: 1rem 0;

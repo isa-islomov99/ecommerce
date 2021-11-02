@@ -21,7 +21,7 @@ const Data = [
       discount_price: "2 305 000",
       previous_price: "3 108 000",
       cost: "3 108 000",
-      NumCost: 3108000,
+      NumCost: 2305000,
     },
     properties: {
       guarantee: "12",
@@ -146,7 +146,7 @@ const Data = [
       discount_price: "2 559 000",
       previous_price: "2 959 000",
       cost: "2 959 000",
-      NumCost: 2959000,
+      NumCost: 2559000,
     },
     properties: {
       guarantee: "12",
@@ -176,7 +176,7 @@ const Data = [
       discount_price: "5 133 000",
       previous_price: "5 633 000",
       cost: "5 633 000",
-      NumCost: 5633000,
+      NumCost: 5133000,
     },
     properties: {
       guarantee: "12",
@@ -240,7 +240,7 @@ const Data = [
       discount_price: "1 878 000",
       previous_price: "2 274 000",
       cost: "2 274 000",
-      NumCost: 2274000,
+      NumCost: 1878000,
     },
     properties: {
       guarantee: "12",
@@ -528,7 +528,7 @@ const Data = [
       discount_price: "10 144 000",
       previous_price: "12 288 000",
       cost: "12 288 000",
-      NumCost: 12288000,
+      NumCost: 10144000,
     },
     properties: {
       guarantee: "12",
@@ -559,7 +559,7 @@ const Data = [
       discount_price: "11 515 000",
       previous_price: "13 392 000",
       cost: "13 392 000",
-      NumCost: 13392000,
+      NumCost: 11515000,
     },
     properties: {
       guarantee: "12",
@@ -650,7 +650,7 @@ const Data = [
       discount_price: "1 750 000",
       previous_price: "2 258 000",
       cost: "2 258 000",
-      NumCost: 2258000,
+      NumCost: 1750000,
     },
     properties: {
       guarantee: "12",
@@ -713,7 +713,7 @@ const Data = [
       discount_price: "1 750 000",
       previous_price: "2 258 000",
       cost: "2 258 000",
-      NumCost: 2258000,
+      NumCost: 1750000,
     },
     properties: {
       guarantee: "12",
@@ -872,7 +872,7 @@ const Data = [
       discount_price: "6 233 000",
       previous_price: "7 123 455",
       cost: "8 423 455",
-      NumCost: 8423455,
+      NumCost: 6233000,
     },
     properties: {
       guarantee: "36",
@@ -978,7 +978,7 @@ const Data = [
       discount_price: "8 456 000",
       previous_price: "8 456 000",
       cost: "10 235 000",
-      NumCost: 10235000,
+      NumCost: 8456000,
     },
     properties: {
       guarantee: "36",
@@ -1013,7 +1013,7 @@ const Data = [
       discount_price: "8 986 000",
       previous_price: "8 986 000",
       cost: "9 272 000",
-      NumCost: 9272000,
+      NumCost: 8986000,
     },
     properties: {
       guarantee: "36",
@@ -1990,6 +1990,7 @@ export const filteredBrandCategory = (brand, title) => {
   return Data.filter((date) => date.brand === brand && date.category === title);
 };
 
-// Data.map((list) => {
-//     return <ProductInfo key={list.id} {...list} />
-// })
+export const filteredSelectBrandsData = (category, title) => {
+  return Data.filter((date) => date.category === category && date.brand === title);
+};
+

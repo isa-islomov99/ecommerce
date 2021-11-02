@@ -12,6 +12,7 @@
     padding-bottom: 1rem;
     .all_products_card__filter_title {
       @include fontSemiBold();
+      margin-right: 1rem;
     }
     .all_products_card__filter_links {
       @include fontMedium();
