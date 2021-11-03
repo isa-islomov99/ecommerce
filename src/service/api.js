@@ -1994,3 +1994,7 @@ export const filteredSelectBrandsData = (category, title) => {
   return Data.filter((date) => date.category === category && date.brand === title);
 };
 
+export const filteredByCost = (category, cost) => {
+  return Data.filter((date) => date.category === category && date.price.NumCost <= cost);
+};
+

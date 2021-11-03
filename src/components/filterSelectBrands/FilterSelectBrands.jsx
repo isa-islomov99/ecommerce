@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./filterSelectBrands.scss";
-import { NavLink } from "react-router-dom";
 import { Row, Pagination } from "antd";
 import { filteredSelectBrandsData } from "../../service/api";
 import Card from "../card/Card";
@@ -56,12 +55,7 @@ const FilterSelectBrands = (props) => {
           <h2 className="all_products_card__filter_title">
             {t("filter_title")}
           </h2>
-          <NavLink
-            to={`/category/Smartfonlar/sort-by-price`}
-            className="all_products_card__filter_links"
-          >
-            {t("filter_sale_title")}
-          </NavLink>
+         
           <SelectBrands paramsId={convertToString} />
         </div>
         <Row>

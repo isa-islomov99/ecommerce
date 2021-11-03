@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./allProductsCard.scss";
 import { NavLink } from "react-router-dom";
-import { Row, Pagination, Input  } from "antd";
+import { Row, Pagination, Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 // import { filteredCategory } from "../../service/api";
 import Card from "../card/Card";
@@ -46,9 +46,9 @@ const AllProductsCard = (props) => {
   };
 
   // Function to take value of the input
-  const onChange = e => {
-    console.log(e);
-    setValueLength(e)
+  const onChange = (e) => {
+    console.log(e.target.value);
+    setValueLength(e.target.value);
   };
 
   // Toolkitdan keladigan data lani path uzgarganda har safar render qilishi uchun useEffect ichida yozildi,bumasa har doim ham malumotla kemasdi
@@ -70,13 +70,23 @@ const AllProductsCard = (props) => {
           <h2 className="all_products_card__filter_title">
             {t("filter_title")}
           </h2>
-          <Input placeholder="Narx buyicha qidirish" allowClear onChange={onChange} style={{width: "170px",}} />
-          <NavLink
-            to={`/category/Smartfonlar/sort-by-price`}
-            className="all_products_card__filter_links"
-          >
-            <SearchOutlined />
-          </NavLink>
+          <div>
+            <Input
+              placeholder="Narx buyicha qidirish"
+              allowClear
+              value={valueLength}
+              onChange={onChange}
+              style={{ width: "170px" }}
+            />
+            {valueLength.length > 0 && (
+              <NavLink
+                to={`/category/${paramsId}/sort-by-price/${valueLength}`}
+                className="all_products_card__filter_links"
+              >
+                <SearchOutlined />
+              </NavLink>
+            )}
+          </div>
           <SelectBrands paramsId={paramsId} />
         </div>
         <Row>

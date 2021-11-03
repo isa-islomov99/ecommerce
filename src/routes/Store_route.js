@@ -1,4 +1,4 @@
-import React,{ Component,useEffect } from "react" 
+import React from "react" 
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 import firebase from "firebase"
 import Checkout from "../pages/checkout/Checkout"
@@ -8,7 +8,7 @@ firebase.initializeApp({
   authDomain:"fir-auth-tutorial-66538.web.app"
 })
 
-class Store_route extends React.Component {
+class StoreRoute extends React.Component {
     state = { isSingnedIn: false}
 
     uiConfig = {
@@ -38,4 +38,4 @@ class Store_route extends React.Component {
 }}
 
 
-export default Store_route;
+export default StoreRoute;

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { Row, Col, Pagination } from "antd";
 import Card from "../card/Card";
 
@@ -60,17 +59,6 @@ const FilteredBrandCategory = (props) => {
             <SidebarCategoryLinks />
           </Col>
           <Col xs={24} sm={12} md={12} lg={6} xl={19}>
-            <div className="all_products_card__filter_box">
-              <h2 className="all_products_card__filter_title">
-                {t("filter_title")}
-              </h2>
-              <NavLink
-                to={`/category/Smartfonlar/sort-by-price`}
-                className="all_products_card__filter_links"
-              >
-                {t("filter_sale_title")}
-              </NavLink>
-            </div>
             <Row className="all_products_card__card_row">
               {currentPosts &&
                 currentPosts.map((item, i) => <Card key={i} {...item} />)}

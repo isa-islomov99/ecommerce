@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./app.scss";
 import Categorys from "./components/category/Categorys";
 import Header from "./components/header/Header";
@@ -14,20 +14,15 @@ import FilterSelectBrands from "./components/filterSelectBrands/FilterSelectBran
 import PageNavigationListener from "./utils/PageNavigationListener";
 import ProductInfo from "./pages/productInfo/ProductInfo";
 // import Main_page from "./pages/Main_page.jsx";
-import Store_route from "./routes/Store_route";
+import StoreRoute from "./routes/Store_route";
 import About from "./pages/about/About";
 import Badges from "./components/badges/Badges";
 import Cart from "./pages/cart/Cart";
 import Favorites from "./pages/favorites/Favorites";
-
-import { useTranslation } from "react-i18next";
+import FilterProductByCost from "./components/filterProductByCost/FilterProductByCost";
 
 const App = () => {
-  const { t } = useTranslation();
 
-  useEffect(() => {
-    document.title = t("title");
-  }, []);
   return (
     <div className="App">
       <BackTop>
@@ -51,7 +46,7 @@ const App = () => {
       <Route exact path="/favorite">
         <Favorites />
       </Route>
-      <Route path="/checkout" exact render={() => <Store_route />} />
+      <Route path="/checkout" exact render={() => <StoreRoute />} />
       <Route
         exact
         path="/category/:id"
@@ -87,16 +82,16 @@ const App = () => {
           return <FilterSelectBrands {...props} />;
         }}
       />
+      <Route
+        exact
+        path="/category/:id/sort-by-price/:id"
+        render={(props) => {
+          return <FilterProductByCost {...props} />;
+        }}
+      />
       <Footer />
     </div>
   );
 };
 
 export default App;
-
-{
-  /* <Switch>
-  <Route render={() => <Main_page />} path="/" exact />
-  <Route render={() => <Store_route />} path="/store" exact />
-</Switch> */
-}

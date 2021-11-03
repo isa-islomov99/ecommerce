@@ -1,0 +1,23 @@
+@import "../../styles/base";
+
+.by_cost__no_data {
+  @include flexBox();
+  flex-direction: column;
+  justify-content: center;
+  img {
+    max-width: 95%;
+  }
+  h2 {
+    @include fontSemiBold();
+    color: $textColor;
+    margin-top: -2rem;
+  }
+  button {
+    @include btn(#fff, $globalColor, $globalColor);
+    @include fontMedium();
+    padding: 0.5rem 1.8rem;
+    .by_cost__button_back {
+      margin-right: 0.7rem;
+    }
+  }
+}

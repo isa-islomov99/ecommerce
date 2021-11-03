@@ -21,7 +21,7 @@ const SearchBar = ({ getInput, setGetInput }) => {
 
     setFilteredDate(
       Data.filter((val) => {
-        if (getInput == "") {
+        if (getInput === "") {
           return val;
         } else if (val.title.toLowerCase().includes(getInput.toLowerCase())) {
           return val;

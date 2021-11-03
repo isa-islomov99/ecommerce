@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "./badges.scss";
 import { Badge } from "antd";
 import {
@@ -17,14 +17,6 @@ const Badges = () => {
   const { t } = useTranslation();
 
   const {products, favorites} = useSelector((state) => state.products);
-
-  // useEffect(() => {
-  //   if (favorites.length > 0) {
-  //     localStorage.setItem("favorite", JSON.stringify(favorites));
-  //   }
-  // }, []);
-  
-  // const favoriteDates = JSON.parse(localStorage.getItem("favorite"));
 
   return (
     <div className="badges">
