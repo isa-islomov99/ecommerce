@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.scss";
 import logo from "../../assets/img/logo.svg";
 import { Input, Select, Row, Col } from "antd";
-import { SearchOutlined, CloseOutlined, CloseCircleOutlined } from "@ant-design/icons";
+import { SearchOutlined, CloseCircleOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import SearchBar from "../searchBar/SearchBar";
 

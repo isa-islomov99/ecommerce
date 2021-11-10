@@ -1,6 +1,11 @@
 @import "../../styles/base";
 
 .header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
   background-color: #fff;
   padding: 0.7rem 0;
   border-bottom: 1px solid rgb(237, 237, 237);
@@ -85,6 +90,13 @@
       .header__input {
         padding: 0.6rem 1.2rem;
         border-radius: 20px;
+      }
+
+      .header__search_icon {
+        top: 22%;
+      }
+      .header__close_icon {
+        top: 24%;
       }
     }
   }
