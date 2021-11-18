@@ -21,8 +21,6 @@ const SidebarCategoryLinks = () => {
 
   const allSlicesData = [].concat(slicesSmartfonsData, slicesNotebooksData, slicesAppliancesData, slicesTvData)
 
-  console.log(allSlicesData)
-
   return (
     <div>
       {allSlicesData &&

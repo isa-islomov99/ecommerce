@@ -8,8 +8,7 @@ import { useSelector } from "react-redux";
 
 const { Option } = Select;
 
-const SelectBrands = ({paramsId}) => {
-
+const SelectBrands = ({ paramsId }) => {
   const { t } = useTranslation();
 
   const data = useSelector((state) => state.products.filterCategory);
@@ -24,33 +23,33 @@ const SelectBrands = ({paramsId}) => {
   const filteredHP = data.filter((phones) => phones.brand === "HP");
   const filteredArtel = data.filter((phones) => phones.brand === "Artel");
 
-  const slicesAppleData = filteredApple.slice(filteredApple.length - 1);
-  const slicesSamsungData = filteredSamsung.slice(filteredSamsung.length - 1);
-  const slicesXiaomiData = filteredXiaomi.slice(filteredXiaomi.length - 1);
-  const slicesAcerData = filteredAcer.slice(filteredAcer.length - 1);
-  const slicesAsusData = filteredAsus.slice(filteredAsus.length - 1);
-  const slicesLenovoData = filteredLenovo.slice(filteredLenovo.length - 1);
-  const slicesHPData = filteredHP.slice(filteredHP.length - 1);
-  const slicesArtelData = filteredArtel.slice(filteredArtel.length - 1);
-
   const allSlicesData = [].concat(
-    slicesAppleData,
-    slicesSamsungData,
-    slicesXiaomiData,
-    slicesAcerData,
-    slicesAsusData,
-    slicesLenovoData,
-    slicesHPData,
-    slicesArtelData
+    filteredApple,
+    filteredSamsung,
+    filteredXiaomi,
+    filteredAcer,
+    filteredAsus,
+    filteredLenovo,
+    filteredHP,
+    filteredArtel
   );
+
+  const newSortedArray = allSlicesData.map((list) => {
+    return list.brand;
+  });
+  
+  const slicesBrands = [...new Set(newSortedArray)]
 
   return (
     <Select defaultValue={t("filter_brand_title")}>
-      {allSlicesData &&
-        allSlicesData.map((brand, index) => (
-          <Option key={index} value={brand.brand}>
-            <NavLink to={`/category/${paramsId}/${brand.brand}`} style={{color: "rgb(119, 119, 119)"}}>
-              {brand.brand}
+      {slicesBrands &&
+        slicesBrands.map((brand, index) => (
+          <Option key={index} value={brand}>
+            <NavLink
+              to={`/category/${paramsId}/${brand}`}
+              style={{ color: "rgb(119, 119, 119)" }}
+            >
+              {brand}
             </NavLink>
           </Option>
         ))}
