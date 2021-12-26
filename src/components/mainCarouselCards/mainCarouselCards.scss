@@ -31,8 +31,9 @@
     transition: all 0.3s;
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    // flex-direction: column;
+    // justify-content: space-between;
+    align-self: flex-end;
     &:hover {
       background-color: #fff;
       border-radius: 8px;
